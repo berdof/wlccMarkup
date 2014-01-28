@@ -1,0 +1,55 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.top-bar {
+  height: 51px;
+  line-height: 45px;
+  background: rgba(#000,.5);
+}
+
+.logo{
+  @include sprite-background(logo);
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  margin: 9px auto 30px ;
+}
+
+.main-nav{
+  height: 47px;
+  background: rgba(#000,.5);
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  border-top: 1px solid rgba(#000, .1);
+  border-bottom: 1px solid rgba(#000, .25);
+  @include border-radius(1px 1px 0 0);
+  li{
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  a{
+    line-height: 51px;
+    height: 49px;
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    text-shadow: 0 1px 0 rgba(0,0,0,.61);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 9px;
+    position: relative;
+    top: -1px;
+    &:hover,
+    &.active{
+      @include box-shadow(1px 0 3px rgba(#1e2c25,.6) inset ,-1px 0 3px rgba(#1e2c25,.6) inset) ;
+      background: rgba(#000,.1);
+    }
+  }
+}

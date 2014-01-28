@@ -1,0 +1,170 @@
+.btn {
+  text-decoration: none !important;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn_dark {
+  padding: 0 27px;
+  height: 26px;
+  line-height: 26px;
+  @include border-radius(13px);
+  background-clip: padding-box;
+  background-color: rgba(#000, 0.2);
+  @include box-shadow( 0 1px 0 rgba(247, 247, 247, .15), inset 1px 1px 0 rgba(#000, 0.2), inset 0 0 5px rgba(0, 0, 0, .19));
+  font-size: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .11);
+  i {
+    margin: 0 5px 0 0;
+  }
+  &:hover {
+    background-color: rgba(#000, 0.4);
+    @include box-shadow( 0 1px 0 rgba(247, 247, 247, .3), inset 1px 1px 0 rgba(#000, 0.4), inset 0 0 5px rgba(0, 0, 0, .38));
+  }
+
+  .touch &:hover,
+  &:active {
+    background-color: rgba(#000, 0.4);
+    @include box-shadow( 0 1px 0 rgba(247, 247, 247, .3), inset 0 0 5px rgba(0, 0, 0, .38));
+  }
+}
+
+%btn_regular {
+  padding: 0 13px;
+  height: 30px;
+  line-height: 28px;
+  @include border-radius($btnRadius);
+  background-clip: padding-box;
+  @include box-sizing(border-box);
+  font-size: 11px;
+  @include box-shadow(0 1px 3px rgba(0, 0, 0, .13), inset 0 1px 0 rgba(255, 255, 255, .28));
+  @include text-shadow(0 1px 1px rgba(3,3,3,.17));
+
+
+  &:hover {
+    @include box-shadow( 0 1px 3px rgba(0, 0, 0, .13));
+  }
+  .touch &:hover,
+  &:active ,
+  &.active {
+    //@include box-shadow( 0 1px 3px rgba(0, 0, 0, .13), inset 0 1px 0 rgba(255, 255, 255, .28));
+    @include box-shadow( 0 1px 3px rgba(0, 0, 0, .13));
+    color: rgba(#fff, .7);
+  }
+}
+
+.btn_blue {
+  @extend %btn_regular;
+  border: 1px solid #3595a3;
+  background-color: #1db3cb;
+  @include v-gradient(#42daf5, #1db3cb);
+  text-shadow: 0 1px 1px rgba(3, 3, 3, .17);
+  &:hover {
+    @include v-gradient(#1cb2ca, #41d9f4);
+  }
+  .touch &:hover,
+  &:active ,
+  &.active {
+    @include v-gradient(#1bb1c9, #1db5cd);
+  }
+}
+
+.btn_red {
+  @extend %btn_regular;
+  border: 1px solid #ae2500;
+  background-color: #cb1d23;
+  @include v-gradient(#f34145, #cb1d23);
+  &:hover {
+    @include v-gradient(#cb1d23, #f34145);
+  }
+  .touch &:hover,
+  &:active ,
+  &.active {
+    @include v-gradient(#cf2127, #cb1d23);
+  }
+}
+
+.btn_green{
+  @extend %btn_regular;
+  border: 1px solid #217f11;
+  background-color: $colorGreen;
+  @include v-gradient(#74d234, #34af21);
+  //@include v-gradient(#55f7bb, #18c985);
+  &:hover {
+    @include v-gradient(#34af21, #74d234 );
+  }
+  .touch &:hover,
+  &:active ,
+  &.active {
+    @include v-gradient(#34af21, #34af21 );
+  }
+}
+
+.btn_green2{
+  @extend %btn_regular;
+  border: 1px solid #35a379;
+  background-color: $colorGreen;
+  @include v-gradient(#41f3b1, #1bc987);
+  //@include v-gradient(#55f7bb, #18c985);
+  &:hover {
+    @include v-gradient(#1bc987, #41f3b1);
+  }
+  .touch &:hover,
+  &:active ,
+  &.active {
+    @include v-gradient(#1bc987,#1dcd89);
+  }
+}
+
+.segmented-btn{
+  font-size: 0;
+  line-height: 0;
+  .btn{
+    @include border-radius(0);
+    border-left-width: 0;
+    &:first-child{
+      @include border-radius($btnRadius 0 0 $btnRadius);
+      border-left-width: 1px;
+    }
+    &:last-child{
+      @include border-radius(0 $btnRadius  $btnRadius 0);
+    }
+  }
+}
+
+.textbox,
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=search] {
+
+  &:focus {
+
+  }
+
+  &.error {
+
+  }
+
+}
+
+
+textarea{
+  width: 100%;
+  height: 150px;
+  @include box-shadow( inset 1px 1px 4px rgba(0,0,0,.32),  inset 0px 0px 1px rgba(0,0,0,.32));
+  border: 0;
+  color: #000;
+  font-size: 13px;
+  resize: none;
+  overflow: hidden;
+  @include border-radius(2px);
+  @include box-sizing(border-box);
+  padding: 14px;
+}
+
