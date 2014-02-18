@@ -57,7 +57,7 @@
   }
 }
 
-.btn_blue {
+.btn_blue2 {
   @extend %btn_regular;
   border: 1px solid #3595a3;
   background-color: #1db3cb;
@@ -70,6 +70,23 @@
   &:active ,
   &.active {
     @include v-gradient(#1bb1c9, #1db5cd);
+  }
+}
+
+.btn_blue {
+  @extend %btn_regular;
+  border: 1px solid #2e6dbb;
+  background-color: #519fff;
+  @include background-image(linear-gradient(bottom, #519fff 0%, #8bbefd 100%));
+
+  &:hover {
+    @include background-image(linear-gradient(bottom, #8bbefd 0%, #519fff 100%));
+
+  }
+  .touch &:hover,
+  &:active ,
+  &.active {
+    @include background-image(linear-gradient(bottom, #519fff 0%, #519fff 100%));
   }
 }
 
@@ -90,17 +107,20 @@
 
 .btn_green{
   @extend %btn_regular;
-  border: 1px solid #217f11;
+
   background-color: $colorGreen;
-  @include v-gradient(#74d234, #34af21);
-  //@include v-gradient(#55f7bb, #18c985);
+  border: 1px solid #1e8010;
+  @include v-gradient(#76d332 , #33ad21 );
+
   &:hover {
     @include v-gradient(#34af21, #74d234 );
+    @include background-image(linear-gradient(bottom, #76d332 0%, #33ad21 100%));
   }
   .touch &:hover,
   &:active ,
   &.active {
-    @include v-gradient(#34af21, #34af21 );
+    @include background-image(linear-gradient(bottom, #21d399 0%, #76d332 0%, #33ad21 0%, #33ad21 86.25%, #33ad21 100%));
+
   }
 }
 
