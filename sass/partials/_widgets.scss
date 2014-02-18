@@ -1,40 +1,18 @@
-
-.widget-wrap {
+.widget {
   & > h2 {
-    position: relative;
-    height: 20px;
-    line-height: 20px;
-    font-size: 14px;
-    text-transform: uppercase;
-    overflow: hidden;
     i {
-      color: $colorGreen;
+      color: #000;
       position: relative;
       top: 1px;
       font-size: 16px;
-      float: left;
-    }
-    span {
-      float: left;
-      padding: 0 10px;
-    }
-    em {
-      overflow: hidden;
-      display: block;
-      position: relative;
-      top: 8px;
-      height: 2px;
-      border-top: 1px solid #b9b9ba;
-      border-bottom: 1px solid #b9b9ba;
+      margin: 0 10px 0 0;
     }
   }
-}
-
-.widget {
   border: 1px solid #d0d0d0;
   @include box-shadow(0 1px 3px rgba(0, 0, 0, .08), inset 0 0 0 1px rgba(255, 255, 255, .5));
   @include border-radius(3px);
   margin: 0 0 11px 0;
+  background: #fff;
 }
 
 .widget__row {
@@ -76,6 +54,40 @@
 .widget__rows_zebra {
   .widget__row:nth-child(even) {
     background: #fafafa;
+  }
+}
+
+.schedule {
+  width: 100%;
+
+    th {
+      height: 46px;
+      vertical-align: middle;
+      text-transform: uppercase;
+      font-size: 13px;
+      text-align: center;
+
+  }
+
+  tr{
+    &:nth-child(even){
+      td{background: #fafafa}
+    }
+    &:nth-child(odd){
+      td{background: #f7f7f7}
+    }
+  }
+  td{
+    border-top: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    &:first-child{
+      border-left: 0;
+    }
+    font-size: 13px;
+    color: #767676;
+    text-transform: uppercase;
+    text-align: center;
+    height: 48px;
   }
 }
 
@@ -144,14 +156,14 @@
   .btn {
     margin-left: 8px;
   }
-  .segmented-btn{
-    .btn{
+  .segmented-btn {
+    .btn {
       margin-left: 0;
     }
   }
 }
 
-.post__like__btn{
+.post__like__btn {
   overflow: hidden;
   color: #f9f9f9;
   font-size: 13px;

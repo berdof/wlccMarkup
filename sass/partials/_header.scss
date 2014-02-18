@@ -43,10 +43,10 @@
   //@include sprite-background(logo);
   background: url("../images/wofl.png") no-repeat;
   height: 100px;
-  width: 500px;
+  width: 605px;
   display: block;
   background-size: auto 102px;
-  font-size: 70px;
+  font-size: 80px;
   line-height: 110px;
   overflow: hidden;
   margin: 9px auto 30px;
@@ -55,6 +55,7 @@
   font-weight: 300;
   text-decoration: none !important;
   padding: 0 0 0 175px;
+  font-family: Helvetica;
 }
 
 .main-nav {
