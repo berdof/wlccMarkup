@@ -186,17 +186,8 @@ class WlccApp
           input.val ""  if input.val() is input.attr("placeholder")
     return
 
-  initBlur: ()->
-    $('.slider-bg').gaussianBlur(
-      deviation: 7 #level of blur
-    )
-    on
-
-
-
   constructor: ()->
     self = this
-    self.initBlur()
     self.initCarousel()
     self.attachEvents()
     self.initCoords()

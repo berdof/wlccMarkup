@@ -40,11 +40,21 @@
 }
 
 .logo {
-  @include sprite-background(logo);
-  font-size: 0;
-  line-height: 0;
+  //@include sprite-background(logo);
+  background: url("../images/wofl.png") no-repeat;
+  height: 100px;
+  width: 500px;
+  display: block;
+  background-size: auto 102px;
+  font-size: 70px;
+  line-height: 110px;
   overflow: hidden;
   margin: 9px auto 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-decoration: none !important;
+  padding: 0 0 0 175px;
 }
 
 .main-nav {
