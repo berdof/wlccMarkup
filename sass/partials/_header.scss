@@ -25,14 +25,14 @@
     display: block;
     text-decoration: none;
   }
-  i{
+  i {
     font-size: 14px;
     position: relative;
     top: 1px;
   }
 }
 
-.top-bar__counter{
+.top-bar__counter {
   position: absolute;
   top: -10px;
   font-size: 10px;
@@ -40,22 +40,32 @@
 }
 
 .logo {
-  //@include sprite-background(logo);
-  background: url("../images/wofl.png") no-repeat;
-  height: 100px;
-  width: 605px;
-  display: block;
+  height: 74px;
+  display: inline-block;
   background-size: auto 102px;
-  font-size: 80px;
-  line-height: 110px;
-  overflow: hidden;
-  margin: 9px auto 30px;
+  font-size: 47px;
+  line-height: 74px;
+  margin: -15px 0 19px 0;
   color: #fff;
   text-transform: uppercase;
   font-weight: 300;
   text-decoration: none !important;
-  padding: 0 0 0 175px;
+  padding: 0;
   font-family: Helvetica;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+  transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+
+  &:hover {
+    text-shadow: #fff 0 0 5px;
+    transition: text-shadow 1s cubic-bezier(0, 0.75, 0, 1);
+  }
+  img {
+    display: inline-block;
+    height: 100%;
+    margin: 6px -12px;
+    position: relative;
+    top: 9px;
+  }
 }
 
 .main-nav {

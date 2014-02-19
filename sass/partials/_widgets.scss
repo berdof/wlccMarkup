@@ -15,6 +15,22 @@
   background: #fff;
 }
 
+.widget_small{
+  width: 463px;
+}
+
+.widget_video{
+  .widget__body{
+    width: 451px;
+    margin: 0 auto;
+    padding: 4px 0;
+  }
+}
+
+
+.widget__body{
+}
+
 .widget__row {
   height: 46px;
   line-height: 46px;

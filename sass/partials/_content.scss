@@ -1,11 +1,13 @@
 .main {
-  margin-top: 59px;
+  margin-top: 40px;
   position: relative;
   z-index: 2;
+  text-align: center;
   @extend .wrapper;
 }
 
 .main__in {
+  text-align: left;
   @include box-shadow(0px 0px 2px 1px rgba(#000, .2));
 }
 
