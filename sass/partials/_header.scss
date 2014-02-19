@@ -10,6 +10,10 @@
   height: 35px;
   line-height: 35px;
   background: rgba(#000, .5);
+  .btn{
+    position: relative;
+    top: -3px;
+  }
 }
 
 .top-bar__nav {

@@ -1,41 +1,35 @@
 class WlccApp
-  pagesCoords: [826, 1390, 2132, 2766, 3600, 4348, 5179 ]
   errorClass: "error"
   eventHandlers:
-    hrefClick: (e)->
-      href = $(@).attr("href")
-      $root = $('html, body')
-      if href[0] is "#"
-        $root.animate({
-          scrollTop: $(href).offset().top
-        }, @scrollSpeed);
-        e.preventDefault()
-        return false
-      return
-    formSubmitClick: (e)->
-      self = e.data.self
-      form = $(@).closest("form")
-      isValid = self.validate(form)
-      if isValid
-        self.sendDataAsync(form).done(
-          (data)->
-            form.find(".form__success").fadeIn(350)
-            return
-        )
-      return false
-    hidePopupClick: (e)->
-      $(".modal, .modal-overlay").fadeOut()
-      return
-    showPopupClick: (e)->
-      selector = $(@).data("modalShow")
-      $("#{selector}, .modal-overlay").fadeIn()
-      return
+    formSubmitClick:()->
+
+      on
+    hidePopupClick:()->
+
+      on
+    showPopupClick:()->
+
+      on
+    toggleClassClick:()->
+      $this = $(@)
+      toggleInfo = $this.data("toggle-class").split("|")
+      className = toggleInfo[0]
+      targetMethod = toggleInfo[1] #closest or any
+      targetSelector = toggleInfo[2]
+      if targetMethod is "closest"
+        $this.closest(targetSelector).toggleClass(className)
+      else if targetMethod is "any"
+        $(targetSelector).toggleClass(className)
+
+      on
   attachEvents: ->
     self = this
-    $("a").on('click', {self: self}, self.eventHandlers.hrefClick)
+    $("[data-toggle-class]").on('click', {self: self}, self.eventHandlers.toggleClassClick)
+
     $(".form input[type=submit]").on('click', {self: self}, self.eventHandlers.formSubmitClick)
     $(".modal-overlay, .modal__close").on('click', {self: self}, self.eventHandlers.hidePopupClick)
     $("[data-modal-show]").on('click', {self: self}, self.eventHandlers.showPopupClick)
+
     return
 
   validate: (form)->
@@ -108,15 +102,6 @@ class WlccApp
         return
     )
 
-  initCoords: ()->
-    self = @
-    wH = $(window).height()
-    offsetTop = wH / 3
-    $(".page").each((i, el)->
-      self.pagesCoords[i] = Math.floor($(el).offset().top) - if i is 0 then  0 else offsetTop
-      return)
-    return
-
   initCarousel: ()->
     $(".slider__container").jCarouselLite({
       visible: 3,
@@ -126,11 +111,12 @@ class WlccApp
       btnPrev: ".slider__prev",
       btnGo: $(".slider__pager li")
     })
-    return
+    off
 
   initTelMask: ()->
     $(".tel-input").mask("(999) 999-9999")
-    return
+    off
+
   #img has to have data-src-retina attr to be replaced
   replaceImagesToRetina: ()->
     if(window.devicePixelRatio isnt undefined)
@@ -190,7 +176,6 @@ class WlccApp
     self = this
     self.initCarousel()
     self.attachEvents()
-    self.initCoords()
     self.initTelMask()
     self.replaceImagesToRetina()
     self.initPlaceholder()
