@@ -37,6 +37,11 @@ WlccApp = (function() {
     $("[data-toggle-class]").on('click', {
       self: self
     }, self.eventHandlers.toggleClassClick);
+    $(".btn").on('click', {
+      self: self
+    }, function() {
+      return $(this).toggleClass('active');
+    });
     $(".form input[type=submit]").on('click', {
       self: self
     }, self.eventHandlers.formSubmitClick);

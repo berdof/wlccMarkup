@@ -15,20 +15,19 @@
   background: #fff;
 }
 
-.widget_small{
+.widget_small {
   width: 463px;
 }
 
-.widget_video{
-  .widget__body{
+.widget_video {
+  .widget__body {
     width: 451px;
     margin: 0 auto;
     padding: 4px 0;
   }
 }
 
-
-.widget__body{
+.widget__body {
   padding: 10px 14px;
 }
 
@@ -68,27 +67,28 @@
   @include border-radius(2px 2px 0 0);
 }
 
-.widget__footer{
+.widget__footer {
   height: 54px;
   line-height: 54px;
   padding: 0 14px;
   border-top: 1px solid #d0d0d0;
   background: #fff;
-  @include border-radius(0 0  $btnRadius $btnRadius);
+  @include border-radius(0 0 $btnRadius $btnRadius);
   overflow: hidden;
-  .btn{
+  .btn {
     position: relative;
     top: -3px;
   }
-  a{
+  a {
     font-size: 11px;
   }
 }
-.purchase-link{
+
+.purchase-link {
   text-decoration: none !important;
   position: relative;
   top: -2px;
-  i{
+  i {
     margin: 0 5px 0 0;
     font-size: 13px;
     position: relative;
@@ -96,7 +96,7 @@
   }
 }
 
-.widget__tabs{
+.widget__tabs {
   height: 608px;
 }
 
@@ -109,27 +109,31 @@
 .schedule {
   width: 100%;
 
-    th {
-      height: 46px;
-      vertical-align: middle;
-      text-transform: uppercase;
-      font-size: 13px;
-      text-align: center;
+  th {
+    height: 46px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
 
   }
 
-  tr{
-    &:nth-child(even){
-      td{background: #fafafa}
+  tr {
+    &:nth-child(even) {
+      td {
+        background: #fafafa
+      }
     }
-    &:nth-child(odd){
-      td{background: #f7f7f7}
+    &:nth-child(odd) {
+      td {
+        background: #f7f7f7
+      }
     }
   }
-  td{
+  td {
     border-top: 1px solid #e0e0e0;
     border-left: 1px solid #e0e0e0;
-    &:first-child{
+    &:first-child {
       border-left: 0;
     }
     font-size: 13px;
@@ -225,7 +229,9 @@
 }
 
 .comments {
-
+  form{
+    padding-left: 111px;
+  }
 }
 
 .comments__btn {
@@ -240,10 +246,43 @@
   @include box-shadow(0 1px 3px rgba(0, 0, 0, .13), inset 0 1px 0 rgba(255, 255, 255, .28));
   @include background-image(linear-gradient(bottom, #519fff 0%, #8bbefd 100%));
   @include box-sizing(border-box);
+  clear: both;
   &:hover {
     @include background-image(linear-gradient(bottom, #8bbefd 0%, #519fff 100%));
   }
   &:active {
     @include background-image(linear-gradient(bottom, #519fff 0%, #519fff 100%));
+  }
+}
+
+.comments__info {
+  padding-bottom: 10px;
+  overflow: hidden;
+  time{
+    font-size: 11px;
+    color: #000;
+  }
+}
+
+.comments__author {
+  font-size: 16px;
+  text-decoration: none !important;
+  span {
+    font-size: 11px;
+    color: $linkColor;
+  }
+}
+
+.comments__body {
+  @extend .post__in;
+  padding-bottom: 0;
+  .avatar {
+    width: 75px;
+    margin: 0 20px 0 0;
+  }
+  article {
+    p {
+      font-size: 13px;
+    }
   }
 }

@@ -25,6 +25,7 @@ class WlccApp
   attachEvents: ->
     self = this
     $("[data-toggle-class]").on('click', {self: self}, self.eventHandlers.toggleClassClick)
+    $(".btn").on('click', {self: self}, ()->$(@).toggleClass('active'))
 
     $(".form input[type=submit]").on('click', {self: self}, self.eventHandlers.formSubmitClick)
     $(".modal-overlay, .modal__close").on('click', {self: self}, self.eventHandlers.hidePopupClick)

@@ -67,6 +67,10 @@
 
 .add-post {
   &.closed{
+    overflow: hidden;
+    .widget__header{
+      border: 0;
+    }
     .widget__rows_zebra{
       height: 0px;
       overflow: hidden;
