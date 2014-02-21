@@ -65,6 +65,9 @@
   background: #fff;
   color: #000;
   @include border-radius(2px 2px 0 0);
+  .icon-pencil {
+    font-size: 13px;
+  }
 }
 
 .widget__footer {
@@ -144,8 +147,60 @@
   }
 }
 
+.add-post {
+  form {
+    padding-bottom: 0;
+  }
+
+  &.closed {
+    overflow: hidden;
+    .widget__header {
+      border: 0;
+    }
+    .widget__rows_zebra {
+      height: 0px;
+      overflow: hidden;
+    }
+  }
+}
+
+.add-post__footer {
+  @extend .clearfix;
+  height: 49px;
+  line-height: 49px;
+  .btn{
+    margin: 0;
+  }
+  i {
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+    margin: 0 15px;
+  }
+}
+
 .post {
   background: #f9f9f9;
+  &.editable{
+    article{
+      h2{
+        height: 37px;
+        line-height: 21px;
+        @include box-shadow(inset 1px 1px 3px rgba(0,0,0,.32));
+        margin-bottom: 15px;
+        padding: 8px 15px;
+        @include box-sizing(border-box);
+      }
+      p{
+
+        @include box-shadow(inset 1px 1px 3px rgba(0,0,0,.32));
+        padding: 15px;
+      }
+    }
+  }
   .avatar {
     margin: 0 10px 25px 0;
   }
@@ -229,8 +284,13 @@
 }
 
 .comments {
-  form{
+  form {
     padding-left: 111px;
+    padding-bottom: 0;
+  }
+  &.closed{
+      height: 50px;
+    overflow: hidden;
   }
 }
 
@@ -247,10 +307,12 @@
   @include background-image(linear-gradient(bottom, #519fff 0%, #8bbefd 100%));
   @include box-sizing(border-box);
   clear: both;
+  top: 0;
   &:hover {
     @include background-image(linear-gradient(bottom, #8bbefd 0%, #519fff 100%));
   }
-  &:active {
+  &:active ,
+  &.active {
     @include background-image(linear-gradient(bottom, #519fff 0%, #519fff 100%));
   }
 }
@@ -258,7 +320,7 @@
 .comments__info {
   padding-bottom: 10px;
   overflow: hidden;
-  time{
+  time {
     font-size: 11px;
     color: #000;
   }

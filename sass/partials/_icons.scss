@@ -28,7 +28,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit {
+.icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .icon-arrow-left {
   font-family: 'wlcc';
   speak: none;
   font-style: normal;
@@ -88,4 +88,10 @@ you can use the generic selector below, but it's slower:
 }
 .icon-exit:before {
   content: "\e010";
+}
+.icon-arrow-right:before {
+  content: "\e011";
+}
+.icon-arrow-left:before {
+  content: "\e012";
 }

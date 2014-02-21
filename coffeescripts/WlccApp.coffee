@@ -103,15 +103,8 @@ class WlccApp
         return
     )
 
-  initCarousel: ()->
-    $(".slider__container").jCarouselLite({
-      visible: 3,
-      start: 0,
-      scroll: 1
-      btnNext: ".slider__next",
-      btnPrev: ".slider__prev",
-      btnGo: $(".slider__pager li")
-    })
+  initSliders: ()->
+    $(".slider__slide")
     off
 
   initTelMask: ()->
@@ -175,7 +168,7 @@ class WlccApp
 
   constructor: ()->
     self = this
-    self.initCarousel()
+    self.initSliders()
     self.attachEvents()
     self.initTelMask()
     self.replaceImagesToRetina()

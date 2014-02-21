@@ -6,6 +6,23 @@
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
+  @include box-sizing(border-box);
+  position: relative;
+  top: -2px;
+  .btn-active__text{
+    display: none;
+  }
+  .btn__text{
+    display: block;
+  }
+  &.active{
+    .btn-active__text{
+      display: block;
+    }
+    .btn__text{
+      display: none;
+    }
+  }
 }
 
 .btn_dark {
@@ -121,6 +138,26 @@
   &.active {
     @include background-image(linear-gradient(bottom, #21d399 0%, #76d332 0%, #33ad21 0%, #33ad21 86.25%, #33ad21 100%));
 
+  }
+}
+
+.btn_white{
+  @extend %btn_regular;
+  border: 1px solid #e5e5e5;
+
+  @include box-shadow(0 1px 3px rgba(0,0,0,.13), inset 0 1px 0 rgba(255,255,255,.28));
+  @include background-image(linear-gradient(bottom, #f0f0f0 0%, #fcfcfc 82.25%, #fff 100%));
+  color: #33ae21;
+
+  &:hover{
+    @include background-image(linear-gradient(bottom, #fff 0%, #fcfcfc 22.25%, #f0f0f0 100%));
+  }
+
+
+  .touch &:hover,
+  &:active ,
+  &.active {
+    color: rgba(#33ae21,.7);
   }
 }
 

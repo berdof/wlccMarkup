@@ -95,7 +95,7 @@ body {
 }
 
 /* line 27, ../sass/partials/_helpers.scss */
-.clearfix:after, .wrapper:after, .main:after, .footer:after, .nav:after, .nav_hor:after, .top-bar__nav:after, .post__in:after, .comments__body:after {
+.clearfix:after, .wrapper:after, .main:after, .footer:after, .nav:after, .nav_hor:after, .top-bar__nav:after, .add-post__footer:after, .post__in:after, .comments__body:after {
   visibility: hidden;
   display: block;
   content: "";
@@ -251,7 +251,7 @@ you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
 /* line 31, ../sass/partials/_icons.scss */
-.icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit {
+.icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .icon-arrow-left {
   font-family: 'wlcc';
   speak: none;
   font-style: normal;
@@ -347,6 +347,16 @@ you can use the generic selector below, but it's slower:
   content: "\e010";
 }
 
+/* line 92, ../sass/partials/_icons.scss */
+.icon-arrow-right:before {
+  content: "\e011";
+}
+
+/* line 95, ../sass/partials/_icons.scss */
+.icon-arrow-left:before {
+  content: "\e012";
+}
+
 /* line 1, ../sass/partials/_controls.scss */
 .btn {
   text-decoration: none !important;
@@ -356,9 +366,30 @@ you can use the generic selector below, but it's slower:
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  top: -2px;
+}
+/* line 12, ../sass/partials/_controls.scss */
+.btn .btn-active__text {
+  display: none;
+}
+/* line 15, ../sass/partials/_controls.scss */
+.btn .btn__text {
+  display: block;
+}
+/* line 19, ../sass/partials/_controls.scss */
+.btn.active .btn-active__text {
+  display: block;
+}
+/* line 22, ../sass/partials/_controls.scss */
+.btn.active .btn__text {
+  display: none;
 }
 
-/* line 11, ../sass/partials/_controls.scss */
+/* line 28, ../sass/partials/_controls.scss */
 .btn_dark {
   padding: 0 27px;
   height: 26px;
@@ -376,18 +407,18 @@ you can use the generic selector below, but it's slower:
   font-size: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);
 }
-/* line 21, ../sass/partials/_controls.scss */
+/* line 38, ../sass/partials/_controls.scss */
 .btn_dark i {
   margin: 0 5px 0 0;
 }
-/* line 24, ../sass/partials/_controls.scss */
+/* line 41, ../sass/partials/_controls.scss */
 .btn_dark:hover {
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 1px 1px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 1px 1px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px rgba(0, 0, 0, 0.38);
   box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 1px 1px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px rgba(0, 0, 0, 0.38);
 }
-/* line 30, ../sass/partials/_controls.scss */
+/* line 47, ../sass/partials/_controls.scss */
 .touch .btn_dark:hover, .btn_dark:active {
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 0 0 5px rgba(0, 0, 0, 0.38);
@@ -395,8 +426,8 @@ you can use the generic selector below, but it's slower:
   box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 0 0 5px rgba(0, 0, 0, 0.38);
 }
 
-/* line 36, ../sass/partials/_controls.scss */
-.btn_blue2, .btn_blue, .btn_red, .btn_green, .btn_green2 {
+/* line 53, ../sass/partials/_controls.scss */
+.btn_blue2, .btn_blue, .btn_red, .btn_green, .btn_white, .btn_green2 {
   padding: 0 13px;
   height: 30px;
   line-height: 28px;
@@ -415,21 +446,21 @@ you can use the generic selector below, but it's slower:
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   text-shadow: 0 1px 1px rgba(3, 3, 3, 0.17);
 }
-/* line 48, ../sass/partials/_controls.scss */
-.btn_blue2:hover, .btn_blue:hover, .btn_red:hover, .btn_green:hover, .btn_green2:hover {
+/* line 65, ../sass/partials/_controls.scss */
+.btn_blue2:hover, .btn_blue:hover, .btn_red:hover, .btn_green:hover, .btn_white:hover, .btn_green2:hover {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
 }
-/* line 53, ../sass/partials/_controls.scss */
-.touch .btn_blue2:hover, .touch .btn_blue:hover, .touch .btn_red:hover, .touch .btn_green:hover, .touch .btn_green2:hover, .btn_blue2:active, .btn_blue:active, .btn_red:active, .btn_green:active, .btn_green2:active, .active.btn_blue2, .active.btn_blue, .active.btn_red, .active.btn_green, .active.btn_green2 {
+/* line 70, ../sass/partials/_controls.scss */
+.touch .btn_blue2:hover, .touch .btn_blue:hover, .touch .btn_red:hover, .touch .btn_green:hover, .touch .btn_white:hover, .touch .btn_green2:hover, .btn_blue2:active, .btn_blue:active, .btn_red:active, .btn_green:active, .btn_white:active, .btn_green2:active, .active.btn_blue2, .active.btn_blue, .active.btn_red, .active.btn_green, .active.btn_white, .active.btn_green2 {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 60, ../sass/partials/_controls.scss */
+/* line 77, ../sass/partials/_controls.scss */
 .btn_blue2 {
   border: 1px solid #3595a3;
   background-color: #1db3cb;
@@ -442,7 +473,7 @@ you can use the generic selector below, but it's slower:
   background-image: linear-gradient(#42daf5, #1db3cb);
   text-shadow: 0 1px 1px rgba(3, 3, 3, 0.17);
 }
-/* line 66, ../sass/partials/_controls.scss */
+/* line 83, ../sass/partials/_controls.scss */
 .btn_blue2:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFjYjJjYSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQxZDlmNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -452,7 +483,7 @@ you can use the generic selector below, but it's slower:
   background-image: -o-linear-gradient(#1cb2ca, #41d9f4);
   background-image: linear-gradient(#1cb2ca, #41d9f4);
 }
-/* line 71, ../sass/partials/_controls.scss */
+/* line 88, ../sass/partials/_controls.scss */
 .touch .btn_blue2:hover, .btn_blue2:active, .btn_blue2.active {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFiYjFjOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkYjVjZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -463,7 +494,7 @@ you can use the generic selector below, but it's slower:
   background-image: linear-gradient(#1bb1c9, #1db5cd);
 }
 
-/* line 76, ../sass/partials/_controls.scss */
+/* line 93, ../sass/partials/_controls.scss */
 .btn_blue {
   border: 1px solid #2e6dbb;
   background-color: #519fff;
@@ -475,7 +506,7 @@ you can use the generic selector below, but it's slower:
   background-image: -o-linear-gradient(bottom, #519fff 0%, #8bbefd 100%);
   background-image: linear-gradient(bottom, #519fff 0%, #8bbefd 100%);
 }
-/* line 82, ../sass/partials/_controls.scss */
+/* line 99, ../sass/partials/_controls.scss */
 .btn_blue:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhiYmVmZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -485,7 +516,7 @@ you can use the generic selector below, but it's slower:
   background-image: -o-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
   background-image: linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
 }
-/* line 88, ../sass/partials/_controls.scss */
+/* line 105, ../sass/partials/_controls.scss */
 .touch .btn_blue:hover, .btn_blue:active, .btn_blue.active {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -496,7 +527,7 @@ you can use the generic selector below, but it's slower:
   background-image: linear-gradient(bottom, #519fff 0%, #519fff 100%);
 }
 
-/* line 93, ../sass/partials/_controls.scss */
+/* line 110, ../sass/partials/_controls.scss */
 .btn_red {
   border: 1px solid #ae2500;
   background-color: #cb1d23;
@@ -508,7 +539,7 @@ you can use the generic selector below, but it's slower:
   background-image: -o-linear-gradient(#f34145, #cb1d23);
   background-image: linear-gradient(#f34145, #cb1d23);
 }
-/* line 98, ../sass/partials/_controls.scss */
+/* line 115, ../sass/partials/_controls.scss */
 .btn_red:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NiMWQyMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YzNDE0NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -518,7 +549,7 @@ you can use the generic selector below, but it's slower:
   background-image: -o-linear-gradient(#cb1d23, #f34145);
   background-image: linear-gradient(#cb1d23, #f34145);
 }
-/* line 103, ../sass/partials/_controls.scss */
+/* line 120, ../sass/partials/_controls.scss */
 .touch .btn_red:hover, .btn_red:active, .btn_red.active {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NmMjEyNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NiMWQyMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -529,7 +560,7 @@ you can use the generic selector below, but it's slower:
   background-image: linear-gradient(#cf2127, #cb1d23);
 }
 
-/* line 108, ../sass/partials/_controls.scss */
+/* line 125, ../sass/partials/_controls.scss */
 .btn_green {
   background-color: #33ae21;
   border: 1px solid #1e8010;
@@ -541,7 +572,7 @@ you can use the generic selector below, but it's slower:
   background-image: -o-linear-gradient(#76d332, #33ad21);
   background-image: linear-gradient(#76d332, #33ad21);
 }
-/* line 115, ../sass/partials/_controls.scss */
+/* line 132, ../sass/partials/_controls.scss */
 .btn_green:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0YWYyMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzc0ZDIzNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -558,7 +589,7 @@ you can use the generic selector below, but it's slower:
   background-image: -o-linear-gradient(bottom, #76d332 0%, #33ad21 100%);
   background-image: linear-gradient(bottom, #76d332 0%, #33ad21 100%);
 }
-/* line 121, ../sass/partials/_controls.scss */
+/* line 138, ../sass/partials/_controls.scss */
 .touch .btn_green:hover, .btn_green:active, .btn_green.active {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIxZDM5OSIvPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3NmQzMzIiLz48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzNhZDIxIi8+PHN0b3Agb2Zmc2V0PSI4Ni4yNSUiIHN0b3AtY29sb3I9IiMzM2FkMjEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzM2FkMjEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background-size: 100%;
@@ -569,7 +600,37 @@ you can use the generic selector below, but it's slower:
   background-image: linear-gradient(bottom, #21d399 0%, #76d332 0%, #33ad21 0%, #33ad21 86.25%, #33ad21 100%);
 }
 
-/* line 127, ../sass/partials/_controls.scss */
+/* line 144, ../sass/partials/_controls.scss */
+.btn_white {
+  border: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YwZjBmMCIvPjxzdG9wIG9mZnNldD0iODIuMjUlIiBzdG9wLWNvbG9yPSIjZmNmY2ZjIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #f0f0f0), color-stop(82.25%, #fcfcfc), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(bottom, #f0f0f0 0%, #fcfcfc 82.25%, #ffffff 100%);
+  background-image: -moz-linear-gradient(bottom, #f0f0f0 0%, #fcfcfc 82.25%, #ffffff 100%);
+  background-image: -o-linear-gradient(bottom, #f0f0f0 0%, #fcfcfc 82.25%, #ffffff 100%);
+  background-image: linear-gradient(bottom, #f0f0f0 0%, #fcfcfc 82.25%, #ffffff 100%);
+  color: #33ae21;
+}
+/* line 152, ../sass/partials/_controls.scss */
+.btn_white:hover {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMjIuMjUlIiBzdG9wLWNvbG9yPSIjZmNmY2ZjIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZjBmMGYwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffffff), color-stop(22.25%, #fcfcfc), color-stop(100%, #f0f0f0));
+  background-image: -webkit-linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%);
+  background-image: -moz-linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%);
+  background-image: -o-linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%);
+  background-image: linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%);
+}
+/* line 159, ../sass/partials/_controls.scss */
+.touch .btn_white:hover, .btn_white:active, .btn_white.active {
+  color: rgba(51, 174, 33, 0.7);
+}
+
+/* line 164, ../sass/partials/_controls.scss */
 .btn_green2 {
   border: 1px solid #35a379;
   background-color: #33ae21;
@@ -581,7 +642,7 @@ you can use the generic selector below, but it's slower:
   background-image: -o-linear-gradient(#41f3b1, #1bc987);
   background-image: linear-gradient(#41f3b1, #1bc987);
 }
-/* line 133, ../sass/partials/_controls.scss */
+/* line 170, ../sass/partials/_controls.scss */
 .btn_green2:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFiYzk4NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQxZjNiMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -591,7 +652,7 @@ you can use the generic selector below, but it's slower:
   background-image: -o-linear-gradient(#1bc987, #41f3b1);
   background-image: linear-gradient(#1bc987, #41f3b1);
 }
-/* line 138, ../sass/partials/_controls.scss */
+/* line 175, ../sass/partials/_controls.scss */
 .touch .btn_green2:hover, .btn_green2:active, .btn_green2.active {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFiYzk4NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkY2Q4OSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -602,12 +663,12 @@ you can use the generic selector below, but it's slower:
   background-image: linear-gradient(#1bc987, #1dcd89);
 }
 
-/* line 143, ../sass/partials/_controls.scss */
+/* line 180, ../sass/partials/_controls.scss */
 .segmented-btn {
   font-size: 0;
   line-height: 0;
 }
-/* line 146, ../sass/partials/_controls.scss */
+/* line 183, ../sass/partials/_controls.scss */
 .segmented-btn .btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -616,7 +677,7 @@ you can use the generic selector below, but it's slower:
   border-radius: 0;
   border-left-width: 0;
 }
-/* line 149, ../sass/partials/_controls.scss */
+/* line 186, ../sass/partials/_controls.scss */
 .segmented-btn .btn:first-child {
   -webkit-border-radius: 4px 0 0 4px;
   -moz-border-radius: 4px 0 0 4px;
@@ -625,7 +686,7 @@ you can use the generic selector below, but it's slower:
   border-radius: 4px 0 0 4px;
   border-left-width: 1px;
 }
-/* line 153, ../sass/partials/_controls.scss */
+/* line 190, ../sass/partials/_controls.scss */
 .segmented-btn .btn:last-child {
   -webkit-border-radius: 0 4px 4px 0;
   -moz-border-radius: 0 4px 4px 0;
@@ -634,7 +695,7 @@ you can use the generic selector below, but it's slower:
   border-radius: 0 4px 4px 0;
 }
 
-/* line 177, ../sass/partials/_controls.scss */
+/* line 214, ../sass/partials/_controls.scss */
 textarea {
   width: 100%;
   height: 150px;
@@ -655,6 +716,58 @@ textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 14px;
+}
+
+/* line 1, ../sass/partials/_slider.scss */
+.slider-wrap {
+  height: 400px;
+  width: 970px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 8, ../sass/partials/_slider.scss */
+.slider {
+  background: url("../images/main-slider.png") no-repeat;
+  width: 832px;
+  height: 298px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+/* line 15, ../sass/partials/_slider.scss */
+.slider .btn {
+  margin: 0 4px;
+  width: 150px;
+}
+/* line 18, ../sass/partials/_slider.scss */
+.slider .btn i {
+  position: relative;
+  top: 3px;
+  font-size: 15px;
+}
+
+/* line 26, ../sass/partials/_slider.scss */
+.slider__in {
+  height: 240px;
+}
+/* line 28, ../sass/partials/_slider.scss */
+.slider__in p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.61);
+}
+
+/* line 36, ../sass/partials/_slider.scss */
+.slider__slide, .slider__slide article {
+  height: 240px;
+  width: 832px;
+}
+/* line 39, ../sass/partials/_slider.scss */
+.slider__slide article {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /* line 1, ../sass/partials/_header.scss */
@@ -712,7 +825,7 @@ textarea {
   background-size: auto 102px;
   font-size: 47px;
   line-height: 74px;
-  margin: -15px 0 19px 0;
+  margin: -15px 0 21px 0;
   color: #fff;
   text-transform: uppercase;
   font-weight: 300;
@@ -722,13 +835,20 @@ textarea {
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
   transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
 }
-/* line 62, ../sass/partials/_header.scss */
+/* line 63, ../sass/partials/_header.scss */
 .logo:hover {
   text-shadow: #fff 0 0 5px;
   transition: text-shadow 1s cubic-bezier(0, 0.75, 0, 1);
 }
 /* line 66, ../sass/partials/_header.scss */
+.logo:hover img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 73, ../sass/partials/_header.scss */
 .logo img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
   display: inline-block;
   height: 100%;
   margin: 6px -12px;
@@ -736,7 +856,7 @@ textarea {
   top: 9px;
 }
 
-/* line 75, ../sass/partials/_header.scss */
+/* line 83, ../sass/partials/_header.scss */
 .main-nav {
   height: 47px;
   background: rgba(0, 0, 0, 0.5);
@@ -751,13 +871,13 @@ textarea {
   -o-border-radius: 1px 1px 0 0;
   border-radius: 1px 1px 0 0;
 }
-/* line 84, ../sass/partials/_header.scss */
+/* line 92, ../sass/partials/_header.scss */
 .main-nav li {
   padding: 0;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 89, ../sass/partials/_header.scss */
+/* line 97, ../sass/partials/_header.scss */
 .main-nav a {
   line-height: 51px;
   height: 49px;
@@ -771,7 +891,7 @@ textarea {
   position: relative;
   top: -1px;
 }
-/* line 102, ../sass/partials/_header.scss */
+/* line 110, ../sass/partials/_header.scss */
 .main-nav a:hover, .main-nav a.active {
   -webkit-box-shadow: 1px 0 3px rgba(30, 44, 37, 0.6) inset, -1px 0 3px rgba(30, 44, 37, 0.6) inset;
   -moz-box-shadow: 1px 0 3px rgba(30, 44, 37, 0.6) inset, -1px 0 3px rgba(30, 44, 37, 0.6) inset;
@@ -871,8 +991,12 @@ textarea {
   -o-border-radius: 2px 2px 0 0;
   border-radius: 2px 2px 0 0;
 }
+/* line 68, ../sass/partials/_widgets.scss */
+.widget__header .icon-pencil {
+  font-size: 13px;
+}
 
-/* line 70, ../sass/partials/_widgets.scss */
+/* line 73, ../sass/partials/_widgets.scss */
 .widget__footer {
   height: 54px;
   line-height: 54px;
@@ -886,23 +1010,23 @@ textarea {
   border-radius: 0 0 4px 4px;
   overflow: hidden;
 }
-/* line 78, ../sass/partials/_widgets.scss */
+/* line 81, ../sass/partials/_widgets.scss */
 .widget__footer .btn {
   position: relative;
   top: -3px;
 }
-/* line 82, ../sass/partials/_widgets.scss */
+/* line 85, ../sass/partials/_widgets.scss */
 .widget__footer a {
   font-size: 11px;
 }
 
-/* line 87, ../sass/partials/_widgets.scss */
+/* line 90, ../sass/partials/_widgets.scss */
 .purchase-link {
   text-decoration: none !important;
   position: relative;
   top: -2px;
 }
-/* line 91, ../sass/partials/_widgets.scss */
+/* line 94, ../sass/partials/_widgets.scss */
 .purchase-link i {
   margin: 0 5px 0 0;
   font-size: 13px;
@@ -910,21 +1034,21 @@ textarea {
   top: 2px;
 }
 
-/* line 99, ../sass/partials/_widgets.scss */
+/* line 102, ../sass/partials/_widgets.scss */
 .widget__tabs {
   height: 608px;
 }
 
-/* line 104, ../sass/partials/_widgets.scss */
+/* line 107, ../sass/partials/_widgets.scss */
 .widget__rows_zebra .widget__row:nth-child(even), .widget__rows_zebra .widget__header:nth-child(even) {
   background: #fafafa;
 }
 
-/* line 109, ../sass/partials/_widgets.scss */
+/* line 112, ../sass/partials/_widgets.scss */
 .schedule {
   width: 100%;
 }
-/* line 112, ../sass/partials/_widgets.scss */
+/* line 115, ../sass/partials/_widgets.scss */
 .schedule th {
   height: 46px;
   vertical-align: middle;
@@ -932,15 +1056,15 @@ textarea {
   font-size: 13px;
   text-align: center;
 }
-/* line 123, ../sass/partials/_widgets.scss */
+/* line 126, ../sass/partials/_widgets.scss */
 .schedule tr:nth-child(even) td {
   background: #fafafa;
 }
-/* line 128, ../sass/partials/_widgets.scss */
+/* line 131, ../sass/partials/_widgets.scss */
 .schedule tr:nth-child(odd) td {
   background: #f7f7f7;
 }
-/* line 133, ../sass/partials/_widgets.scss */
+/* line 136, ../sass/partials/_widgets.scss */
 .schedule td {
   border-top: 1px solid #e0e0e0;
   border-left: 1px solid #e0e0e0;
@@ -950,31 +1074,90 @@ textarea {
   text-align: center;
   height: 48px;
 }
-/* line 136, ../sass/partials/_widgets.scss */
+/* line 139, ../sass/partials/_widgets.scss */
 .schedule td:first-child {
   border-left: 0;
 }
 
-/* line 147, ../sass/partials/_widgets.scss */
+/* line 151, ../sass/partials/_widgets.scss */
+.add-post form {
+  padding-bottom: 0;
+}
+/* line 155, ../sass/partials/_widgets.scss */
+.add-post.closed {
+  overflow: hidden;
+}
+/* line 157, ../sass/partials/_widgets.scss */
+.add-post.closed .widget__header {
+  border: 0;
+}
+/* line 160, ../sass/partials/_widgets.scss */
+.add-post.closed .widget__rows_zebra {
+  height: 0px;
+  overflow: hidden;
+}
+
+/* line 167, ../sass/partials/_widgets.scss */
+.add-post__footer {
+  height: 49px;
+  line-height: 49px;
+}
+/* line 171, ../sass/partials/_widgets.scss */
+.add-post__footer .btn {
+  margin: 0;
+}
+/* line 174, ../sass/partials/_widgets.scss */
+.add-post__footer i {
+  font-size: 18px;
+}
+/* line 177, ../sass/partials/_widgets.scss */
+.add-post__footer a {
+  text-decoration: none;
+  position: relative;
+  top: 2px;
+  margin: 0 15px;
+}
+
+/* line 185, ../sass/partials/_widgets.scss */
 .post {
   background: #f9f9f9;
 }
-/* line 149, ../sass/partials/_widgets.scss */
+/* line 189, ../sass/partials/_widgets.scss */
+.post.editable article h2 {
+  height: 37px;
+  line-height: 21px;
+  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+  margin-bottom: 15px;
+  padding: 8px 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 197, ../sass/partials/_widgets.scss */
+.post.editable article p {
+  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+  padding: 15px;
+}
+/* line 204, ../sass/partials/_widgets.scss */
 .post .avatar {
   margin: 0 10px 25px 0;
 }
 
-/* line 154, ../sass/partials/_widgets.scss */
+/* line 209, ../sass/partials/_widgets.scss */
 .post__in, .comments__body {
   padding: 15px;
 }
 
-/* line 159, ../sass/partials/_widgets.scss */
+/* line 214, ../sass/partials/_widgets.scss */
 .post__info {
   width: 380px;
 }
 
-/* line 163, ../sass/partials/_widgets.scss */
+/* line 218, ../sass/partials/_widgets.scss */
 .post__author {
   color: #33ae21 !important;
   font-size: 16px;
@@ -984,7 +1167,7 @@ textarea {
   overflow: hidden;
 }
 
-/* line 172, ../sass/partials/_widgets.scss */
+/* line 227, ../sass/partials/_widgets.scss */
 .post__date {
   color: #757575;
   font-size: 13px;
@@ -994,7 +1177,7 @@ textarea {
   height: 20px;
   line-height: 20px;
 }
-/* line 180, ../sass/partials/_widgets.scss */
+/* line 235, ../sass/partials/_widgets.scss */
 .post__date i {
   font-size: 18px;
   position: absolute;
@@ -1002,40 +1185,40 @@ textarea {
   top: 2px;
 }
 
-/* line 189, ../sass/partials/_widgets.scss */
+/* line 244, ../sass/partials/_widgets.scss */
 .post__quoted h4 {
   color: #000;
   font-size: 13px;
   margin-bottom: 5px;
 }
-/* line 194, ../sass/partials/_widgets.scss */
+/* line 249, ../sass/partials/_widgets.scss */
 .post__quoted .avatar {
   width: 49px;
   margin: 0 10px 0 0;
 }
-/* line 198, ../sass/partials/_widgets.scss */
+/* line 253, ../sass/partials/_widgets.scss */
 .post__quoted .post__author {
   font-size: 13px;
   margin: 0 0 5px 0;
 }
 
-/* line 204, ../sass/partials/_widgets.scss */
+/* line 259, ../sass/partials/_widgets.scss */
 .post__nav {
   border-top: 1px solid #d6d6d6;
   background: #fff;
   overflow: hidden;
   padding: 18px;
 }
-/* line 209, ../sass/partials/_widgets.scss */
+/* line 264, ../sass/partials/_widgets.scss */
 .post__nav .btn {
   margin-left: 8px;
 }
-/* line 213, ../sass/partials/_widgets.scss */
+/* line 268, ../sass/partials/_widgets.scss */
 .post__nav .segmented-btn .btn {
   margin-left: 0;
 }
 
-/* line 219, ../sass/partials/_widgets.scss */
+/* line 274, ../sass/partials/_widgets.scss */
 .post__like__btn {
   overflow: hidden;
   color: #f9f9f9;
@@ -1048,12 +1231,18 @@ textarea {
   padding: 0 8px;
 }
 
-/* line 232, ../sass/partials/_widgets.scss */
+/* line 287, ../sass/partials/_widgets.scss */
 .comments form {
   padding-left: 111px;
+  padding-bottom: 0;
+}
+/* line 291, ../sass/partials/_widgets.scss */
+.comments.closed {
+  height: 50px;
+  overflow: hidden;
 }
 
-/* line 237, ../sass/partials/_widgets.scss */
+/* line 297, ../sass/partials/_widgets.scss */
 .comments__btn {
   height: 50px;
   line-height: 50px;
@@ -1077,8 +1266,9 @@ textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   clear: both;
+  top: 0;
 }
-/* line 250, ../sass/partials/_widgets.scss */
+/* line 311, ../sass/partials/_widgets.scss */
 .comments__btn:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhiYmVmZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -1088,8 +1278,8 @@ textarea {
   background-image: -o-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
   background-image: linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
 }
-/* line 253, ../sass/partials/_widgets.scss */
-.comments__btn:active {
+/* line 315, ../sass/partials/_widgets.scss */
+.comments__btn:active, .comments__btn.active {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #519fff), color-stop(100%, #519fff));
@@ -1099,38 +1289,38 @@ textarea {
   background-image: linear-gradient(bottom, #519fff 0%, #519fff 100%);
 }
 
-/* line 258, ../sass/partials/_widgets.scss */
+/* line 320, ../sass/partials/_widgets.scss */
 .comments__info {
   padding-bottom: 10px;
   overflow: hidden;
 }
-/* line 261, ../sass/partials/_widgets.scss */
+/* line 323, ../sass/partials/_widgets.scss */
 .comments__info time {
   font-size: 11px;
   color: #000;
 }
 
-/* line 267, ../sass/partials/_widgets.scss */
+/* line 329, ../sass/partials/_widgets.scss */
 .comments__author {
   font-size: 16px;
   text-decoration: none !important;
 }
-/* line 270, ../sass/partials/_widgets.scss */
+/* line 332, ../sass/partials/_widgets.scss */
 .comments__author span {
   font-size: 11px;
   color: #519fff;
 }
 
-/* line 276, ../sass/partials/_widgets.scss */
+/* line 338, ../sass/partials/_widgets.scss */
 .comments__body {
   padding-bottom: 0;
 }
-/* line 279, ../sass/partials/_widgets.scss */
+/* line 341, ../sass/partials/_widgets.scss */
 .comments__body .avatar {
   width: 75px;
   margin: 0 20px 0 0;
 }
-/* line 284, ../sass/partials/_widgets.scss */
+/* line 346, ../sass/partials/_widgets.scss */
 .comments__body article p {
   font-size: 13px;
 }
@@ -1224,20 +1414,6 @@ textarea {
 }
 
 /* line 69, ../sass/partials/_content.scss */
-.add-post.closed {
-  overflow: hidden;
-}
-/* line 71, ../sass/partials/_content.scss */
-.add-post.closed .widget__header {
-  border: 0;
-}
-/* line 74, ../sass/partials/_content.scss */
-.add-post.closed .widget__rows_zebra {
-  height: 0px;
-  overflow: hidden;
-}
-
-/* line 81, ../sass/partials/_content.scss */
 .table {
   width: 100%;
 }
@@ -1247,7 +1423,7 @@ textarea {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: url("../images/bg.jpg") no-repeat 50% 0;
+  background: url("../images/bg2.jpg") no-repeat 50% 0;
   background-size: cover;
   z-index: 1;
   left: 0;

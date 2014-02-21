@@ -146,15 +146,8 @@ WlccApp = (function() {
     });
   };
 
-  WlccApp.prototype.initCarousel = function() {
-    $(".slider__container").jCarouselLite({
-      visible: 3,
-      start: 0,
-      scroll: 1,
-      btnNext: ".slider__next",
-      btnPrev: ".slider__prev",
-      btnGo: $(".slider__pager li")
-    });
+  WlccApp.prototype.initSliders = function() {
+    $(".slider__slide");
     return false;
   };
 
@@ -242,7 +235,7 @@ WlccApp = (function() {
     var self;
 
     self = this;
-    self.initCarousel();
+    self.initSliders();
     self.attachEvents();
     self.initTelMask();
     self.replaceImagesToRetina();
