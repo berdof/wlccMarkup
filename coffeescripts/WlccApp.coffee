@@ -164,16 +164,28 @@ class WlccApp
         $(this).find("[placeholder]").each ->
           input = $(this)
           input.val ""  if input.val() is input.attr("placeholder")
-    return
+    off
+
+  initTabs:()->
+    $('.widget__tabs__nav li').on('click',
+      ()->
+        $this = $(@)
+        $this.addClass('active').siblings().removeClass('active')
+        $this.closest('.widget__tabs')
+          .find('.widget__tabs__item').eq($this.index()).fadeIn()
+            .siblings().fadeOut(1)
+    )
+    on
 
   constructor: ()->
     self = this
     self.initSliders()
     self.attachEvents()
     self.initTelMask()
-    self.replaceImagesToRetina()
     self.initPlaceholder()
-
+    self.initTabs()
+    self.replaceImagesToRetina()
+    $('.widget__tabs__nav li:eq(3)').trigger 'click'
 
 $(document).ready(
   ()->

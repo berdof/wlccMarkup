@@ -14,7 +14,7 @@
   overflow: hidden;
   .btn{
     margin: 0 4px;
-    width: 150px;
+    width: 180px;
     i{
       position: relative;
       top: 3px;
@@ -40,5 +40,12 @@
     @extend .slider__slide;
     display: table-cell;
     vertical-align: middle;
+  }
+}
+
+#purchase-slides{
+  .widget__body{
+    @include box-sizing(border-box);
+    height: 231px;
   }
 }

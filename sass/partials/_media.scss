@@ -1,0 +1,159 @@
+.photo-album {
+  position: relative;
+  border: 1px solid rgba(#000, .2);
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  margin-bottom: 10px;
+  img {
+    width: 433px;
+    height: 244px;
+  }
+}
+
+.photo-album__title {
+  height: 34px;
+  line-height: 34px;
+  background: rgba(#000, .5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  color: #fff;
+  font-size: 13px;
+  overflow: hidden;
+  @include box-sizing(border-box);
+  padding: 0 15px;
+}
+
+.photo-album__title__name {
+  max-width: 325px;
+}
+
+.media-item {
+  @extend .clearfix;
+  height: 61px;
+  border: 1px solid #eee;
+  font-size: 10px;
+  line-height: 1.2;
+  @include box-sizing(border-box);
+  padding: 0 18px;
+  margin-bottom: 10px;
+  display: table;
+  width: 100%;
+  @include border-radius(2px);
+  .dtc {
+    height: 61px;
+  }
+  span {
+    display: block;
+  }
+}
+
+.media-item__in {
+  display: table-row;
+}
+
+.media-item__type {
+  color: #767676;
+  font-weight: 700;
+}
+
+.media-item__name {
+  font-size: 10px;
+}
+
+.need-preview {
+  height: 266px;
+  display: block;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  position: relative;
+  overflow: hidden;
+  .need-preview__head {
+    font-size: 13px;
+    padding-bottom: 15px;
+    a {
+      width: 310px;
+    }
+  }
+  p {
+    font-size: 13px;
+    height: 204px;
+    overflow: hidden;
+    line-height: 19px;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    height: 65px;
+    width: 100%;
+    @include v-gradient(rgba(#fff, .0), #fff);
+    z-index: 2;
+  }
+}
+
+.need-preview__head {
+  @extend .clearfix;
+}
+
+.card-preview {
+  a {
+    font-size: 13px;
+  }
+  .need-preview__head {
+    padding-bottom: 10px;
+  }
+}
+
+.person-preview {
+  height: 48px;
+  border: 1px solid #eee;
+  @include box-sizing(border-box);
+  padding: 9px 12px;
+  margin: 0 0 7px 0;
+  @include border-radius(1px);
+  a {
+    display: block;
+    font-size: 13px;
+  }
+  time {
+    font-size: 10px;
+    color: #767676;
+  }
+}
+
+.person-preview__ava {
+  display: block;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  margin: 0 16px 0 0;
+  img {
+    width: 30px;
+  }
+}
+
+.card-preview__left {
+  float: left;
+  width: 115px;
+  display: block;
+  padding-bottom: 8px;
+  a {
+    display: block;
+  }
+  img {
+    width: 97px;
+  }
+}
+
+.card-preview__title {
+  position: relative;
+  top: -2px;
+  margin-bottom: 10px;
+  display: block;
+}

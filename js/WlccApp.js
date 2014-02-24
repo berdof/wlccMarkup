@@ -229,6 +229,18 @@ WlccApp = (function() {
         });
       });
     }
+    return false;
+  };
+
+  WlccApp.prototype.initTabs = function() {
+    $('.widget__tabs__nav li').on('click', function() {
+      var $this;
+
+      $this = $(this);
+      $this.addClass('active').siblings().removeClass('active');
+      return $this.closest('.widget__tabs').find('.widget__tabs__item').eq($this.index()).fadeIn().siblings().fadeOut(1);
+    });
+    return true;
   };
 
   function WlccApp() {
@@ -238,8 +250,10 @@ WlccApp = (function() {
     self.initSliders();
     self.attachEvents();
     self.initTelMask();
-    self.replaceImagesToRetina();
     self.initPlaceholder();
+    self.initTabs();
+    self.replaceImagesToRetina();
+    $('.widget__tabs__nav li:eq(3)').trigger('click');
   }
 
   return WlccApp;
