@@ -65,6 +65,16 @@ WlccApp = (function() {
     $(".authUser").on('click', {
       self: self
     }, self.eventHandlers.authUserClick);
+    $('*[name=date10]').appendDtpicker({
+      "closeOnSelected": true,
+      "dateOnly": true,
+      "locale": "ru"
+    });
+    $('*[name=date11]').appendDtpicker({
+      "closeOnSelected": true,
+      "dateOnly": true,
+      "locale": "ru"
+    });
   };
 
   WlccApp.prototype.validate = function(form) {

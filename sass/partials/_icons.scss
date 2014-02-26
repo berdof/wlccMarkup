@@ -28,7 +28,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .icon-arrow-left, .icon-list {
+.icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .icon-arrow-left, .icon-list, .icon-arrow-up, .icon-arrow-down, .icon-calendar {
   font-family: 'wlcc';
   speak: none;
   font-style: normal;
@@ -97,4 +97,13 @@ you can use the generic selector below, but it's slower:
 }
 .icon-list:before {
   content: "\e013";
+}
+.icon-arrow-up:before {
+  content: "\e014";
+}
+.icon-arrow-down:before {
+  content: "\e015";
+}
+.icon-calendar:before {
+  content: "\e016";
 }

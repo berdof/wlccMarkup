@@ -38,7 +38,17 @@ class WlccApp
     $("[data-modal-show]").on('click', {self: self}, self.eventHandlers.showPopupClick)
     $(".regUser").on('click', {self: self}, self.eventHandlers.regUserClick)
     $(".authUser").on('click', {self: self}, self.eventHandlers.authUserClick)
+    $('*[name=date10]').appendDtpicker(
+      "closeOnSelected": true
+      "dateOnly": true
+      "locale": "ru"
 
+    );
+    $('*[name=date11]').appendDtpicker(
+      "closeOnSelected": true
+      "dateOnly": true
+      "locale": "ru"
+    );
     return
 
   validate: (form)->

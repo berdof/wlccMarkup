@@ -10,9 +10,21 @@
   height: 35px;
   line-height: 35px;
   background: rgba(#000, .5);
-  .btn{
+  .wrapper {
+    padding: 0 10px;
+    min-width: 750px;
+  }
+  .btn {
     position: relative;
     top: -3px;
+  }
+}
+
+@media (max-width: 900px) {
+  .top-bar {
+    .wrapper {
+      width: 100%;
+    }
   }
 }
 
@@ -63,7 +75,7 @@
   &:hover {
     text-shadow: #fff 0 0 5px;
     transition: text-shadow 1s cubic-bezier(0, 0.75, 0, 1);
-    img{
+    img {
       @include opacity(1);
       //width: 0;
       //margin-left: 5px ;
@@ -72,7 +84,7 @@
   }
   img {
     @include opacity(.8);
-     display: inline-block;
+    display: inline-block;
     height: 100%;
     margin: 6px -12px;
     position: relative;

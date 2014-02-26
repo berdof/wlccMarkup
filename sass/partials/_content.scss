@@ -24,7 +24,15 @@
 .content__sidebar{
   width: 227px;
   margin: 0 13px 0 0;
+  @include box-sizing(border-box);
   float: left;
+  .widget{
+    padding: 0 14px 10px ;
+    .select__label,
+    .select{
+      width: 100%;
+    }
+  }
 }
 
 .profile {
