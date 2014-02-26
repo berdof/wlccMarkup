@@ -251,12 +251,13 @@
         height: 37px;
         line-height: 21px;
         @include box-shadow(inset 1px 1px 3px rgba(0, 0, 0, .32));
+        @include border-radius(3px);
         margin-bottom: 15px;
         padding: 8px 15px;
         @include box-sizing(border-box);
       }
       p {
-
+        @include border-radius(3px);
         @include box-shadow(inset 1px 1px 3px rgba(0, 0, 0, .32));
         padding: 15px;
       }

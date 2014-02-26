@@ -27,6 +27,14 @@ WlccApp = (function() {
         $(targetSelector).toggleClass(className);
       }
       return true;
+    },
+    regUserClick: function() {
+      $('body').removeClass('auth-opened').addClass('registration-opened');
+      return true;
+    },
+    authUserClick: function() {
+      $('body').removeClass('registration-opened').addClass('auth-opened');
+      return true;
     }
   };
 
@@ -51,6 +59,12 @@ WlccApp = (function() {
     $("[data-modal-show]").on('click', {
       self: self
     }, self.eventHandlers.showPopupClick);
+    $(".regUser").on('click', {
+      self: self
+    }, self.eventHandlers.regUserClick);
+    $(".authUser").on('click', {
+      self: self
+    }, self.eventHandlers.authUserClick);
   };
 
   WlccApp.prototype.validate = function(form) {
@@ -253,7 +267,6 @@ WlccApp = (function() {
     self.initPlaceholder();
     self.initTabs();
     self.replaceImagesToRetina();
-    $('.widget__tabs__nav li:eq(3)').trigger('click');
   }
 
   return WlccApp;

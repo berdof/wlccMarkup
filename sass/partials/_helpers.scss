@@ -1,6 +1,7 @@
-html,body{
+html, body {
   min-height: 100%;
 }
+
 body {
   font-family: $fontNameLegacy;
   color: $textColor;
@@ -77,7 +78,12 @@ body {
   overflow: visible;
 }
 
-.dtc{
+.dtc {
   display: table-cell;
   vertical-align: middle;
+}
+
+.m0a {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }

@@ -18,6 +18,13 @@
   width: $wrapper-width - 10px;
   @include box-sizing(border-box);
   padding: 10px;
+  @extend .clearfix;
+}
+
+.content__sidebar{
+  width: 227px;
+  margin: 0 13px 0 0;
+  float: left;
 }
 
 .profile {

@@ -199,7 +199,15 @@ input[type=email],
 input[type=password],
 input[type=tel],
 input[type=search] {
-
+  width: 270px;
+  height: 30px;
+  display: block;
+  border: 1px solid #767676;
+  @include border-radius(4px);
+  @include background-clip(padding-box);
+  background-color: #fff;
+  margin: 0 0 9px 0;
+  @include box-sizing(border-box);
   &:focus {
 
   }

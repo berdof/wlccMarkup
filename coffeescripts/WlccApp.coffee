@@ -20,8 +20,14 @@ class WlccApp
         $this.closest(targetSelector).toggleClass(className)
       else if targetMethod is "any"
         $(targetSelector).toggleClass(className)
-
       on
+    regUserClick:()->
+      $('body').removeClass('auth-opened').addClass('registration-opened')
+      on
+    authUserClick:()->
+      $('body').removeClass('registration-opened').addClass('auth-opened')
+      on
+
   attachEvents: ->
     self = this
     $("[data-toggle-class]").on('click', {self: self}, self.eventHandlers.toggleClassClick)
@@ -30,6 +36,8 @@ class WlccApp
     $(".form input[type=submit]").on('click', {self: self}, self.eventHandlers.formSubmitClick)
     $(".modal-overlay, .modal__close").on('click', {self: self}, self.eventHandlers.hidePopupClick)
     $("[data-modal-show]").on('click', {self: self}, self.eventHandlers.showPopupClick)
+    $(".regUser").on('click', {self: self}, self.eventHandlers.regUserClick)
+    $(".authUser").on('click', {self: self}, self.eventHandlers.authUserClick)
 
     return
 
@@ -185,7 +193,6 @@ class WlccApp
     self.initPlaceholder()
     self.initTabs()
     self.replaceImagesToRetina()
-    $('.widget__tabs__nav li:eq(3)').trigger 'click'
 
 $(document).ready(
   ()->
