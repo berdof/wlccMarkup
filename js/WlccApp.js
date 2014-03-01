@@ -35,6 +35,13 @@ WlccApp = (function() {
     authUserClick: function() {
       $('body').removeClass('registration-opened').addClass('auth-opened');
       return true;
+    },
+    postEditBtnClick: function() {
+      $(this).closest('.post').addClass('editable').find('.post__article p, .post__article h2').attr('contenteditable', 'true');
+      return true;
+    },
+    postCancelEditBtnClick: function() {
+      return true;
     }
   };
 
@@ -45,7 +52,7 @@ WlccApp = (function() {
     $("[data-toggle-class]").on('click', {
       self: self
     }, self.eventHandlers.toggleClassClick);
-    $(".btn").on('click', {
+    $(".btn_activated").on('click', {
       self: self
     }, function() {
       return $(this).toggleClass('active');
@@ -59,22 +66,18 @@ WlccApp = (function() {
     $("[data-modal-show]").on('click', {
       self: self
     }, self.eventHandlers.showPopupClick);
+    $(".post__edit-btn").on('click', {
+      self: self
+    }, self.eventHandlers.postEditBtnClick);
+    $(".post__edit-btn").on('click', {
+      self: self
+    }, self.eventHandlers.postEditBtnClick);
     $(".regUser").on('click', {
       self: self
     }, self.eventHandlers.regUserClick);
     $(".authUser").on('click', {
       self: self
     }, self.eventHandlers.authUserClick);
-    $('*[name=date10]').appendDtpicker({
-      "closeOnSelected": true,
-      "dateOnly": true,
-      "locale": "ru"
-    });
-    $('*[name=date11]').appendDtpicker({
-      "closeOnSelected": true,
-      "dateOnly": true,
-      "locale": "ru"
-    });
   };
 
   WlccApp.prototype.validate = function(form) {
@@ -267,6 +270,14 @@ WlccApp = (function() {
     return true;
   };
 
+  WlccApp.prototype.initDatePicker = function() {
+    $('.select_date__input').appendDtpicker({
+      "closeOnSelected": true,
+      "locale": "ru"
+    });
+    return true;
+  };
+
   function WlccApp() {
     var self;
 
@@ -276,6 +287,7 @@ WlccApp = (function() {
     self.initTelMask();
     self.initPlaceholder();
     self.initTabs();
+    self.initDatePicker();
     self.replaceImagesToRetina();
   }
 

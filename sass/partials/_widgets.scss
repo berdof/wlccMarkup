@@ -17,7 +17,7 @@
 
 .widget_small {
   width: 463px;
-  .widget__footer{
+  .widget__footer {
     border-color: #eee;
   }
 }
@@ -108,7 +108,7 @@
 
 .widget__tabs__nav {
   @extend .nav_hor;
-  li{
+  li {
     position: relative;
     @include v-gradient(#2d2e31, #202022);
     text-transform: uppercase;
@@ -120,13 +120,13 @@
     font-size: 12px;
     padding-top: 12px;
     cursor: pointer;
-    i{
+    i {
       display: block;
       font-size: 12px;
       height: 18px;
     }
 
-    &:before ,
+    &:before,
     &:after {
       content: '';
       position: absolute;
@@ -138,13 +138,13 @@
       z-index: 2;
       background: #3d3f40;
     }
-    &:after{
+    &:after {
       background: #000;
       height: 4px;
       width: 100%;
     }
 
-    &.active{
+    &.active {
       background: #fff;
       color: $linkColor;
       &:after {
@@ -157,9 +157,9 @@
   }
 }
 
-.widget__tabs__item{
+.widget__tabs__item {
   display: none;
-  &:first-child{
+  &:first-child {
     display: block;
   }
 }
@@ -214,10 +214,20 @@
     padding-bottom: 0;
   }
 
+  .widget__header {
+    border: 0;
+    .btn_green {
+      visibility: hidden;
+    }
+  }
+
   &.closed {
     overflow: hidden;
     .widget__header {
       border: 0;
+      .btn_green {
+        visibility: visible;
+      }
     }
     .widget__rows_zebra {
       height: 0px;
@@ -240,14 +250,60 @@
     text-decoration: none;
     position: relative;
     top: 2px;
-    margin: 0 15px;
+    margin: 0 7px 0 15px;
+  }
+}
+
+.add-post__imgs {
+  line-height: 51px;
+  height: 51px;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+
+}
+
+.add-post__imgs__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+  padding: 0 19px 0 0;
+  position: relative;
+  .icon-cross {
+    color: #cf2026;
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -3px;
+    cursor: pointer;
   }
 }
 
 .post {
+  margin-bottom: 17px;
   background: #f9f9f9;
+  position: relative;
+  padding-top: 10px;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -1px;
+    display: block;
+    width: 100%;
+    height: 10px;
+    @include border-radius(2px 2px 0 0);
+    background: $colorGreen;
+  }
+  &.post_quoted ,
+  &.need_others {
+    &:before {
+      background: #878787;
+    }
+  }
   &.editable {
-    article {
+    .post__article {
       h2 {
         height: 37px;
         line-height: 21px;
@@ -263,15 +319,24 @@
         padding: 15px;
       }
     }
+    .add-post__footer {
+      display: block;
+    }
+    .post__edit-btn {
+      display: none;
+    }
   }
   .avatar {
     margin: 0 10px 25px 0;
+  }
+  .add-post__footer {
+    display: none;
   }
 }
 
 .post__in {
   @extend .clearfix;
-  padding: 15px;
+  padding: 15px 15px 5px 15px;
 }
 
 .post__info {
@@ -311,6 +376,7 @@
   }
   .avatar {
     width: 49px;
+    height: 49px;
     margin: 0 10px 0 0;
   }
   .post__author {
@@ -326,6 +392,7 @@
   padding: 18px;
   .btn {
     margin-left: 8px;
+    top: 0;
   }
   .segmented-btn {
     .btn {
@@ -334,12 +401,18 @@
   }
 }
 
+.post__interact {
+  top: 9px;
+  position: relative;
+  margin-bottom: 11px;
+}
+
 .post__like__btn {
   overflow: hidden;
   color: #f9f9f9;
   font-size: 13px;
   display: block;
-  width: 140px;
+  width: 145px;
   height: 25px;
   line-height: 23px;
   margin-bottom: 5px;
@@ -354,6 +427,22 @@
   &.closed {
     height: 50px;
     overflow: hidden;
+    .btn-active__text {
+      display: none;
+    }
+    .btn__text {
+      display: block;
+    }
+  }
+
+  .btn-active__text {
+    display: block;
+  }
+  .btn__text {
+    display: none;
+  }
+  .add-post__footer {
+    display: block;
   }
 }
 
@@ -401,13 +490,100 @@
 .comments__body {
   @extend .post__in;
   padding-bottom: 0;
+  padding-top: 25px;
   .avatar {
     width: 75px;
+    height: 75px;
     margin: 0 20px 0 0;
   }
   article {
     p {
       font-size: 13px;
+    }
+  }
+}
+
+.need {
+  .post__info {
+    width: 180px;
+    padding: 0 15px 0 0;
+    .select {
+      width: 145px;
+      margin-bottom: 0px;
+    }
+  }
+  .post__like__btn {
+    margin-bottom: 0;
+  }
+  .post__interact,
+  .post__date {
+    margin-bottom: 20px;
+  }
+  .post__nav {
+    @include border-radius(0 0 3px 3px);
+  }
+  &:not(.editable) {
+    .post__in{
+    .select__label {
+      @extend .btn_green.active;
+      &:before {
+        @include opacity(0.7);
+      }
+    }
+    .select {
+      select {
+        display: none;
+      }
+    }
+    }
+  }
+}
+
+.group-prayer {
+  clear: both;
+  border-top: 1px solid #d6d6d6;
+  position: relative;
+  z-index: 2;
+  .widget__header{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .widget__row {
+    overflow: visible;
+    @extend .clearfix;
+    &:last-child{
+      border-bottom: 0;
+    }
+    .btn_green{
+      width: 124px;
+    }
+  }
+  .select_date {
+    width: 151px !important;
+  }
+  .controls-box {
+    padding-top: 11px;
+    @extend .clearfix;
+  }
+  .label{
+    font-size: 11px;
+  }
+}
+
+.group-prayer__time {
+  padding: 0 15px 0 0;
+  .label {
+    padding-right: 3px;
+  }
+}
+
+.group-prayer__participants{
+  span{
+    position: relative;
+    top: 1px;
+    span{
+      color: $colorGreen;
+      top: 0;
     }
   }
 }

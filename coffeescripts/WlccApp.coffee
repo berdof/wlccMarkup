@@ -27,28 +27,28 @@ class WlccApp
     authUserClick:()->
       $('body').removeClass('registration-opened').addClass('auth-opened')
       on
+    postEditBtnClick:()->
+      $(@).closest('.post').addClass('editable')
+      .find('.post__article p, .post__article h2').attr('contenteditable','true')
+      on
+    postCancelEditBtnClick:()->
+
+      on
 
   attachEvents: ->
     self = this
     $("[data-toggle-class]").on('click', {self: self}, self.eventHandlers.toggleClassClick)
-    $(".btn").on('click', {self: self}, ()->$(@).toggleClass('active'))
-
+    $(".btn_activated").on('click', {self: self}, ()->$(@).toggleClass('active'))
     $(".form input[type=submit]").on('click', {self: self}, self.eventHandlers.formSubmitClick)
     $(".modal-overlay, .modal__close").on('click', {self: self}, self.eventHandlers.hidePopupClick)
     $("[data-modal-show]").on('click', {self: self}, self.eventHandlers.showPopupClick)
+    $(".post__edit-btn").on('click', {self: self}, self.eventHandlers.postEditBtnClick)
+    $(".post__edit-btn").on('click', {self: self}, self.eventHandlers.postEditBtnClick)
+
+    #todo refactor these
     $(".regUser").on('click', {self: self}, self.eventHandlers.regUserClick)
     $(".authUser").on('click', {self: self}, self.eventHandlers.authUserClick)
-    $('*[name=date10]').appendDtpicker(
-      "closeOnSelected": true
-      "dateOnly": true
-      "locale": "ru"
 
-    );
-    $('*[name=date11]').appendDtpicker(
-      "closeOnSelected": true
-      "dateOnly": true
-      "locale": "ru"
-    );
     return
 
   validate: (form)->
@@ -195,6 +195,16 @@ class WlccApp
     )
     on
 
+  initDatePicker:()->
+
+    $('.select_date__input').appendDtpicker(
+      "closeOnSelected": true
+#      "dateOnly": true
+      "locale": "ru"
+    );
+
+    on
+
   constructor: ()->
     self = this
     self.initSliders()
@@ -202,6 +212,7 @@ class WlccApp
     self.initTelMask()
     self.initPlaceholder()
     self.initTabs()
+    self.initDatePicker()
     self.replaceImagesToRetina()
 
 $(document).ready(

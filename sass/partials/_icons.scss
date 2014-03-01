@@ -28,7 +28,8 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .icon-arrow-left, .icon-list, .icon-arrow-up, .icon-arrow-down, .icon-calendar {
+
+.icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .icon-arrow-left, .icon-list, .icon-arrow-up, .icon-arrow-down, .icon-calendar, .icon-cross {
   font-family: 'wlcc';
   speak: none;
   font-style: normal;
@@ -107,3 +108,7 @@ you can use the generic selector below, but it's slower:
 .icon-calendar:before {
   content: "\e016";
 }
+.icon-cross:before {
+  content: "\e017";
+}
+

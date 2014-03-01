@@ -95,7 +95,7 @@ body {
 }
 
 /* line 28, ../sass/partials/_helpers.scss */
-.clearfix:after, .wrapper:after, .main:after, .footer:after, .nav:after, .nav_hor:after, .top-bar__nav:after, .widget__tabs__nav:after, .media-item:after, .need-preview__head:after, .add-post__footer:after, .post__in:after, .comments__body:after, .content:after {
+.clearfix:after, .wrapper:after, .main:after, .footer:after, .nav:after, .nav_hor:after, .top-bar__nav:after, .widget__tabs__nav:after, .media-item:after, .need-preview__head:after, .add-post__footer:after, .post__in:after, .comments__body:after, .group-prayer .widget__row:after, .group-prayer .widget__header:after, .group-prayer .controls-box:after, .content:after {
   visibility: hidden;
   display: block;
   content: "";
@@ -262,8 +262,8 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-/* line 31, ../sass/partials/_icons.scss */
-.icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .icon-arrow-left, .icon-list, .icon-arrow-up, .icon-arrow-down, .select__label, .icon-calendar, .select_date .select__label {
+/* line 32, ../sass/partials/_icons.scss */
+.icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .categories a, .icon-arrow-left, .icon-list, .icon-arrow-up, .icon-arrow-down, .select__label, .icon-calendar, .select_date .select__label, .icon-cross {
   font-family: 'wlcc';
   speak: none;
   font-style: normal;
@@ -274,119 +274,124 @@ you can use the generic selector below, but it's slower:
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 41, ../sass/partials/_icons.scss */
+/* line 42, ../sass/partials/_icons.scss */
 .icon-user-add:before {
   content: "\e000";
 }
 
-/* line 44, ../sass/partials/_icons.scss */
+/* line 45, ../sass/partials/_icons.scss */
 .icon-user:before {
   content: "\e001";
 }
 
-/* line 47, ../sass/partials/_icons.scss */
+/* line 48, ../sass/partials/_icons.scss */
 .icon-users:before {
   content: "\e002";
 }
 
-/* line 50, ../sass/partials/_icons.scss */
+/* line 51, ../sass/partials/_icons.scss */
 .icon-disk:before {
   content: "\e003";
 }
 
-/* line 53, ../sass/partials/_icons.scss */
+/* line 54, ../sass/partials/_icons.scss */
 .icon-pencil:before {
   content: "\e004";
 }
 
-/* line 56, ../sass/partials/_icons.scss */
+/* line 57, ../sass/partials/_icons.scss */
 .icon-camera:before {
   content: "\e006";
 }
 
-/* line 59, ../sass/partials/_icons.scss */
+/* line 60, ../sass/partials/_icons.scss */
 .icon-heart:before {
   content: "\e007";
 }
 
-/* line 62, ../sass/partials/_icons.scss */
+/* line 63, ../sass/partials/_icons.scss */
 .icon-quoted:before {
   content: "\e008";
 }
 
-/* line 65, ../sass/partials/_icons.scss */
+/* line 66, ../sass/partials/_icons.scss */
 .icon-feather:before {
   content: "\e009";
 }
 
-/* line 68, ../sass/partials/_icons.scss */
+/* line 69, ../sass/partials/_icons.scss */
 .icon-bookmark:before {
   content: "\e005";
 }
 
-/* line 71, ../sass/partials/_icons.scss */
+/* line 72, ../sass/partials/_icons.scss */
 .icon-clock:before {
   content: "\e00a";
 }
 
-/* line 74, ../sass/partials/_icons.scss */
+/* line 75, ../sass/partials/_icons.scss */
 .icon-new:before {
   content: "\e00b";
 }
 
-/* line 77, ../sass/partials/_icons.scss */
+/* line 78, ../sass/partials/_icons.scss */
 .icon-microphone:before {
   content: "\e00c";
 }
 
-/* line 80, ../sass/partials/_icons.scss */
+/* line 81, ../sass/partials/_icons.scss */
 .icon-coin:before {
   content: "\e00d";
 }
 
-/* line 83, ../sass/partials/_icons.scss */
+/* line 84, ../sass/partials/_icons.scss */
 .icon-mail:before {
   content: "\e00e";
 }
 
-/* line 86, ../sass/partials/_icons.scss */
+/* line 87, ../sass/partials/_icons.scss */
 .icon-cog:before {
   content: "\e00f";
 }
 
-/* line 89, ../sass/partials/_icons.scss */
+/* line 90, ../sass/partials/_icons.scss */
 .icon-exit:before {
   content: "\e010";
 }
 
-/* line 92, ../sass/partials/_icons.scss */
-.icon-arrow-right:before {
+/* line 93, ../sass/partials/_icons.scss */
+.icon-arrow-right:before, .categories a:before {
   content: "\e011";
 }
 
-/* line 95, ../sass/partials/_icons.scss */
+/* line 96, ../sass/partials/_icons.scss */
 .icon-arrow-left:before {
   content: "\e012";
 }
 
-/* line 98, ../sass/partials/_icons.scss */
+/* line 99, ../sass/partials/_icons.scss */
 .icon-list:before {
   content: "\e013";
 }
 
-/* line 101, ../sass/partials/_icons.scss */
+/* line 102, ../sass/partials/_icons.scss */
 .icon-arrow-up:before {
   content: "\e014";
 }
 
-/* line 104, ../sass/partials/_icons.scss */
+/* line 105, ../sass/partials/_icons.scss */
 .icon-arrow-down:before, .select__label:before {
   content: "\e015";
 }
 
-/* line 107, ../sass/partials/_icons.scss */
+/* line 108, ../sass/partials/_icons.scss */
 .icon-calendar:before, .select_date .select__label:before {
   content: "\e016";
+}
+
+/* line 111, ../sass/partials/_icons.scss */
+.icon-cross:before {
+  content: "\e017";
 }
 
 /* line 1, ../sass/partials/_controls.scss */
@@ -485,7 +490,7 @@ you can use the generic selector below, but it's slower:
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
 }
 /* line 69, ../sass/partials/_controls.scss */
-.touch .btn_blue2:hover, .touch .btn_blue:hover, .touch .btn_red:hover, .touch .btn_green:hover, .touch .btn_white:hover, .touch .btn_green2:hover, .btn_blue2:active, .btn_blue:active, .btn_red:active, .btn_green:active, .btn_white:active, .btn_green2:active, .active.btn_blue2, .active.btn_blue, .active.btn_red, .active.btn_green, .active.btn_white, .active.btn_green2 {
+.touch .btn_blue2:hover, .touch .btn_blue:hover, .touch .btn_red:hover, .touch .btn_green:hover, .touch .btn_white:hover, .touch .btn_green2:hover, .btn_blue2:active, .btn_blue:active, .btn_red:active, .btn_green:active, .btn_white:active, .btn_green2:active, .active.btn_blue2, .active.btn_blue, .active.btn_red, .active.btn_green, .select_date.active .select__label, .need:not(.editable) .post__in .select__label, .need:not(.editable) .comments__body .select__label, .active.btn_white, .active.btn_green2 {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
@@ -622,7 +627,7 @@ you can use the generic selector below, but it's slower:
   background-image: linear-gradient(bottom, #76d332 0%, #33ad21 100%);
 }
 /* line 137, ../sass/partials/_controls.scss */
-.touch .btn_green:hover, .btn_green:active, .btn_green.active {
+.touch .btn_green:hover, .btn_green:active, .btn_green.active, .select_date.active .select__label, .need:not(.editable) .post__in .select__label, .need:not(.editable) .comments__body .select__label {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIxZDM5OSIvPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3NmQzMzIiLz48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzNhZDIxIi8+PHN0b3Agb2Zmc2V0PSI4Ni4yNSUiIHN0b3AtY29sb3I9IiMzM2FkMjEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzM2FkMjEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #21d399), color-stop(0%, #76d332), color-stop(0%, #33ad21), color-stop(86.25%, #33ad21), color-stop(100%, #33ad21));
@@ -699,8 +704,9 @@ you can use the generic selector below, but it's slower:
 .segmented-btn {
   font-size: 0;
   line-height: 0;
+  display: inline-block;
 }
-/* line 181, ../sass/partials/_controls.scss */
+/* line 182, ../sass/partials/_controls.scss */
 .segmented-btn .btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -708,8 +714,9 @@ you can use the generic selector below, but it's slower:
   -o-border-radius: 0;
   border-radius: 0;
   border-left-width: 0;
+  top: 0;
 }
-/* line 184, ../sass/partials/_controls.scss */
+/* line 186, ../sass/partials/_controls.scss */
 .segmented-btn .btn:first-child {
   -webkit-border-radius: 4px 0 0 4px;
   -moz-border-radius: 4px 0 0 4px;
@@ -718,7 +725,7 @@ you can use the generic selector below, but it's slower:
   border-radius: 4px 0 0 4px;
   border-left-width: 1px;
 }
-/* line 188, ../sass/partials/_controls.scss */
+/* line 190, ../sass/partials/_controls.scss */
 .segmented-btn .btn:last-child {
   -webkit-border-radius: 0 4px 4px 0;
   -moz-border-radius: 0 4px 4px 0;
@@ -727,7 +734,7 @@ you can use the generic selector below, but it's slower:
   border-radius: 0 4px 4px 0;
 }
 
-/* line 199, ../sass/partials/_controls.scss */
+/* line 201, ../sass/partials/_controls.scss */
 .textbox,
 input[type=text],
 input[type=email],
@@ -753,7 +760,7 @@ input[type=search] {
   box-sizing: border-box;
 }
 
-/* line 219, ../sass/partials/_controls.scss */
+/* line 221, ../sass/partials/_controls.scss */
 textarea {
   width: 100%;
   height: 150px;
@@ -776,12 +783,12 @@ textarea {
   padding: 14px;
 }
 
-/* line 233, ../sass/partials/_controls.scss */
+/* line 235, ../sass/partials/_controls.scss */
 .select {
   position: relative;
   margin-bottom: 4px;
 }
-/* line 236, ../sass/partials/_controls.scss */
+/* line 238, ../sass/partials/_controls.scss */
 .select select {
   width: 100%;
   display: block;
@@ -794,11 +801,11 @@ textarea {
   opacity: 0;
 }
 
-/* line 248, ../sass/partials/_controls.scss */
+/* line 250, ../sass/partials/_controls.scss */
 .select__label {
-  width: 189px;
+  width: 100%;
   height: 24px;
-  line-height: 22px !important;
+  line-height: 20px !important;
   color: #fff;
   font-size: 13px;
   padding: 0 30px 0 10px;
@@ -827,7 +834,7 @@ textarea {
   background-image: linear-gradient(bottom, #33ad21 0%, #76d332 100%);
   position: relative;
 }
-/* line 264, ../sass/partials/_controls.scss */
+/* line 267, ../sass/partials/_controls.scss */
 .select__label:before {
   position: absolute;
   right: 0;
@@ -842,11 +849,11 @@ textarea {
   font-size: 12px;
 }
 
-/* line 279, ../sass/partials/_controls.scss */
+/* line 282, ../sass/partials/_controls.scss */
 .select_date {
   width: 167px !important;
 }
-/* line 284, ../sass/partials/_controls.scss */
+/* line 287, ../sass/partials/_controls.scss */
 .select_date input {
   position: absolute;
   width: 100%;
@@ -857,8 +864,14 @@ textarea {
   padding: 0 30px 0 10px;
   color: #fff;
 }
+/* line 303, ../sass/partials/_controls.scss */
+.select_date.active input,
+.select_date.active .select__label:before {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
 
-/* line 296, ../sass/partials/_controls.scss */
+/* line 309, ../sass/partials/_controls.scss */
 .label {
   font-size: 13px;
   color: #000;
@@ -866,10 +879,95 @@ textarea {
   line-height: 24px;
   height: 24px;
 }
+/* line 315, ../sass/partials/_controls.scss */
+.label i {
+  position: relative;
+  top: 2px;
+}
 
-/* line 304, ../sass/partials/_controls.scss */
+/* line 321, ../sass/partials/_controls.scss */
 .controls-box {
   padding-top: 10px;
+}
+
+/* line 325, ../sass/partials/_controls.scss */
+.add-file {
+  top: 2px;
+  margin: 0 7px 0 15px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  vertical-align: top;
+}
+/* line 332, ../sass/partials/_controls.scss */
+.add-file i {
+  color: #33ae21;
+}
+/* line 335, ../sass/partials/_controls.scss */
+.add-file input {
+  position: absolute;
+  left: -100px;
+  top: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  font-size: 100px;
+}
+
+/* line 344, ../sass/partials/_controls.scss */
+.categories {
+  padding: 0 !important;
+}
+/* line 346, ../sass/partials/_controls.scss */
+.categories .widget__header {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/* line 353, ../sass/partials/_controls.scss */
+.categories li {
+  height: 46px;
+  line-height: 46px;
+  padding: 0 20px;
+  border-bottom: 1px solid #dedede;
+  background: #f8f8f8;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 360, ../sass/partials/_controls.scss */
+.categories li:last-child {
+  border-bottom: 0;
+  -webkit-border-radius: 0 0 2px 2px;
+  -moz-border-radius: 0 0 2px 2px;
+  -ms-border-radius: 0 0 2px 2px;
+  -o-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+}
+/* line 365, ../sass/partials/_controls.scss */
+.categories li:hover a {
+  color: #33ae21;
+}
+/* line 369, ../sass/partials/_controls.scss */
+.categories li.active {
+  background: #33ae21;
+}
+/* line 371, ../sass/partials/_controls.scss */
+.categories li.active a {
+  color: #fff;
+}
+/* line 376, ../sass/partials/_controls.scss */
+.categories a {
+  color: #767676;
+  font-size: 13px;
+  display: block;
+  position: relative;
+  line-height: 46px;
+  text-decoration: none;
+}
+/* line 384, ../sass/partials/_controls.scss */
+.categories a:before {
+  position: absolute;
+  right: 0;
 }
 
 /**
@@ -879,6 +977,7 @@ textarea {
 /* line 6, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker {
   display: inline-block;
+  width: 192px !important;
   font: 15px/1.5 "Helvetica Neue", mplus-2c, Helvetica, Arial, "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
   font-weight: 300;
   border: 1px solid #dfdfdf;
@@ -893,7 +992,7 @@ textarea {
 /*
  * datepicker_header
 */
-/* line 23, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 24, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_header {
   padding-top: 2px;
   padding-bottom: 2px;
@@ -909,7 +1008,7 @@ textarea {
   -moz-user-select: none;
 }
 
-/* line 38, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 39, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_header > a {
   user-select: none;
   -webkit-user-select: none;
@@ -918,19 +1017,19 @@ textarea {
   color: #3b7796;
 }
 
-/* line 46, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 47, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_header > a:hover {
   color: #303030;
   background-color: #c8c8c8;
 }
 
-/* line 51, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 52, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_header > a:active {
   color: #ffffff;
   background-color: #808080;
 }
 
-/* line 56, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 57, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_header > span {
   margin-left: 20px;
   margin-right: 20px;
@@ -939,7 +1038,7 @@ textarea {
   -moz-user-select: none;
 }
 
-/* line 64, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 65, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_header > .icon-home {
   position: absolute;
   display: block;
@@ -951,12 +1050,12 @@ textarea {
   vertical-align: middle;
 }
 
-/* line 75, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 76, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_header > .icon-home > svg > g > path {
   fill: #3b7796;
 }
 
-/* line 79, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 80, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_header > a:hover > svg > g > path {
   fill: #303030;
   /* Icon button hover color */
@@ -965,7 +1064,7 @@ textarea {
 /*
  * datepicker_inner_container 
 */
-/* line 88, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 89, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container {
   margin: -2px 0px -2px 0px;
   background-color: #d2d2d2;
@@ -978,7 +1077,7 @@ textarea {
   -moz-box-shadow: 0.5px 0px 3px #c8c8c8;
 }
 
-/* line 101, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 102, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container:after {
   content: ".";
   display: block;
@@ -990,7 +1089,7 @@ textarea {
 /*
  * datepicker_inner_container > datepicker_calendar
 */
-/* line 113, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 114, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar {
   float: left;
   width: auto;
@@ -1008,7 +1107,7 @@ textarea {
   -moz-border-radius-bottomleft: 3px;
 }
 
-/* line 133, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 134, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar > table {
   padding: 10px;
 }
@@ -1016,7 +1115,7 @@ textarea {
 /*
  * datepicker_inner_container > datepicker_calendar > datepicker_table > tbody > tr > th (WDay-cell)
 */
-/* line 141, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 142, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > th {
   color: #646464;
   width: 18px;
@@ -1028,7 +1127,7 @@ textarea {
 /*
  * datepicker_inner_container > datepicker_calendar > datepicker_table > tbody > tr > td (Day-cell)
 */
-/* line 153, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 154, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td {
   color: #000000;
   font-size: small;
@@ -1039,46 +1138,46 @@ textarea {
   cursor: pointer;
 }
 
-/* line 164, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 165, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.today {
   border-bottom: #bfbfbf solid 2px;
   margin-bottom: -2px;
 }
 
-/* line 169, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 170, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.wday_sat {
   color: #0044aa;
 }
 
-/* line 173, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 174, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.wday_sun {
   color: #e13b00;
 }
 
-/* line 177, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 178, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.day_another_month {
   color: #cccccc;
 }
 
-/* line 181, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 182, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.day_in_past {
   cursor: default;
   color: #cccccc;
 }
 
-/* line 185, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 186, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.out_of_range {
   cursor: default;
   color: #cccccc;
 }
 
-/* line 190, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 191, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.active {
   color: #ffffff;
   background-color: #808080;
 }
 
-/* line 195, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 196, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.hover {
   color: #000000;
   background-color: #c8c8c8;
@@ -1087,7 +1186,7 @@ textarea {
 /*
  * datepicker_inner_container > datepicker_timelist
 */
-/* line 204, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 205, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist {
   float: left;
   width: 4.2em;
@@ -1116,7 +1215,7 @@ textarea {
 	visibility: hidden;
 }
 */
-/* line 237, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 238, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar {
   overflow: hidden;
   width: 6px;
@@ -1129,27 +1228,27 @@ textarea {
   -moz-border-radius-bottomright: 3px;
 }
 
-/* line 250, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 251, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar:horizontal {
   height: 1px;
 }
 
-/* line 254, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 255, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-button {
   display: none;
 }
 
-/* line 258, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 259, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-piece {
   background: #eee;
 }
 
-/* line 262, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 263, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-piece:start {
   background: #eee;
 }
 
-/* line 266, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 267, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-thumb {
   background: #aaaaaa;
   border-radius: 3px;
@@ -1157,12 +1256,12 @@ textarea {
   -moz-border-radius: 3px;
 }
 
-/* line 273, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 274, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-corner {
   background: #333;
 }
 
-/* line 277, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 278, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item {
   padding-top: 1px;
   padding-bottom: 1px;
@@ -1177,25 +1276,25 @@ textarea {
   cursor: pointer;
 }
 
-/* line 292, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 293, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.time_in_past {
   cursor: default;
   color: #cccccc;
 }
 
-/* line 297, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 298, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.out_of_range {
   cursor: default;
   color: #cccccc;
 }
 
-/* line 301, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 302, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.active {
   color: #ffffff;
   background-color: #808080;
 }
 
-/* line 306, ../sass/partials/_jquery.simple-dtpicker.scss */
+/* line 307, ../sass/partials/_jquery.simple-dtpicker.scss */
 .datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.hover {
   color: #000000;
   background-color: #c8c8c8;
@@ -1963,46 +2062,109 @@ textarea {
   padding-bottom: 0;
 }
 /* line 217, ../sass/partials/_widgets.scss */
+.add-post .widget__header {
+  border: 0;
+}
+/* line 219, ../sass/partials/_widgets.scss */
+.add-post .widget__header .btn_green {
+  visibility: hidden;
+}
+/* line 224, ../sass/partials/_widgets.scss */
 .add-post.closed {
   overflow: hidden;
 }
-/* line 219, ../sass/partials/_widgets.scss */
+/* line 226, ../sass/partials/_widgets.scss */
 .add-post.closed .widget__header {
   border: 0;
 }
-/* line 222, ../sass/partials/_widgets.scss */
+/* line 228, ../sass/partials/_widgets.scss */
+.add-post.closed .widget__header .btn_green {
+  visibility: visible;
+}
+/* line 232, ../sass/partials/_widgets.scss */
 .add-post.closed .widget__rows_zebra {
   height: 0px;
   overflow: hidden;
 }
 
-/* line 229, ../sass/partials/_widgets.scss */
+/* line 239, ../sass/partials/_widgets.scss */
 .add-post__footer {
   height: 49px;
   line-height: 49px;
 }
-/* line 233, ../sass/partials/_widgets.scss */
+/* line 243, ../sass/partials/_widgets.scss */
 .add-post__footer .btn {
   margin: 0;
 }
-/* line 236, ../sass/partials/_widgets.scss */
+/* line 246, ../sass/partials/_widgets.scss */
 .add-post__footer i {
   font-size: 18px;
 }
-/* line 239, ../sass/partials/_widgets.scss */
+/* line 249, ../sass/partials/_widgets.scss */
 .add-post__footer a {
   text-decoration: none;
   position: relative;
   top: 2px;
-  margin: 0 15px;
+  margin: 0 7px 0 15px;
 }
 
-/* line 247, ../sass/partials/_widgets.scss */
-.post {
-  background: #f9f9f9;
+/* line 257, ../sass/partials/_widgets.scss */
+.add-post__imgs {
+  line-height: 51px;
+  height: 51px;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
 }
-/* line 251, ../sass/partials/_widgets.scss */
-.post.editable article h2 {
+
+/* line 266, ../sass/partials/_widgets.scss */
+.add-post__imgs__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+  padding: 0 19px 0 0;
+  position: relative;
+}
+/* line 272, ../sass/partials/_widgets.scss */
+.add-post__imgs__item .icon-cross {
+  color: #cf2026;
+  font-size: 15px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -3px;
+  cursor: pointer;
+}
+
+/* line 283, ../sass/partials/_widgets.scss */
+.post {
+  margin-bottom: 17px;
+  background: #f9f9f9;
+  position: relative;
+  padding-top: 10px;
+}
+/* line 288, ../sass/partials/_widgets.scss */
+.post:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -1px;
+  display: block;
+  width: 100%;
+  height: 10px;
+  -webkit-border-radius: 2px 2px 0 0;
+  -moz-border-radius: 2px 2px 0 0;
+  -ms-border-radius: 2px 2px 0 0;
+  -o-border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0;
+  background: #33ae21;
+}
+/* line 301, ../sass/partials/_widgets.scss */
+.post.post_quoted:before, .post.need_others:before {
+  background: #878787;
+}
+/* line 307, ../sass/partials/_widgets.scss */
+.post.editable .post__article h2 {
   height: 37px;
   line-height: 21px;
   -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
@@ -2019,8 +2181,8 @@ textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 260, ../sass/partials/_widgets.scss */
-.post.editable article p {
+/* line 316, ../sass/partials/_widgets.scss */
+.post.editable .post__article p {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -2031,22 +2193,34 @@ textarea {
   box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
   padding: 15px;
 }
-/* line 267, ../sass/partials/_widgets.scss */
+/* line 322, ../sass/partials/_widgets.scss */
+.post.editable .add-post__footer {
+  display: block;
+}
+/* line 325, ../sass/partials/_widgets.scss */
+.post.editable .post__edit-btn {
+  display: none;
+}
+/* line 329, ../sass/partials/_widgets.scss */
 .post .avatar {
   margin: 0 10px 25px 0;
 }
-
-/* line 272, ../sass/partials/_widgets.scss */
-.post__in, .comments__body {
-  padding: 15px;
+/* line 332, ../sass/partials/_widgets.scss */
+.post .add-post__footer {
+  display: none;
 }
 
-/* line 277, ../sass/partials/_widgets.scss */
+/* line 337, ../sass/partials/_widgets.scss */
+.post__in, .comments__body {
+  padding: 15px 15px 5px 15px;
+}
+
+/* line 342, ../sass/partials/_widgets.scss */
 .post__info {
   width: 380px;
 }
 
-/* line 281, ../sass/partials/_widgets.scss */
+/* line 346, ../sass/partials/_widgets.scss */
 .post__author {
   color: #33ae21 !important;
   font-size: 16px;
@@ -2056,7 +2230,7 @@ textarea {
   overflow: hidden;
 }
 
-/* line 290, ../sass/partials/_widgets.scss */
+/* line 355, ../sass/partials/_widgets.scss */
 .post__date {
   color: #757575;
   font-size: 13px;
@@ -2066,7 +2240,7 @@ textarea {
   height: 20px;
   line-height: 20px;
 }
-/* line 298, ../sass/partials/_widgets.scss */
+/* line 363, ../sass/partials/_widgets.scss */
 .post__date i {
   font-size: 18px;
   position: absolute;
@@ -2074,64 +2248,93 @@ textarea {
   top: 2px;
 }
 
-/* line 307, ../sass/partials/_widgets.scss */
+/* line 372, ../sass/partials/_widgets.scss */
 .post__quoted h4 {
   color: #000;
   font-size: 13px;
   margin-bottom: 5px;
 }
-/* line 312, ../sass/partials/_widgets.scss */
+/* line 377, ../sass/partials/_widgets.scss */
 .post__quoted .avatar {
   width: 49px;
+  height: 49px;
   margin: 0 10px 0 0;
 }
-/* line 316, ../sass/partials/_widgets.scss */
+/* line 382, ../sass/partials/_widgets.scss */
 .post__quoted .post__author {
   font-size: 13px;
   margin: 0 0 5px 0;
 }
 
-/* line 322, ../sass/partials/_widgets.scss */
+/* line 388, ../sass/partials/_widgets.scss */
 .post__nav {
   border-top: 1px solid #d6d6d6;
   background: #fff;
   overflow: hidden;
   padding: 18px;
 }
-/* line 327, ../sass/partials/_widgets.scss */
+/* line 393, ../sass/partials/_widgets.scss */
 .post__nav .btn {
   margin-left: 8px;
+  top: 0;
 }
-/* line 331, ../sass/partials/_widgets.scss */
+/* line 398, ../sass/partials/_widgets.scss */
 .post__nav .segmented-btn .btn {
   margin-left: 0;
 }
 
-/* line 337, ../sass/partials/_widgets.scss */
+/* line 404, ../sass/partials/_widgets.scss */
+.post__interact {
+  top: 9px;
+  position: relative;
+  margin-bottom: 11px;
+}
+
+/* line 410, ../sass/partials/_widgets.scss */
 .post__like__btn {
   overflow: hidden;
   color: #f9f9f9;
   font-size: 13px;
   display: block;
-  width: 140px;
+  width: 145px;
   height: 25px;
   line-height: 23px;
   margin-bottom: 5px;
   padding: 0 8px;
 }
 
-/* line 350, ../sass/partials/_widgets.scss */
+/* line 423, ../sass/partials/_widgets.scss */
 .comments form {
   padding-left: 111px;
   padding-bottom: 0;
 }
-/* line 354, ../sass/partials/_widgets.scss */
+/* line 427, ../sass/partials/_widgets.scss */
 .comments.closed {
   height: 50px;
   overflow: hidden;
 }
+/* line 430, ../sass/partials/_widgets.scss */
+.comments.closed .btn-active__text {
+  display: none;
+}
+/* line 433, ../sass/partials/_widgets.scss */
+.comments.closed .btn__text {
+  display: block;
+}
+/* line 438, ../sass/partials/_widgets.scss */
+.comments .btn-active__text {
+  display: block;
+}
+/* line 441, ../sass/partials/_widgets.scss */
+.comments .btn__text {
+  display: none;
+}
+/* line 444, ../sass/partials/_widgets.scss */
+.comments .add-post__footer {
+  display: block;
+}
 
-/* line 360, ../sass/partials/_widgets.scss */
+/* line 449, ../sass/partials/_widgets.scss */
 .comments__btn {
   height: 50px;
   line-height: 50px;
@@ -2157,7 +2360,7 @@ textarea {
   clear: both;
   top: 0;
 }
-/* line 374, ../sass/partials/_widgets.scss */
+/* line 463, ../sass/partials/_widgets.scss */
 .comments__btn:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhiYmVmZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -2167,7 +2370,7 @@ textarea {
   background-image: -o-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
   background-image: linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
 }
-/* line 378, ../sass/partials/_widgets.scss */
+/* line 467, ../sass/partials/_widgets.scss */
 .comments__btn:active, .comments__btn.active {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -2178,40 +2381,136 @@ textarea {
   background-image: linear-gradient(bottom, #519fff 0%, #519fff 100%);
 }
 
-/* line 383, ../sass/partials/_widgets.scss */
+/* line 472, ../sass/partials/_widgets.scss */
 .comments__info {
   padding-bottom: 10px;
   overflow: hidden;
 }
-/* line 386, ../sass/partials/_widgets.scss */
+/* line 475, ../sass/partials/_widgets.scss */
 .comments__info time {
   font-size: 11px;
   color: #000;
 }
 
-/* line 392, ../sass/partials/_widgets.scss */
+/* line 481, ../sass/partials/_widgets.scss */
 .comments__author {
   font-size: 16px;
   text-decoration: none !important;
 }
-/* line 395, ../sass/partials/_widgets.scss */
+/* line 484, ../sass/partials/_widgets.scss */
 .comments__author span {
   font-size: 11px;
   color: #519fff;
 }
 
-/* line 401, ../sass/partials/_widgets.scss */
+/* line 490, ../sass/partials/_widgets.scss */
 .comments__body {
   padding-bottom: 0;
+  padding-top: 25px;
 }
-/* line 404, ../sass/partials/_widgets.scss */
+/* line 494, ../sass/partials/_widgets.scss */
 .comments__body .avatar {
   width: 75px;
+  height: 75px;
   margin: 0 20px 0 0;
 }
-/* line 409, ../sass/partials/_widgets.scss */
+/* line 500, ../sass/partials/_widgets.scss */
 .comments__body article p {
   font-size: 13px;
+}
+
+/* line 507, ../sass/partials/_widgets.scss */
+.need .post__info {
+  width: 180px;
+  padding: 0 15px 0 0;
+}
+/* line 510, ../sass/partials/_widgets.scss */
+.need .post__info .select {
+  width: 145px;
+  margin-bottom: 0px;
+}
+/* line 515, ../sass/partials/_widgets.scss */
+.need .post__like__btn {
+  margin-bottom: 0;
+}
+/* line 519, ../sass/partials/_widgets.scss */
+.need .post__interact,
+.need .post__date {
+  margin-bottom: 20px;
+}
+/* line 522, ../sass/partials/_widgets.scss */
+.need .post__nav {
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  -ms-border-radius: 0 0 3px 3px;
+  -o-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+/* line 529, ../sass/partials/_widgets.scss */
+.need:not(.editable) .post__in .select__label:before, .need:not(.editable) .comments__body .select__label:before {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+/* line 534, ../sass/partials/_widgets.scss */
+.need:not(.editable) .post__in .select select, .need:not(.editable) .comments__body .select select {
+  display: none;
+}
+
+/* line 542, ../sass/partials/_widgets.scss */
+.group-prayer {
+  clear: both;
+  border-top: 1px solid #d6d6d6;
+  position: relative;
+  z-index: 2;
+}
+/* line 547, ../sass/partials/_widgets.scss */
+.group-prayer .widget__header {
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 551, ../sass/partials/_widgets.scss */
+.group-prayer .widget__row, .group-prayer .widget__header {
+  overflow: visible;
+}
+/* line 554, ../sass/partials/_widgets.scss */
+.group-prayer .widget__row:last-child, .group-prayer .widget__header:last-child {
+  border-bottom: 0;
+}
+/* line 557, ../sass/partials/_widgets.scss */
+.group-prayer .widget__row .btn_green, .group-prayer .widget__header .btn_green {
+  width: 124px;
+}
+/* line 561, ../sass/partials/_widgets.scss */
+.group-prayer .select_date {
+  width: 151px !important;
+}
+/* line 564, ../sass/partials/_widgets.scss */
+.group-prayer .controls-box {
+  padding-top: 11px;
+}
+/* line 568, ../sass/partials/_widgets.scss */
+.group-prayer .label {
+  font-size: 11px;
+}
+
+/* line 573, ../sass/partials/_widgets.scss */
+.group-prayer__time {
+  padding: 0 15px 0 0;
+}
+/* line 575, ../sass/partials/_widgets.scss */
+.group-prayer__time .label {
+  padding-right: 3px;
+}
+
+/* line 581, ../sass/partials/_widgets.scss */
+.group-prayer__participants span {
+  position: relative;
+  top: 1px;
+}
+/* line 584, ../sass/partials/_widgets.scss */
+.group-prayer__participants span span {
+  color: #33ae21;
+  top: 0;
 }
 
 /* line 1, ../sass/partials/_content.scss */
@@ -2290,6 +2589,7 @@ textarea {
 /* line 60, ../sass/partials/_content.scss */
 .avatar {
   width: 145px;
+  height: 145px;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), inset 0 0 0 1px rgba(255, 255, 255, 0.5), 0 0 1px 1px #d0d0d0;
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), inset 0 0 0 1px rgba(255, 255, 255, 0.5), 0 0 1px 1px #d0d0d0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), inset 0 0 0 1px rgba(255, 255, 255, 0.5), 0 0 1px 1px #d0d0d0;
@@ -2302,7 +2602,7 @@ textarea {
   border-radius: 2px;
   overflow: hidden;
 }
-/* line 69, ../sass/partials/_content.scss */
+/* line 70, ../sass/partials/_content.scss */
 .avatar img {
   display: block;
   -webkit-border-radius: 1px;
@@ -2311,17 +2611,17 @@ textarea {
   -o-border-radius: 1px;
   border-radius: 1px;
   width: 100%;
-  height: 100%;
 }
 
 /* line 77, ../sass/partials/_content.scss */
 .avatar_big {
   margin-bottom: 11px;
   width: 220px;
+  height: 220px;
   max-height: 300px;
 }
 
-/* line 84, ../sass/partials/_content.scss */
+/* line 85, ../sass/partials/_content.scss */
 .table {
   width: 100%;
 }
