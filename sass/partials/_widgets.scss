@@ -296,7 +296,7 @@
     @include border-radius(2px 2px 0 0);
     background: $colorGreen;
   }
-  &.post_quoted ,
+  &.post_quoted,
   &.need_others {
     &:before {
       background: #878787;
@@ -522,18 +522,18 @@
     @include border-radius(0 0 3px 3px);
   }
   &:not(.editable) {
-    .post__in{
-    .select__label {
-      @extend .btn_green.active;
-      &:before {
-        @include opacity(0.7);
+    .post__in {
+      .select__label {
+        @extend .btn_green.active;
+        &:before {
+          @include opacity(0.7);
+        }
       }
-    }
-    .select {
-      select {
-        display: none;
+      .select {
+        select {
+          display: none;
+        }
       }
-    }
     }
   }
 }
@@ -543,17 +543,17 @@
   border-top: 1px solid #d6d6d6;
   position: relative;
   z-index: 2;
-  .widget__header{
+  .widget__header {
     text-align: center;
     text-transform: uppercase;
   }
   .widget__row {
     overflow: visible;
     @extend .clearfix;
-    &:last-child{
+    &:last-child {
       border-bottom: 0;
     }
-    .btn_green{
+    .btn_green {
       width: 124px;
     }
   }
@@ -564,7 +564,7 @@
     padding-top: 11px;
     @extend .clearfix;
   }
-  .label{
+  .label {
     font-size: 11px;
   }
 }
@@ -576,17 +576,24 @@
   }
 }
 
-.group-prayer__participants{
-  span{
+.group-prayer__participants {
+  span {
     position: relative;
     top: 1px;
-    span{
+    span {
       color: $colorGreen;
       top: 0;
     }
   }
 }
 
-.testimony{
+.testimony {
   @extend .need;
+}
+
+.draft {
+  .post__info{
+    width: 180px;
+    padding: 0 15px 0 0;
+  }
 }

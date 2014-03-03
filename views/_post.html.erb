@@ -1,16 +1,21 @@
+<% isDraft = defined?(is_draft) %>
+
 <section class="widget post <%= post__type %>
-  <% if post__quoted %>post_quoted
+  <% if isDraft %>draft
     <% end; %>
-  <% unless my_need %>need_others
+  <% if post__quoted == true %>post_quoted
+    <% end; %>
+  <% if my_need != true %>need_others
     <% end; %> ">
 <div class="post__in">
     <div class="post__info pull-left">
         <% if post__type == 'post' %>
           <div class="clearfix">
-              <a class="pull-left avatar" href="javascript:void(0);"><img src="images/tmp/ava1.jpg" alt=""/></a>
-
+              <% unless isDraft %>
+                <a class="pull-left avatar" href="javascript:void(0);"><img src="images/tmp/ava1.jpg" alt=""/></a>
+              <% end; %>
               <div class="center">
-                  <a class="post__author" href="my_profile.html">Александр Бердышев Александр Бердышев</a>
+                  <a class="post__author" href="my_profile.html">Александр Бердышев</a>
 
                   <div class="post__date">
                       <i class="icon-bookmark"></i>
@@ -26,22 +31,24 @@
           </div>
 
           <% if post__quoted %>
-            <div class="post__quoted">
-                <h4>Цитата из записей:</h4>
+            <% unless isDraft %>
+              <div class="post__quoted">
+                  <h4>Цитата из записей:</h4>
 
-                <div class="center">
-                    <a class="pull-left avatar" href="my_profile.html"><img src="images/tmp/ava1.jpg" alt=""/></a>
+                  <div class="center">
+                      <a class="pull-left avatar" href="my_profile.html"><img src="images/tmp/ava1.jpg" alt=""/></a>
 
-                    <div class="center">
-                        <a class="post__author" href="my_profile.html">Александр Бердышев</a>
+                      <div class="center">
+                          <a class="post__author" href="my_profile.html">Александр Бердышев</a>
 
-                        <div class="post__date">
-                            <i class="icon-bookmark"></i>
-                            20.13.2010
-                        </div>
-                    </div>
-                </div>
-            </div>
+                          <div class="post__date">
+                              <i class="icon-bookmark"></i>
+                              20.13.2010
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            <% end %>
           <% end %>
         <% else %>
           <div class="clearfix">
@@ -173,56 +180,43 @@
 <% end %>
 <div class="post__nav">
     <div class="pull-right">
-        <%# if post__type == 'post' %>
-        <%# end %>
-        <% if my_need or !post__quoted %>
+        <% if my_need or !post__quoted or isDraft %>
           <span class="btn btn_blue pull-left post__edit-btn">Редактировать</span>
         <% end %>
         <a class="btn btn_red pull-left" href="javascript:void(0);">удалить</a>
-
-        <%# if my_need %>
-
-        <%# elsif not post__quoted %>
-
-        <!--<a class="btn btn_red pull-left" href="javascript:void(0);">удалить</a>-->
-        <!--<span class="btn btn_blue pull-left post__edit-btn">Редактировать</span>-->
-
-        <%# end %>
-        <%# if post__type == 'need' %>
-        <!--<span class="btn btn_blue"><i class="icon-bookmark"></i> молитвенная закладка</span>-->
-        <%# end %>
     </div>
+
     <% if !post__quoted or post__quoted == -1 %>
-      <div class="center">
-          <% if post__type == 'post' %>
-            <div class="segmented-btn">
-                <a class="btn btn_green" href="javascript:void(0);">в свидетельства</a>
-                <a class="btn btn_green" href="javascript:void(0);">в нужды</a>
-                <a class="btn btn_green" href="javascript:void(0);">на мою страницу</a>
-                <a class="btn btn_green active" href="javascript:void(0);">в черновики</a>
-            </div>
-          <% elsif  post__type == 'need' %>
-            <div class="segmented-btn">
-                <a class="btn btn_green" href="javascript:void(0);"> в свидетельства</a>
-                <a class="btn btn_green" href="javascript:void(0);"> на мою страницу</a>
-                <a class="btn btn_green" href="javascript:void(0);"> в черновики</a>
-            </div>
-          <% elsif  post__type == 'testimony' %>
-
-            <% if my_need %>
-
+      <% unless isDraft %>
+        <div class="center">
+            <% if post__type == 'post' %>
               <div class="segmented-btn">
+                  <a class="btn btn_green" href="javascript:void(0);">в свидетельства</a>
+                  <a class="btn btn_green" href="javascript:void(0);">в нужды</a>
+                  <a class="btn btn_green" href="javascript:void(0);">на мою страницу</a>
+                  <a class="btn btn_green active" href="javascript:void(0);">в черновики</a>
+              </div>
+            <% elsif  post__type == 'need' %>
+              <div class="segmented-btn">
+                  <a class="btn btn_green" href="javascript:void(0);"> в свидетельства</a>
                   <a class="btn btn_green" href="javascript:void(0);"> на мою страницу</a>
                   <a class="btn btn_green" href="javascript:void(0);"> в черновики</a>
               </div>
-            <% else %>
-              <a class="btn btn_green m0" href="javascript:void(0);"> на мою страницу</a>
+            <% elsif  post__type == 'testimony' %>
+              <% if my_need %>
+                <div class="segmented-btn">
+                    <a class="btn btn_green" href="javascript:void(0);"> на мою страницу</a>
+                    <a class="btn btn_green" href="javascript:void(0);"> в черновики</a>
+                </div>
+              <% else %>
+                <a class="btn btn_green m0" href="javascript:void(0);"> на мою страницу</a>
+              <% end %>
             <% end %>
-          <% end %>
-      </div>
+        </div>
+      <% end %>
     <% end %>
 </div>
-<% if post__type == 'post' %>
+<% if post__type == 'post' and !isDraft %>
   <div class="comments closed">
       <span class="btn comments__btn" data-toggle-class="closed|closest|.comments"><span class="btn-active__text">скрыть комментарии</span> <span class="btn__text">показать комментарии (10)</span> </span>
 

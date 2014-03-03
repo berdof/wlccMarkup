@@ -6,12 +6,12 @@
 <div class="content">
     <aside class="content__sidebar">
         <%= render :partial => "views/categories", :locals => {:title => 'Категории',
-                                                               :cats => %w(Обращение Пробуждение Исцеление Финансовая Семейная)} %>
+                                                               :cats => %w(Публикации Свидетельства Нужды)} %>
     </aside>
     <section class="center">
-        <%= render :partial => "views/post", :locals => {:post__type => 'testimony', :my_need=> true, :post__quoted => -1} %>
-        <%= render :partial => "views/post", :locals => {:post__type => 'testimony', :my_need=> false,  :post__quoted => -1} %>
-        <%= render :partial => "views/post", :locals => {:post__type => 'testimony', :my_need=> false, :post__quoted => -1} %>
+        <%= render :partial => "views/post", :locals => {:is_draft=>true, :post__type => 'post', :my_need=> true, :post__quoted => -1} %>
+        <%= render :partial => "views/post", :locals => {:is_draft=>true,:post__type => 'need', :my_need=> false,  :post__quoted => -1} %>
+        <%= render :partial => "views/post", :locals => {:is_draft=>true,:post__type => 'testimony', :my_need=> false, :post__quoted => -1} %>
     </section>
 </div>
 

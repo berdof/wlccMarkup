@@ -2518,6 +2518,12 @@ textarea {
   top: 0;
 }
 
+/* line 595, ../sass/partials/_widgets.scss */
+.draft .post__info {
+  width: 180px;
+  padding: 0 15px 0 0;
+}
+
 /* line 1, ../sass/partials/_content.scss */
 .main {
   margin-top: 40px;
