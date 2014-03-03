@@ -1,0 +1,60 @@
+<!--todo добавить кнопку показать меню при скроле-->
+<header class="header" xmlns="http://www.w3.org/1999/html">
+    <nav class="top-bar">
+        <div class="wrapper clearfix">
+            <% if isLoggedIn==true %>
+              <ul class="top-bar__nav">
+                  <li>
+                      <a href="my_profile.html">
+                          <i class="icon-user"></i>
+                          Александр Бердышев
+                      </a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0);">
+                          <i class="icon-mail"></i>
+                          Сообщений
+                          <span class="top-bar__counter">100</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="drafts.html">
+                          <i class="icon-pencil"></i>
+                          Черновики
+                          <span class="top-bar__counter">100</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0);">
+                          <i class="icon-bookmark"></i>
+                          Молитвенные закладки
+                          <span class="top-bar__counter">100</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0);">
+                          <i class="icon-cog"></i>
+                          Напоминания
+                          <span class="top-bar__counter">100</span>
+                      </a>
+                  </li>
+                  <li class="pull-right">
+                      <a href="javascript:void(0);">
+                          <i class="icon-exit"></i>
+                          Выход
+                      </a>
+                  </li>
+              </ul>
+            <% else %>
+              <div class="pull-right">
+                  <span class="regUser btn btn_dark"><i class="icon-user-add"></i> зарегестрироваться</span>
+                  <span class="authUser btn btn_dark"><i class="icon-user"></i> войти</span>
+              </div>
+            <% end; %>
+        </div>
+    </nav>
+</header>
+<section class="main">
+    <a class="logo" href="javascript:void(0);">Слово <img src="images/wofl.png" alt=""/> Жизни</a>
+
+    <div class="main__in">

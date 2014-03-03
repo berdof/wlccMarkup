@@ -1,0 +1,276 @@
+<%= render :partial => "views/base/top" %>
+
+<%= render :partial => "views/header", :locals => {:isLoggedIn => false} %>
+<div class="slider-wrap">
+    <div class="slider">
+        <div class="slider__in cycle-slideshow"
+             data-cycle-fx="flipVert"
+             data-loop=1
+             data-cycle-slides="> .slider__slide">
+            <div class="slider__slide ">
+                <article>
+                    <p>
+                        Все в этом мире постоянно находятся в поисках чего-то
+                    </p>
+
+                    <p>
+                        Люди запутались в паутине своих мыслей, проблем и вопросов…
+                    </p>
+                </article>
+            </div>
+            <div class="slider__slide ">
+                <article>
+                    <p>
+                        Кто я?
+                    </p>
+
+                    <p>
+                        Почему я так одинок?
+                    </p>
+
+                    <p>
+                        Зачем я живу?
+                    </p>
+                </article>
+            </div>
+            <div class="slider__slide ">
+                <article>
+                    <p>
+                        Они хотят получить ответы , узнать смысл жизни, найти путь к свету…
+                    </p>
+
+                    <p>
+                        Они стремятся к свету и ищут его всю свою жизнь!
+                    </p>
+                </article>
+            </div>
+            <div class="slider__slide ">
+                <article>
+                    <p>
+                        Мы знаем самый короткий путь к свету для жизни каждого…
+                    </p>
+
+                    <p>
+                        Мы скажем, Кто есть этот свет!
+                    </p>
+                </article>
+            </div>
+        </div>
+        <span data-toggle-class="baptizing-opened|closest|body" class="btn btn_white"><i class="icon-arrow-left"></i>Узнать о Крещении</span>
+        <span class="btn btn_green">Узнать о Покаянии <i class="icon-arrow-right"></i></span>
+    </div>
+</div>
+<%= render :partial => "views/mainNav" %>
+
+<div class="content">
+    <section class="widget center">
+        <h2 class="widget__header "><i class="icon-clock"></i> Ближайшие события</h2>
+        <table class="schedule">
+            <thead>
+            <tr>
+                <th>Время</th>
+                <th>Дата</th>
+                <th>Событие</th>
+                <th>Кто проводит</th>
+                <th>Напоминание</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% (1..5).each do |n| %>
+              <tr>
+                  <td>19.20</td>
+                  <td>17.10.2014</td>
+                  <td>Воскресное служение</td>
+                  <td>Анатолий Трачук</td>
+                  <td><a class="btn btn_green" href="javascript:void(0);">Напомнить</a></td>
+              </tr>
+            <% end %>
+            </tbody>
+        </table>
+    </section>
+
+    <div class="clearfix">
+        <section class="widget widget_small pull-left">
+            <h2 class="widget__header "><i class="icon-new"></i> Новое</h2>
+
+            <div class="widget__tabs">
+                <ul class="widget__tabs__nav">
+                    <li class="active">
+                        <i class="icon-clock"></i>
+                        Медиа
+                    </li>
+                    <li>
+                        <i class="icon-feather"></i>
+                        нужды и свид-ва
+                    </li>
+                    <li>
+                        <i class="icon-clock"></i>
+                        публикации
+                    </li>
+                    <li>
+                        <i class="icon-clock"></i>
+                        пользователи
+                    </li>
+                </ul>
+                <div class="widget__body">
+                    <div class="widget__tabs__item">
+                        <a class="photo-album" href="javascript:void(0);">
+                            <div class="photo-album__title">
+                                <span class="photo-album__title__name pull-left">Название альбома</span>
+                                <span class="pull-right">10.10.2013</span>
+                            </div>
+                            <img src="images/tmp/photo-album.png" alt=""/>
+                        </a>
+
+                        <div class="media-item">
+                            <div class="media-item__in">
+                                <div class="dtc">
+                                    <div class="dib">
+                                        <span class="media-item__type">проповедь</span>
+                                        <span>Анатолий Трачук</span>
+                                        <time>12.01.2014</time>
+                                    </div>
+                                </div>
+                                <div class="dtc tar">
+                                    <a class="media-item__name" href="javascript:void(0);">Название проповеди</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-item">
+                            <div class="media-item__in">
+                                <div class="dtc">
+                                    <div class="dib">
+                                        <span class="media-item__type">клип</span>
+                                        <span>Слово Жизни</span>
+                                        <time>12.01.2014</time>
+                                    </div>
+                                </div>
+                                <div class="dtc tar">
+                                    <a class="media-item__name" href="javascript:void(0);">Название клипа</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-item">
+                            <div class="media-item__in">
+                                <div class="dtc">
+                                    <div class="dib">
+                                        <span class="media-item__type">песня</span>
+                                        <span>Слово Жизни</span>
+                                        <time>12.01.2014</time>
+                                    </div>
+                                </div>
+                                <div class="dtc tar">
+                                    <a class="media-item__name" href="javascript:void(0);">Название песни</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-item">
+                            <div class="media-item__in">
+                                <div class="dtc">
+                                    <div class="dib">
+                                        <span class="media-item__type">альбом</span>
+                                        <span>Слово Жизни</span>
+                                        <time>12.01.2014</time>
+                                    </div>
+                                </div>
+                                <div class="dtc tar">
+                                    <a class="media-item__name" href="javascript:void(0);">Название проповеди</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget__tabs__item">
+                        <% (1..5).each do |n| %>
+                          <article class="need-preview media-item">
+                              <div class="need-preview__head">
+                                  <a class="pull-left" href="javascript:void(0);">Название нужды</a>
+                                  <time class="pull-right">12.10.2014</time>
+                              </div>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad architecto autem doloremque eligendi hic ipsa, libero molestias nesciunt non quae qui, ratione soluta ullam voluptate. Cum nostrum provident quibusdam velit, vero voluptas! A ad amet aspernatur atque consequuntur corporis, ea error harum iste magnam magni neque nulla, numquam odit pariatur quaerat quis recusandae repudiandae rerum sed sint sit tempore veniam voluptatem voluptatibus? Accusamus accusantium amet at autem cumque, eos id iure laboriosam maxime minima mollitia nesciunt non officia quo quod vel veritatis voluptatem voluptatibus! Aliquid, animi aspernatur atque aut, distinctio facere libero magnam, maxime necessitatibus ratione reprehenderit ut voluptatibus?</p>
+                          </article>
+                        <% end %>
+                    </div>
+                    <div class="widget__tabs__item">
+                        <% (1..2).each do |n| %>
+                          <article class="card-preview need-preview media-item">
+                              <div class="need-preview__head">
+                                  <div class="clearfix">
+                                      <div class="card-preview__left">
+                                          Опубликовал:
+                                      </div>
+                                      <a class="center" href="javascript:void(0);">Алексей Иванов</a>
+                                  </div>
+                                  <div class="clearfix">
+                                      <div class="card-preview__left">
+                                          Дата:
+                                      </div>
+                                      <time class="center">20.12.2012</time>
+                                  </div>
+                              </div>
+                              <div class="clearfix">
+                                  <div class="card-preview__left">
+                                      <a href="javascript:void(0);">
+                                          <img src="images/tmp/ava1.jpg" alt=""/>
+                                      </a>
+                                  </div>
+                                  <div class="center">
+                                      <a class="card-preview__title" href="javascript:void(0);">Проповоедь открытие церкви</a>
+
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad architecto autem doloremque eligendi hic ipsa, libero molestias nesciunt non quae qui, ratione soluta ullam voluptate. Cum nostrum provident quibusdam velit, vero voluptas! A ad amet aspernatur atque consequuntur corporis, ea error harum iste magnam magni neque nulla, numquam odit pariatur quaerat quis recusandae repudiandae rerum sed sint sit tempore veniam voluptatem voluptatibus? Accusamus accusantium amet at autem cumque, eos id iure laboriosam maxime minima mollitia nesciunt non officia quo quod vel veritatis voluptatem voluptatibus! Aliquid, animi aspernatur atque aut, distinctio facere libero magnam, maxime necessitatibus ratione reprehenderit ut voluptatibus?</p>
+                                  </div>
+                              </div>
+                          </article>
+                        <% end; %>
+                    </div>
+                    <div class="widget__tabs__item">
+                        <% (1..10).each do |n| %>
+                          <div class="person-preview">
+                              <div class="pull-left">
+                                  <a class="person-preview__ava" href="javascript:void(0);">
+                                      <img src="images/tmp/ava1.jpg" alt=""/>
+                                  </a>
+                              </div>
+                              <div class="pull-right">
+                                  <span class="btn btn_green"><i class="icon-users"></i> в друзья</span>
+                              </div>
+                              <div class="center">
+                                  <a href="javascript:void(0);">Алексей Московский</a>
+                                  <time>21.20.2013</time>
+                              </div>
+                          </div>
+                        <% end; %>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="pull-right">
+            <section class="widget widget_small widget_video">
+                <h2 class="widget__header "><i class="icon-microphone"></i> Последняя проповедь</h2>
+
+                <div class="widget__body">
+                    <!--<iframe src="//player.vimeo.com/video/71070693?title=0&amp;byline=0&amp;portrait=0" width="436" height="245" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                </div>
+            </section>
+            <%= render :partial => "views/purchase" %>
+        </div>
+    </div>
+</div>
+
+
+<%= render :partial => "views/footer" %>
+
+<div class="home-side baptizing">
+    <article>
+        <h2>ПОКАЯНИЕ</h2>
+
+        <h3>Что это такое и для чего все это нужно ?</h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque error illo inventore maxime, nesciunt non praesentium ratione rerum soluta, velit voluptatibus. Est fuga ipsam laboriosam molestias nihil sed veritatis.</p>
+        <a href="javascript:void(0);"></a>
+    </article>
+</div>
+<%= render :partial => "views/registration", :locals =>{:auth => 'registration'} %>
+<%= render :partial => "views/registration", :locals =>{:auth => 'auth'} %>
+<%= render :partial => "views/base/bottom" %>
+
+

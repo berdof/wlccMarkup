@@ -1,0 +1,113 @@
+<%= render :partial => "views/base/top" %>
+
+<%= render :partial => "views/header", :locals => {:isLoggedIn => true} %>
+<%= render :partial => "views/mainNav" %>
+
+<div class="content">
+    <div class="profile clearfix">
+        <div class="pull-left">
+            <a class="avatar avatar_big" href="javascript:void(0);"><img src="images/tmp/ava1.jpg" alt=""/></a>
+            <a class="btn btn_blue" href="javascript:void(0);">редактировать профиль</a>
+            <a class="btn btn_red" href="javascript:void(0);">удалить профиль</a>
+        </div>
+
+        <div class="pull-right">
+            <section class="widget profile__item profile__item_small">
+                <header class="widget__header">
+                    ОТНОШЕНИЯ
+                    <div class="pull-right">
+                        <i class="icon-users"></i>
+                    </div>
+                </header>
+                <div class="widget__rows_zebra">
+                    <div class="widget__row">
+                        <a href="javascript:void(0);">Все</a> (200)
+                    </div>
+                    <div class="widget__row">
+                        <a href="javascript:void(0);">Друзья</a> (100)
+                    </div>
+                    <div class="widget__row last">
+                        <a href="javascript:void(0);">Родственники</a> (100)
+                    </div>
+                </div>
+            </section>
+            <section class="widget profile__item profile__item_small">
+                <header class="widget__header">
+                    СОХРАНИЛ
+                    <div class="pull-right">
+                        <i class="icon-disk"></i>
+                    </div>
+                </header>
+                <div class="widget__rows_zebra">
+                    <div class="widget__row">
+                        <a href="javascript:void(0);">Все</a> (300)
+                    </div>
+                    <div class="widget__row">
+                        <a href="javascript:void(0);">Проповеди</a> (100)
+                    </div>
+                    <div class="widget__row">
+                        <a href="javascript:void(0);">Клипы</a> (100)
+                    </div>
+                    <div class="widget__row last">
+                        <a href="javascript:void(0);">Песни</a> (100)
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="center">
+            <section class="widget profile__item">
+                <header class="widget__header">
+                    Александр Бердышев
+                    <div class="pull-right">
+                        <i class="icon-user"></i>
+                    </div>
+                </header>
+                <div class="widget__rows_zebra">
+                    <div class="widget__row">
+                        <span class="profile__item__key">Служение:</span>
+                        интернет
+                    </div>
+                    <div class="widget__row">
+                        <span class="profile__item__key">В церкви:</span>
+                        2 года
+                    </div>
+                    <div class="widget__row">
+                        <span class="profile__item__key">На сайте:</span>
+                        1 года
+                    </div>
+                    <div class="widget__row">
+                        <span class="profile__item__key">Семейное положение:</span>
+                        Не замужем
+                    </div>
+                    <div class="widget__row widget__row_big">
+                        <span class="profile__item__key">Любимая цитата:</span>
+                        Быть маленьким и скромным — не самая благородная роль. Ничтожность никого не вдохновляет, даже если она удобна окружающим. Мы хотим блестать и сверкать. Не только некоторые из нас, но все и каждый. А научившись сиять, мы неосознанно побуждаем к этому всех окружающих. Когда мы освобождаемся от своих страхов, мы автоматически освобождаем других…
+                    </div>
+                    <div class="widget__row">
+                        <span class="profile__item__key">Скайп:</span>
+                        berdof
+                    </div>
+                    <div class="widget__row last">
+                        <span class="profile__item__key">Мобильный:</span>
+                        +380669705528
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <%= render :partial => "views/addPost", :locals => {:post__quoted => true, :title => "Записи"} %>
+
+    <%= render :partial => "views/post", :locals => {:post__type => 'post', :my_need => false, :post__quoted => true} %>
+    <% (1..5).each do |n| %>
+      <%= render :partial => "views/post", :locals => {:post__type => 'post', :my_need => false, :post__quoted => false} %>
+    <% end %>
+
+</div>
+
+<%= render :partial => "views/footer" %>
+
+<%= render :partial => "views/base/bottom" %>
+
+
