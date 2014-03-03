@@ -357,7 +357,6 @@
   font-size: 13px;
   position: relative;
   padding: 0 0 0 13px;
-  margin-bottom: 35px;
   height: 20px;
   line-height: 20px;
   i {
@@ -517,7 +516,7 @@
   }
   .post__interact,
   .post__date {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   .post__nav {
     @include border-radius(0 0 3px 3px);
@@ -586,4 +585,8 @@
       top: 0;
     }
   }
+}
+
+.testimony{
+  @extend .need;
 }
