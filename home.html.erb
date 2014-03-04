@@ -1,5 +1,4 @@
 <%= render :partial => "views/base/top" %>
-
 <%= render :partial => "views/header", :locals => {:isLoggedIn => false} %>
 <div class="slider-wrap">
     <div class="slider">
@@ -12,7 +11,6 @@
                     <p>
                         Все в этом мире постоянно находятся в поисках чего-то
                     </p>
-
                     <p>
                         Люди запутались в паутине своих мыслей, проблем и вопросов…
                     </p>
@@ -23,11 +21,9 @@
                     <p>
                         Кто я?
                     </p>
-
                     <p>
                         Почему я так одинок?
                     </p>
-
                     <p>
                         Зачем я живу?
                     </p>
@@ -38,7 +34,6 @@
                     <p>
                         Они хотят получить ответы , узнать смысл жизни, найти путь к свету…
                     </p>
-
                     <p>
                         Они стремятся к свету и ищут его всю свою жизнь!
                     </p>
@@ -49,7 +44,6 @@
                     <p>
                         Мы знаем самый короткий путь к свету для жизни каждого…
                     </p>
-
                     <p>
                         Мы скажем, Кто есть этот свет!
                     </p>
@@ -61,7 +55,6 @@
     </div>
 </div>
 <%= render :partial => "views/mainNav" %>
-
 <div class="content">
     <section class="widget center">
         <h2 class="widget__header "><i class="icon-clock"></i> Ближайшие события</h2>
@@ -88,11 +81,9 @@
             </tbody>
         </table>
     </section>
-
     <div class="clearfix">
         <section class="widget widget_small pull-left">
             <h2 class="widget__header "><i class="icon-new"></i> Новое</h2>
-
             <div class="widget__tabs">
                 <ul class="widget__tabs__nav">
                     <li class="active">
@@ -121,7 +112,6 @@
                             </div>
                             <img src="images/tmp/photo-album.png" alt=""/>
                         </a>
-
                         <div class="media-item">
                             <div class="media-item__in">
                                 <div class="dtc">
@@ -246,31 +236,23 @@
         <div class="pull-right">
             <section class="widget widget_small widget_video">
                 <h2 class="widget__header "><i class="icon-microphone"></i> Последняя проповедь</h2>
-
                 <div class="widget__body">
-                    <!--<iframe src="//player.vimeo.com/video/71070693?title=0&amp;byline=0&amp;portrait=0" width="436" height="245" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                    <iframe src="//player.vimeo.com/video/71070693?title=0&amp;byline=0&amp;portrait=0" width="436" height="245" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </section>
             <%= render :partial => "views/purchase" %>
         </div>
     </div>
 </div>
-
-
 <%= render :partial => "views/footer" %>
-
 <div class="home-side baptizing">
     <article>
         <h2>ПОКАЯНИЕ</h2>
-
         <h3>Что это такое и для чего все это нужно ?</h3>
-
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque error illo inventore maxime, nesciunt non praesentium ratione rerum soluta, velit voluptatibus. Est fuga ipsam laboriosam molestias nihil sed veritatis.</p>
         <a href="javascript:void(0);"></a>
     </article>
 </div>
-<%= render :partial => "views/registration", :locals =>{:auth => 'registration'} %>
-<%= render :partial => "views/registration", :locals =>{:auth => 'auth'} %>
+<%= render :partial => "views/registration", :locals => {:auth => 'registration'} %>
+<%= render :partial => "views/registration", :locals => {:auth => 'auth'} %>
 <%= render :partial => "views/base/bottom" %>
-
-

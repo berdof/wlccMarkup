@@ -1,8 +1,6 @@
 <%= render :partial => "views/base/top" %>
-
 <%= render :partial => "views/header", :locals => {:isLoggedIn => true} %>
 <%= render :partial => "views/mainNav" %>
-
 <div class="content">
     <aside class="content__sidebar">
         <%= render :partial => "views/categories", :locals => {:title => 'Категории',
@@ -14,9 +12,5 @@
         <%= render :partial => "views/post", :locals => {:is_draft=>true,:post__type => 'testimony', :my_need=> false, :post__quoted => -1} %>
     </section>
 </div>
-
 <%= render :partial => "views/footer" %>
-
 <%= render :partial => "views/base/bottom" %>
-
-

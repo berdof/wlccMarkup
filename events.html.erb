@@ -1,10 +1,7 @@
 <%= render :partial => "views/base/top" %>
-
 <%= render :partial => "views/header", :locals => {:isLoggedIn => true} %>
 <%= render :partial => "views/mainNav" %>
-
 <div class="content">
-
     <aside class="content__sidebar">
         <div class="widget">
             <div class="controls-box">
@@ -23,7 +20,6 @@
             </div>
             <div class="controls-box">
                 <h4 class="label">Дата проведения:</h4>
-
                 <div class="clearfix">
                     <h4 class="label pull-left">От:</h4>
                     <div class="select select_date pull-right">
@@ -31,17 +27,13 @@
                         <input class="select_date__input" type="text" value="">
                     </div>
                 </div>
-
                 <div class="clearfix">
                     <h4 class="label pull-left">До:</h4>
-
                     <div class="select select_date pull-right">
                         <div class="select__label"></div>
                         <input class="select_date__input" type="text" value="">
                     </div>
                 </div>
-
-
             </div>
         </div>
     </aside>
@@ -67,11 +59,6 @@
             </tbody>
         </table>
     </section>
-
 </div>
-
 <%= render :partial => "views/footer" %>
-
 <%= render :partial => "views/base/bottom" %>
-
-
