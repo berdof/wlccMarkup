@@ -215,9 +215,11 @@
   }
 
   .widget__header {
-    border: 0;
     .btn_green {
-      visibility: hidden;
+      display: none;
+    }
+    .btn_red {
+      display: inline-block;
     }
   }
 
@@ -226,7 +228,10 @@
     .widget__header {
       border: 0;
       .btn_green {
-        visibility: visible;
+        display: inline-block;
+      }
+      .btn_red{
+        display: none;
       }
     }
     .widget__rows_zebra {
@@ -602,4 +607,20 @@
     width: 180px;
     padding: 0 15px 0 0;
   }
+}
+
+.pastors-testimony{
+  @extend .add-post;
+}
+
+.pastors-testimony__video{
+  float: left;
+  font-size: 0;
+  line-height: 0;
+  padding: 15px;
+}
+
+.pastors-testimony__article{
+  overflow: hidden;
+  padding: 15px;
 }

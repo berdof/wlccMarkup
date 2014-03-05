@@ -21,7 +21,7 @@
 }
 
 @mixin v-gradient($start-color, $end-color, $orientation: vertical) {
-  $experimental-support-for-svg: true;
+  $experimental-support-for-svg: false;
   @include background-image(linear-gradient($start-color, $end-color));
   .lt-ie9 & {
     //@include filter-gradient($start-color, $end-color,$orientation);

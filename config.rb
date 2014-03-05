@@ -32,9 +32,9 @@ fireapp_coffeescripts_dir = "coffeescripts" # by Fire.app
 fireapp_livescripts_dir = "livescripts" # by Fire.app 
 fireapp_minifyjs_on_build = false # by Fire.app 
 fireapp_always_report_on_build = true # by Fire.app 
-output_style = :expanded # by Fire.app 
+output_style = :nested # by Fire.app 
 relative_assets = true # by Fire.app 
 line_comments = true # by Fire.app 
-sass_options = {:debug_info=>false} # by Fire.app 
+sass_options = {:debug_info=>true} # by Fire.app 
 fireapp_coffeescript_options = {:bare=>true} # by Fire.app 
 fireapp_livescript_options = {:bare=>false} # by Fire.app 

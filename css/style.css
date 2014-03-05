@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -17,238 +17,199 @@ time, mark, audio, video {
   border: 0;
   font: inherit;
   font-size: 100%;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
-/* line 22, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
 html {
-  line-height: 1;
-}
+  line-height: 1; }
 
-/* line 24, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
-/* line 26, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-/* line 28, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
 caption, th, td {
   text-align: left;
   font-weight: normal;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
-/* line 30, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
 q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
+  quotes: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
 
-/* line 32, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
 a img {
-  border: none;
-}
+  border: none; }
 
-/* line 116, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
+  display: block; }
 
-/* line 1, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\000031}}
 html, body {
-  min-height: 100%;
-}
+  min-height: 100%; }
 
-/* line 5, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\000035}}
 body {
   font-family: "Tahoma", sans-serif;
   color: black;
   min-width: 970px;
-  background-color: #dbe5ee;
-}
+  background-color: #dbe5ee; }
 
-/* line 12, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000312}}
 .wrapper, .main, .footer {
   margin: 0 auto;
   width: 970px;
   padding: 0 5px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-/* line 20, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000320}}
 * {
   outline: none;
   -webkit-font-smoothing: antialiased !important;
   -webkit-appearance: none;
-  -webkit-tap-highlight-color: transparent;
-}
+  -webkit-tap-highlight-color: transparent; }
 
-/* line 28, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000328}}
 .clearfix:after, .wrapper:after, .main:after, .footer:after, .nav:after, .nav_hor:after, .top-bar__nav:after, .widget__tabs__nav:after, .media-item:after, .need-preview__head:after, .add-post__footer:after, .post__in:after, .comments__body:after, .group-prayer .widget__row:after, .group-prayer .widget__header:after, .group-prayer .controls-box:after, .content:after {
   visibility: hidden;
   display: block;
   content: "";
   clear: both;
-  height: 0;
-}
+  height: 0; }
 
-/* line 37, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000337}}
 .db {
-  display: block;
-}
+  display: block; }
 
-/* line 41, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000341}}
 .dib {
-  display: inline-block !important;
-}
+  display: inline-block !important; }
 
-/* line 45, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000345}}
 .pull-left {
-  float: left !important;
-}
+  float: left !important; }
 
-/* line 49, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000349}}
 .pull-right {
-  float: right !important;
-}
+  float: right !important; }
 
-/* line 53, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000353}}
 .center {
-  overflow: hidden !important;
-}
+  overflow: hidden !important; }
 
-/* line 57, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000357}}
 .tac {
-  text-align: center !important;
-}
+  text-align: center !important; }
 
-/* line 61, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000361}}
 .tal {
-  text-align: left !important;
-}
+  text-align: left !important; }
 
-/* line 65, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000365}}
 .tar {
-  text-align: right !important;
-}
+  text-align: right !important; }
 
-/* line 69, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000369}}
 .nav, .nav_hor, .top-bar__nav, .widget__tabs__nav {
-  list-style: none;
-}
+  list-style: none; }
 
-/* line 75, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000375}}
 .nav_hor, .top-bar__nav, .widget__tabs__nav {
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
   *zoom: 1;
-  overflow: visible;
-}
-/* line 60, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.nav_hor li, .top-bar__nav li, .widget__tabs__nav li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0;
-  white-space: nowrap;
-  display: inline;
-  float: left;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-/* line 48, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.nav_hor li:first-child, .top-bar__nav li:first-child, .widget__tabs__nav li:first-child, .nav_hor li.first, .top-bar__nav li.first, .widget__tabs__nav li.first {
-  padding-left: 0;
-}
-/* line 49, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.nav_hor li:last-child, .top-bar__nav li:last-child, .widget__tabs__nav li:last-child {
-  padding-right: 0;
-}
-/* line 50, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.nav_hor li.last, .top-bar__nav li.last, .widget__tabs__nav li.last {
-  padding-right: 0;
-}
+  overflow: visible; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000360}}
+  .nav_hor li, .top-bar__nav li, .widget__tabs__nav li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000348}}
+    .nav_hor li:first-child, .top-bar__nav li:first-child, .widget__tabs__nav li:first-child, .nav_hor li.first, .top-bar__nav li.first, .widget__tabs__nav li.first {
+      padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000349}}
+    .nav_hor li:last-child, .top-bar__nav li:last-child, .widget__tabs__nav li:last-child {
+      padding-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Fire\.app\/Contents\/Resources\/lib\/ruby\/compass_0\.12\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000350}}
+    .nav_hor li.last, .top-bar__nav li.last, .widget__tabs__nav li.last {
+      padding-right: 0; }
 
-/* line 81, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000381}}
 .dtc {
   display: table-cell;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
-/* line 86, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000386}}
 .m0a {
   margin-left: auto !important;
-  margin-right: auto !important;
-}
+  margin-right: auto !important; }
 
-/* line 90, ../sass/partials/_helpers.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_helpers\.scss}line{font-family:\0000390}}
 .m0 {
-  margin: 0 !important;
-}
+  margin: 0 !important; }
 
-/* line 1, ../sass/partials/_typography.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_typography\.scss}line{font-family:\000031}}
 a {
   color: #33ae21;
-  text-decoration: none;
-}
-/* line 4, ../sass/partials/_typography.scss */
-a:hover {
-  text-decoration: underline;
-}
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_typography\.scss}line{font-family:\000034}}
+  a:hover {
+    text-decoration: underline; }
 
-/* line 9, ../sass/partials/_typography.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_typography\.scss}line{font-family:\000039}}
 strong {
-  font-weight: 700;
-}
+  font-weight: 700; }
 
-/* line 13, ../sass/partials/_typography.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_typography\.scss}line{font-family:\0000313}}
 h1 {
   font-size: 45px;
   line-height: 50px;
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px; }
 
-/* line 19, ../sass/partials/_typography.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_typography\.scss}line{font-family:\0000319}}
 h2 {
   padding-bottom: 15px;
   color: #000;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
-/* line 25, ../sass/partials/_typography.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_typography\.scss}line{font-family:\0000325}}
 p {
   color: #757575;
   font-size: 13px;
   line-height: 1.4;
-  padding-bottom: 15px;
-}
-/* line 30, ../sass/partials/_typography.scss */
-p:last-child {
-  padding-bottom: 0;
-}
+  padding-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_typography\.scss}line{font-family:\0000330}}
+  p:last-child {
+    padding-bottom: 0; }
 
 @font-face {
   font-family: 'wlcc';
   src: url("../fonts/wlcc.eot");
   src: url("../fonts/wlcc.eot?#iefix") format("embedded-opentype"), url("../fonts/wlcc.woff") format("woff"), url("../fonts/wlcc.ttf") format("truetype"), url("../fonts/wlcc.svg#wlcc") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 13, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000313}}
 [data-icon]:before {
   font-family: 'wlcc';
   content: attr(data-icon);
@@ -258,8 +219,7 @@ p:last-child {
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
 
 /* Use the following CSS code if you want to have a class per icon */
 /*
@@ -267,7 +227,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-/* line 32, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000332}}
 .icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .categories a, .icon-arrow-left, .icon-list, .icon-arrow-up, .icon-arrow-down, .select__label, .icon-calendar, .select_date .select__label, .icon-cross {
   font-family: 'wlcc';
   speak: none;
@@ -276,130 +236,105 @@ you can use the generic selector below, but it's slower:
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  -webkit-font-smoothing: antialiased;
-}
+  -webkit-font-smoothing: antialiased; }
 
-/* line 42, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000342}}
 .icon-user-add:before {
-  content: "\e000";
-}
+  content: "\e000"; }
 
-/* line 45, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000345}}
 .icon-user:before {
-  content: "\e001";
-}
+  content: "\e001"; }
 
-/* line 48, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000348}}
 .icon-users:before {
-  content: "\e002";
-}
+  content: "\e002"; }
 
-/* line 51, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000351}}
 .icon-disk:before {
-  content: "\e003";
-}
+  content: "\e003"; }
 
-/* line 54, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000354}}
 .icon-pencil:before {
-  content: "\e004";
-}
+  content: "\e004"; }
 
-/* line 57, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000357}}
 .icon-camera:before {
-  content: "\e006";
-}
+  content: "\e006"; }
 
-/* line 60, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000360}}
 .icon-heart:before {
-  content: "\e007";
-}
+  content: "\e007"; }
 
-/* line 63, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000363}}
 .icon-quoted:before {
-  content: "\e008";
-}
+  content: "\e008"; }
 
-/* line 66, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000366}}
 .icon-feather:before {
-  content: "\e009";
-}
+  content: "\e009"; }
 
-/* line 69, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000369}}
 .icon-bookmark:before {
-  content: "\e005";
-}
+  content: "\e005"; }
 
-/* line 72, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000372}}
 .icon-clock:before {
-  content: "\e00a";
-}
+  content: "\e00a"; }
 
-/* line 75, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000375}}
 .icon-new:before {
-  content: "\e00b";
-}
+  content: "\e00b"; }
 
-/* line 78, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000378}}
 .icon-microphone:before {
-  content: "\e00c";
-}
+  content: "\e00c"; }
 
-/* line 81, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000381}}
 .icon-coin:before {
-  content: "\e00d";
-}
+  content: "\e00d"; }
 
-/* line 84, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000384}}
 .icon-mail:before {
-  content: "\e00e";
-}
+  content: "\e00e"; }
 
-/* line 87, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000387}}
 .icon-cog:before {
-  content: "\e00f";
-}
+  content: "\e00f"; }
 
-/* line 90, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000390}}
 .icon-exit:before {
-  content: "\e010";
-}
+  content: "\e010"; }
 
-/* line 93, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000393}}
 .icon-arrow-right:before, .categories a:before {
-  content: "\e011";
-}
+  content: "\e011"; }
 
-/* line 96, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000396}}
 .icon-arrow-left:before {
-  content: "\e012";
-}
+  content: "\e012"; }
 
-/* line 99, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\0000399}}
 .icon-list:before {
-  content: "\e013";
-}
+  content: "\e013"; }
 
-/* line 102, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\00003102}}
 .icon-arrow-up:before {
-  content: "\e014";
-}
+  content: "\e014"; }
 
-/* line 105, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\00003105}}
 .icon-arrow-down:before, .select__label:before {
-  content: "\e015";
-}
+  content: "\e015"; }
 
-/* line 108, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\00003108}}
 .icon-calendar:before, .select_date .select__label:before {
-  content: "\e016";
-}
+  content: "\e016"; }
 
-/* line 111, ../sass/partials/_icons.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_icons\.scss}line{font-family:\00003111}}
 .icon-cross:before {
-  content: "\e017";
-}
+  content: "\e017"; }
 
-/* line 1, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\000031}}
 .btn {
   text-decoration: none !important;
   display: inline-block;
@@ -412,26 +347,21 @@ you can use the generic selector below, but it's slower:
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
-  top: -2px;
-}
-/* line 12, ../sass/partials/_controls.scss */
-.btn .btn-active__text {
-  display: none;
-}
-/* line 15, ../sass/partials/_controls.scss */
-.btn .btn__text {
-  display: block;
-}
-/* line 19, ../sass/partials/_controls.scss */
-.btn.active .btn-active__text {
-  display: block;
-}
-/* line 22, ../sass/partials/_controls.scss */
-.btn.active .btn__text {
-  display: none;
-}
+  top: -2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000312}}
+  .btn .btn-active__text {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000315}}
+  .btn .btn__text {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000319}}
+  .btn.active .btn-active__text {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000322}}
+  .btn.active .btn__text {
+    display: none; }
 
-/* line 28, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000328}}
 .btn_dark {
   padding: 0 27px;
   height: 26px;
@@ -447,28 +377,24 @@ you can use the generic selector below, but it's slower:
   -moz-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.15), inset 1px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 5px rgba(0, 0, 0, 0.19);
   box-shadow: 0 1px 0 rgba(247, 247, 247, 0.15), inset 1px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 5px rgba(0, 0, 0, 0.19);
   font-size: 10px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);
-}
-/* line 38, ../sass/partials/_controls.scss */
-.btn_dark i {
-  margin: 0 5px 0 0;
-}
-/* line 41, ../sass/partials/_controls.scss */
-.btn_dark:hover {
-  background-color: rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 1px 1px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px rgba(0, 0, 0, 0.38);
-  -moz-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 1px 1px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px rgba(0, 0, 0, 0.38);
-  box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 1px 1px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px rgba(0, 0, 0, 0.38);
-}
-/* line 47, ../sass/partials/_controls.scss */
-.touch .btn_dark:hover, .btn_dark:active {
-  background-color: rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 0 0 5px rgba(0, 0, 0, 0.38);
-  -moz-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 0 0 5px rgba(0, 0, 0, 0.38);
-  box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 0 0 5px rgba(0, 0, 0, 0.38);
-}
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000338}}
+  .btn_dark i {
+    margin: 0 5px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000341}}
+  .btn_dark:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 1px 1px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 1px 1px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px rgba(0, 0, 0, 0.38);
+    box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 1px 1px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px rgba(0, 0, 0, 0.38); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000347}}
+  .touch .btn_dark:hover, .btn_dark:active {
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 0 0 5px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 0 0 5px rgba(0, 0, 0, 0.38);
+    box-shadow: 0 1px 0 rgba(247, 247, 247, 0.3), inset 0 0 5px rgba(0, 0, 0, 0.38); }
 
-/* line 53, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000353}}
 .btn_blue2, .btn_blue, .btn_red, .btn_green, .btn_white, .btn_green2 {
   padding: 0 13px;
   height: 30px;
@@ -486,260 +412,199 @@ you can use the generic selector below, but it's slower:
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
-  text-shadow: 0 1px 1px rgba(3, 3, 3, 0.17);
-}
-/* line 64, ../sass/partials/_controls.scss */
-.btn_blue2:hover, .btn_blue:hover, .btn_red:hover, .btn_green:hover, .btn_white:hover, .btn_green2:hover {
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
-}
-/* line 69, ../sass/partials/_controls.scss */
-.touch .btn_blue2:hover, .touch .btn_blue:hover, .touch .btn_red:hover, .touch .btn_green:hover, .touch .btn_white:hover, .touch .btn_green2:hover, .btn_blue2:active, .btn_blue:active, .btn_red:active, .btn_green:active, .btn_white:active, .btn_green2:active, .active.btn_blue2, .active.btn_blue, .active.btn_red, .active.btn_green, .select_date.active .select__label, .need:not(.editable) .post__in .select__label, .testimony:not(.editable) .post__in .select__label, .need:not(.editable) .comments__body .select__label, .testimony:not(.editable) .comments__body .select__label, .active.btn_white, .active.btn_green2 {
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
-  color: rgba(255, 255, 255, 0.7);
-}
+  text-shadow: 0 1px 1px rgba(3, 3, 3, 0.17); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000364}}
+  .btn_blue2:hover, .btn_blue:hover, .btn_red:hover, .btn_green:hover, .btn_white:hover, .btn_green2:hover {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000369}}
+  .touch .btn_blue2:hover, .touch .btn_blue:hover, .touch .btn_red:hover, .touch .btn_green:hover, .touch .btn_white:hover, .touch .btn_green2:hover, .btn_blue2:active, .btn_blue:active, .btn_red:active, .btn_green:active, .btn_white:active, .btn_green2:active, .active.btn_blue2, .active.btn_blue, .active.btn_red, .active.btn_green, .select_date.active .select__label, .need:not(.editable) .post__in .select__label, .testimony:not(.editable) .post__in .select__label, .need:not(.editable) .comments__body .select__label, .testimony:not(.editable) .comments__body .select__label, .active.btn_white, .active.btn_green2 {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    color: rgba(255, 255, 255, 0.7); }
 
-/* line 76, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000376}}
 .btn_blue2 {
   border: 1px solid #3595a3;
   background-color: #1db3cb;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQyZGFmNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkYjNjYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #42daf5), color-stop(100%, #1db3cb));
   background-image: -webkit-linear-gradient(#42daf5, #1db3cb);
   background-image: -moz-linear-gradient(#42daf5, #1db3cb);
   background-image: -o-linear-gradient(#42daf5, #1db3cb);
   background-image: linear-gradient(#42daf5, #1db3cb);
-  text-shadow: 0 1px 1px rgba(3, 3, 3, 0.17);
-}
-/* line 82, ../sass/partials/_controls.scss */
-.btn_blue2:hover {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFjYjJjYSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQxZDlmNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1cb2ca), color-stop(100%, #41d9f4));
-  background-image: -webkit-linear-gradient(#1cb2ca, #41d9f4);
-  background-image: -moz-linear-gradient(#1cb2ca, #41d9f4);
-  background-image: -o-linear-gradient(#1cb2ca, #41d9f4);
-  background-image: linear-gradient(#1cb2ca, #41d9f4);
-}
-/* line 87, ../sass/partials/_controls.scss */
-.touch .btn_blue2:hover, .btn_blue2:active, .btn_blue2.active {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFiYjFjOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkYjVjZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1bb1c9), color-stop(100%, #1db5cd));
-  background-image: -webkit-linear-gradient(#1bb1c9, #1db5cd);
-  background-image: -moz-linear-gradient(#1bb1c9, #1db5cd);
-  background-image: -o-linear-gradient(#1bb1c9, #1db5cd);
-  background-image: linear-gradient(#1bb1c9, #1db5cd);
-}
+  text-shadow: 0 1px 1px rgba(3, 3, 3, 0.17); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000382}}
+  .btn_blue2:hover {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1cb2ca), color-stop(100%, #41d9f4));
+    background-image: -webkit-linear-gradient(#1cb2ca, #41d9f4);
+    background-image: -moz-linear-gradient(#1cb2ca, #41d9f4);
+    background-image: -o-linear-gradient(#1cb2ca, #41d9f4);
+    background-image: linear-gradient(#1cb2ca, #41d9f4); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000387}}
+  .touch .btn_blue2:hover, .btn_blue2:active, .btn_blue2.active {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1bb1c9), color-stop(100%, #1db5cd));
+    background-image: -webkit-linear-gradient(#1bb1c9, #1db5cd);
+    background-image: -moz-linear-gradient(#1bb1c9, #1db5cd);
+    background-image: -o-linear-gradient(#1bb1c9, #1db5cd);
+    background-image: linear-gradient(#1bb1c9, #1db5cd); }
 
-/* line 92, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000392}}
 .btn_blue {
   border: 1px solid #2e6dbb;
   background-color: #519fff;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzhiYmVmZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #519fff), color-stop(100%, #8bbefd));
   background-image: -webkit-linear-gradient(bottom, #519fff 0%, #8bbefd 100%);
   background-image: -moz-linear-gradient(bottom, #519fff 0%, #8bbefd 100%);
   background-image: -o-linear-gradient(bottom, #519fff 0%, #8bbefd 100%);
-  background-image: linear-gradient(bottom, #519fff 0%, #8bbefd 100%);
-}
-/* line 98, ../sass/partials/_controls.scss */
-.btn_blue:hover {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhiYmVmZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #8bbefd), color-stop(100%, #519fff));
-  background-image: -webkit-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
-  background-image: -moz-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
-  background-image: -o-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
-  background-image: linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
-}
-/* line 104, ../sass/partials/_controls.scss */
-.touch .btn_blue:hover, .btn_blue:active, .btn_blue.active {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #519fff), color-stop(100%, #519fff));
-  background-image: -webkit-linear-gradient(bottom, #519fff 0%, #519fff 100%);
-  background-image: -moz-linear-gradient(bottom, #519fff 0%, #519fff 100%);
-  background-image: -o-linear-gradient(bottom, #519fff 0%, #519fff 100%);
-  background-image: linear-gradient(bottom, #519fff 0%, #519fff 100%);
-}
+  background-image: linear-gradient(bottom, #519fff 0%, #8bbefd 100%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\0000398}}
+  .btn_blue:hover {
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #8bbefd), color-stop(100%, #519fff));
+    background-image: -webkit-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
+    background-image: -moz-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
+    background-image: -o-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
+    background-image: linear-gradient(bottom, #8bbefd 0%, #519fff 100%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003104}}
+  .touch .btn_blue:hover, .btn_blue:active, .btn_blue.active {
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #519fff), color-stop(100%, #519fff));
+    background-image: -webkit-linear-gradient(bottom, #519fff 0%, #519fff 100%);
+    background-image: -moz-linear-gradient(bottom, #519fff 0%, #519fff 100%);
+    background-image: -o-linear-gradient(bottom, #519fff 0%, #519fff 100%);
+    background-image: linear-gradient(bottom, #519fff 0%, #519fff 100%); }
 
-/* line 109, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003109}}
 .btn_red {
   border: 1px solid #ae2500;
   background-color: #cb1d23;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzNDE0NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NiMWQyMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f34145), color-stop(100%, #cb1d23));
   background-image: -webkit-linear-gradient(#f34145, #cb1d23);
   background-image: -moz-linear-gradient(#f34145, #cb1d23);
   background-image: -o-linear-gradient(#f34145, #cb1d23);
-  background-image: linear-gradient(#f34145, #cb1d23);
-}
-/* line 114, ../sass/partials/_controls.scss */
-.btn_red:hover {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NiMWQyMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YzNDE0NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cb1d23), color-stop(100%, #f34145));
-  background-image: -webkit-linear-gradient(#cb1d23, #f34145);
-  background-image: -moz-linear-gradient(#cb1d23, #f34145);
-  background-image: -o-linear-gradient(#cb1d23, #f34145);
-  background-image: linear-gradient(#cb1d23, #f34145);
-}
-/* line 119, ../sass/partials/_controls.scss */
-.touch .btn_red:hover, .btn_red:active, .btn_red.active {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NmMjEyNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NiMWQyMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cf2127), color-stop(100%, #cb1d23));
-  background-image: -webkit-linear-gradient(#cf2127, #cb1d23);
-  background-image: -moz-linear-gradient(#cf2127, #cb1d23);
-  background-image: -o-linear-gradient(#cf2127, #cb1d23);
-  background-image: linear-gradient(#cf2127, #cb1d23);
-}
+  background-image: linear-gradient(#f34145, #cb1d23); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003114}}
+  .btn_red:hover {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cb1d23), color-stop(100%, #f34145));
+    background-image: -webkit-linear-gradient(#cb1d23, #f34145);
+    background-image: -moz-linear-gradient(#cb1d23, #f34145);
+    background-image: -o-linear-gradient(#cb1d23, #f34145);
+    background-image: linear-gradient(#cb1d23, #f34145); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003119}}
+  .touch .btn_red:hover, .btn_red:active, .btn_red.active {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cf2127), color-stop(100%, #cb1d23));
+    background-image: -webkit-linear-gradient(#cf2127, #cb1d23);
+    background-image: -moz-linear-gradient(#cf2127, #cb1d23);
+    background-image: -o-linear-gradient(#cf2127, #cb1d23);
+    background-image: linear-gradient(#cf2127, #cb1d23); }
 
-/* line 124, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003124}}
 .btn_green {
   background-color: #33ae21;
   border: 1px solid #1e8010;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc2ZDMzMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzYWQyMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #76d332), color-stop(100%, #33ad21));
   background-image: -webkit-linear-gradient(#76d332, #33ad21);
   background-image: -moz-linear-gradient(#76d332, #33ad21);
   background-image: -o-linear-gradient(#76d332, #33ad21);
-  background-image: linear-gradient(#76d332, #33ad21);
-}
-/* line 131, ../sass/partials/_controls.scss */
-.btn_green:hover {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0YWYyMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzc0ZDIzNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #34af21), color-stop(100%, #74d234));
-  background-image: -webkit-linear-gradient(#34af21, #74d234);
-  background-image: -moz-linear-gradient(#34af21, #74d234);
-  background-image: -o-linear-gradient(#34af21, #74d234);
-  background-image: linear-gradient(#34af21, #74d234);
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc2ZDMzMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzYWQyMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #76d332), color-stop(100%, #33ad21));
-  background-image: -webkit-linear-gradient(bottom, #76d332 0%, #33ad21 100%);
-  background-image: -moz-linear-gradient(bottom, #76d332 0%, #33ad21 100%);
-  background-image: -o-linear-gradient(bottom, #76d332 0%, #33ad21 100%);
-  background-image: linear-gradient(bottom, #76d332 0%, #33ad21 100%);
-}
-/* line 137, ../sass/partials/_controls.scss */
-.touch .btn_green:hover, .btn_green:active, .btn_green.active, .select_date.active .select__label, .need:not(.editable) .post__in .select__label, .testimony:not(.editable) .post__in .select__label, .need:not(.editable) .comments__body .select__label, .testimony:not(.editable) .comments__body .select__label {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIxZDM5OSIvPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3NmQzMzIiLz48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzNhZDIxIi8+PHN0b3Agb2Zmc2V0PSI4Ni4yNSUiIHN0b3AtY29sb3I9IiMzM2FkMjEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzM2FkMjEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #21d399), color-stop(0%, #76d332), color-stop(0%, #33ad21), color-stop(86.25%, #33ad21), color-stop(100%, #33ad21));
-  background-image: -webkit-linear-gradient(bottom, #21d399 0%, #76d332 0%, #33ad21 0%, #33ad21 86.25%, #33ad21 100%);
-  background-image: -moz-linear-gradient(bottom, #21d399 0%, #76d332 0%, #33ad21 0%, #33ad21 86.25%, #33ad21 100%);
-  background-image: -o-linear-gradient(bottom, #21d399 0%, #76d332 0%, #33ad21 0%, #33ad21 86.25%, #33ad21 100%);
-  background-image: linear-gradient(bottom, #21d399 0%, #76d332 0%, #33ad21 0%, #33ad21 86.25%, #33ad21 100%);
-}
+  background-image: linear-gradient(#76d332, #33ad21); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003131}}
+  .btn_green:hover {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #34af21), color-stop(100%, #74d234));
+    background-image: -webkit-linear-gradient(#34af21, #74d234);
+    background-image: -moz-linear-gradient(#34af21, #74d234);
+    background-image: -o-linear-gradient(#34af21, #74d234);
+    background-image: linear-gradient(#34af21, #74d234);
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #76d332), color-stop(100%, #33ad21));
+    background-image: -webkit-linear-gradient(bottom, #76d332 0%, #33ad21 100%);
+    background-image: -moz-linear-gradient(bottom, #76d332 0%, #33ad21 100%);
+    background-image: -o-linear-gradient(bottom, #76d332 0%, #33ad21 100%);
+    background-image: linear-gradient(bottom, #76d332 0%, #33ad21 100%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003137}}
+  .touch .btn_green:hover, .btn_green:active, .btn_green.active, .select_date.active .select__label, .need:not(.editable) .post__in .select__label, .testimony:not(.editable) .post__in .select__label, .need:not(.editable) .comments__body .select__label, .testimony:not(.editable) .comments__body .select__label {
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #21d399), color-stop(0%, #76d332), color-stop(0%, #33ad21), color-stop(86.25%, #33ad21), color-stop(100%, #33ad21));
+    background-image: -webkit-linear-gradient(bottom, #21d399 0%, #76d332 0%, #33ad21 0%, #33ad21 86.25%, #33ad21 100%);
+    background-image: -moz-linear-gradient(bottom, #21d399 0%, #76d332 0%, #33ad21 0%, #33ad21 86.25%, #33ad21 100%);
+    background-image: -o-linear-gradient(bottom, #21d399 0%, #76d332 0%, #33ad21 0%, #33ad21 86.25%, #33ad21 100%);
+    background-image: linear-gradient(bottom, #21d399 0%, #76d332 0%, #33ad21 0%, #33ad21 86.25%, #33ad21 100%); }
 
-/* line 143, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003143}}
 .btn_white {
   border: 1px solid #e5e5e5;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YwZjBmMCIvPjxzdG9wIG9mZnNldD0iODIuMjUlIiBzdG9wLWNvbG9yPSIjZmNmY2ZjIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #f0f0f0), color-stop(82.25%, #fcfcfc), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(bottom, #f0f0f0 0%, #fcfcfc 82.25%, #ffffff 100%);
   background-image: -moz-linear-gradient(bottom, #f0f0f0 0%, #fcfcfc 82.25%, #ffffff 100%);
   background-image: -o-linear-gradient(bottom, #f0f0f0 0%, #fcfcfc 82.25%, #ffffff 100%);
   background-image: linear-gradient(bottom, #f0f0f0 0%, #fcfcfc 82.25%, #ffffff 100%);
-  color: #33ae21;
-}
-/* line 151, ../sass/partials/_controls.scss */
-.btn_white:hover {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMjIuMjUlIiBzdG9wLWNvbG9yPSIjZmNmY2ZjIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZjBmMGYwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffffff), color-stop(22.25%, #fcfcfc), color-stop(100%, #f0f0f0));
-  background-image: -webkit-linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%);
-  background-image: -moz-linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%);
-  background-image: -o-linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%);
-  background-image: linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%);
-}
-/* line 157, ../sass/partials/_controls.scss */
-.touch .btn_white:hover, .btn_white:active, .btn_white.active {
-  color: rgba(51, 174, 33, 0.7);
-}
+  color: #33ae21; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003151}}
+  .btn_white:hover {
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffffff), color-stop(22.25%, #fcfcfc), color-stop(100%, #f0f0f0));
+    background-image: -webkit-linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%);
+    background-image: -moz-linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%);
+    background-image: -o-linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%);
+    background-image: linear-gradient(bottom, #ffffff 0%, #fcfcfc 22.25%, #f0f0f0 100%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003157}}
+  .touch .btn_white:hover, .btn_white:active, .btn_white.active {
+    color: rgba(51, 174, 33, 0.7); }
 
-/* line 162, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003162}}
 .btn_green2 {
   border: 1px solid #35a379;
   background-color: #33ae21;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQxZjNiMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFiYzk4NyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #41f3b1), color-stop(100%, #1bc987));
   background-image: -webkit-linear-gradient(#41f3b1, #1bc987);
   background-image: -moz-linear-gradient(#41f3b1, #1bc987);
   background-image: -o-linear-gradient(#41f3b1, #1bc987);
-  background-image: linear-gradient(#41f3b1, #1bc987);
-}
-/* line 168, ../sass/partials/_controls.scss */
-.btn_green2:hover {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFiYzk4NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQxZjNiMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1bc987), color-stop(100%, #41f3b1));
-  background-image: -webkit-linear-gradient(#1bc987, #41f3b1);
-  background-image: -moz-linear-gradient(#1bc987, #41f3b1);
-  background-image: -o-linear-gradient(#1bc987, #41f3b1);
-  background-image: linear-gradient(#1bc987, #41f3b1);
-}
-/* line 173, ../sass/partials/_controls.scss */
-.touch .btn_green2:hover, .btn_green2:active, .btn_green2.active {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFiYzk4NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkY2Q4OSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1bc987), color-stop(100%, #1dcd89));
-  background-image: -webkit-linear-gradient(#1bc987, #1dcd89);
-  background-image: -moz-linear-gradient(#1bc987, #1dcd89);
-  background-image: -o-linear-gradient(#1bc987, #1dcd89);
-  background-image: linear-gradient(#1bc987, #1dcd89);
-}
+  background-image: linear-gradient(#41f3b1, #1bc987); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003168}}
+  .btn_green2:hover {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1bc987), color-stop(100%, #41f3b1));
+    background-image: -webkit-linear-gradient(#1bc987, #41f3b1);
+    background-image: -moz-linear-gradient(#1bc987, #41f3b1);
+    background-image: -o-linear-gradient(#1bc987, #41f3b1);
+    background-image: linear-gradient(#1bc987, #41f3b1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003173}}
+  .touch .btn_green2:hover, .btn_green2:active, .btn_green2.active {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1bc987), color-stop(100%, #1dcd89));
+    background-image: -webkit-linear-gradient(#1bc987, #1dcd89);
+    background-image: -moz-linear-gradient(#1bc987, #1dcd89);
+    background-image: -o-linear-gradient(#1bc987, #1dcd89);
+    background-image: linear-gradient(#1bc987, #1dcd89); }
 
-/* line 178, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003178}}
 .segmented-btn {
   font-size: 0;
   line-height: 0;
-  display: inline-block;
-}
-/* line 182, ../sass/partials/_controls.scss */
-.segmented-btn .btn {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0;
-  border-left-width: 0;
-  top: 0;
-}
-/* line 186, ../sass/partials/_controls.scss */
-.segmented-btn .btn:first-child {
-  -webkit-border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
-  -ms-border-radius: 4px 0 0 4px;
-  -o-border-radius: 4px 0 0 4px;
-  border-radius: 4px 0 0 4px;
-  border-left-width: 1px;
-}
-/* line 190, ../sass/partials/_controls.scss */
-.segmented-btn .btn:last-child {
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  -ms-border-radius: 0 4px 4px 0;
-  -o-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
-}
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003182}}
+  .segmented-btn .btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    border-left-width: 0;
+    top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003186}}
+    .segmented-btn .btn:first-child {
+      -webkit-border-radius: 4px 0 0 4px;
+      -moz-border-radius: 4px 0 0 4px;
+      -ms-border-radius: 4px 0 0 4px;
+      -o-border-radius: 4px 0 0 4px;
+      border-radius: 4px 0 0 4px;
+      border-left-width: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003190}}
+    .segmented-btn .btn:last-child {
+      -webkit-border-radius: 0 4px 4px 0;
+      -moz-border-radius: 0 4px 4px 0;
+      -ms-border-radius: 0 4px 4px 0;
+      -o-border-radius: 0 4px 4px 0;
+      border-radius: 0 4px 4px 0; }
 
-/* line 201, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003201}}
 .textbox,
 input[type=text],
 input[type=email],
@@ -762,10 +627,9 @@ input[type=search] {
   margin: 0 0 9px 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-/* line 221, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003221}}
 textarea {
   width: 100%;
   height: 150px;
@@ -785,28 +649,25 @@ textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 14px;
-}
+  padding: 14px; }
 
-/* line 235, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003235}}
 .select {
   position: relative;
-  margin-bottom: 4px;
-}
-/* line 238, ../sass/partials/_controls.scss */
-.select select {
-  width: 100%;
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 24px;
-  z-index: 2;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-}
+  margin-bottom: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003238}}
+  .select select {
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 24px;
+    z-index: 2;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0; }
 
-/* line 250, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003250}}
 .select__label {
   width: 100%;
   height: 24px;
@@ -830,156 +691,134 @@ textarea {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzYWQyMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzc2ZDMzMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #33ad21), color-stop(100%, #76d332));
   background-image: -webkit-linear-gradient(bottom, #33ad21 0%, #76d332 100%);
   background-image: -moz-linear-gradient(bottom, #33ad21 0%, #76d332 100%);
   background-image: -o-linear-gradient(bottom, #33ad21 0%, #76d332 100%);
   background-image: linear-gradient(bottom, #33ad21 0%, #76d332 100%);
-  position: relative;
-}
-/* line 267, ../sass/partials/_controls.scss */
-.select__label:before {
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: block;
-  width: 30px;
-  line-height: 24px !important;
-  text-align: center;
-  height: 100%;
-  border-left: 1px solid #fff;
-  color: #fff;
-  font-size: 12px;
-}
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003267}}
+  .select__label:before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 30px;
+    line-height: 24px !important;
+    text-align: center;
+    height: 100%;
+    border-left: 1px solid #fff;
+    color: #fff;
+    font-size: 12px; }
 
-/* line 282, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003282}}
 .select_date {
-  width: 167px !important;
-}
-/* line 287, ../sass/partials/_controls.scss */
-.select_date input {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: none;
-  padding: 0 30px 0 10px;
-  color: #fff;
-}
-/* line 303, ../sass/partials/_controls.scss */
-.select_date.active input,
-.select_date.active .select__label:before {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
-  opacity: 0.7;
-}
+  width: 167px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003287}}
+  .select_date input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: none;
+    padding: 0 30px 0 10px;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003303}}
+  .select_date.active input,
+  .select_date.active .select__label:before {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7; }
 
-/* line 309, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003309}}
 .label {
   font-size: 13px;
   color: #000;
   padding-bottom: 5px;
   line-height: 24px;
-  height: 24px;
-}
-/* line 315, ../sass/partials/_controls.scss */
-.label i {
-  position: relative;
-  top: 2px;
-}
+  height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003315}}
+  .label i {
+    position: relative;
+    top: 2px; }
 
-/* line 321, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003321}}
 .controls-box {
-  padding-top: 10px;
-}
+  padding-top: 10px; }
 
-/* line 325, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003325}}
 .add-file {
   top: 2px;
   margin: 0 7px 0 15px;
   display: inline-block;
   position: relative;
   overflow: hidden;
-  vertical-align: top;
-}
-/* line 332, ../sass/partials/_controls.scss */
-.add-file i {
-  color: #33ae21;
-}
-/* line 335, ../sass/partials/_controls.scss */
-.add-file input {
-  position: absolute;
-  left: -100px;
-  top: 0;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-  font-size: 100px;
-}
+  vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003332}}
+  .add-file i {
+    color: #33ae21; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003335}}
+  .add-file input {
+    position: absolute;
+    left: -100px;
+    top: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    font-size: 100px; }
 
-/* line 344, ../sass/partials/_controls.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003344}}
 .categories {
-  padding: 0 !important;
-}
-/* line 346, ../sass/partials/_controls.scss */
-.categories .widget__header {
-  font-size: 16px;
-  text-transform: uppercase;
-}
-/* line 353, ../sass/partials/_controls.scss */
-.categories li {
-  height: 46px;
-  line-height: 46px;
-  padding: 0 20px;
-  border-bottom: 1px solid #dedede;
-  background: #f8f8f8;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-/* line 360, ../sass/partials/_controls.scss */
-.categories li:last-child {
-  border-bottom: 0;
-  -webkit-border-radius: 0 0 2px 2px;
-  -moz-border-radius: 0 0 2px 2px;
-  -ms-border-radius: 0 0 2px 2px;
-  -o-border-radius: 0 0 2px 2px;
-  border-radius: 0 0 2px 2px;
-}
-/* line 365, ../sass/partials/_controls.scss */
-.categories li:hover a {
-  color: #33ae21;
-}
-/* line 369, ../sass/partials/_controls.scss */
-.categories li.active {
-  background: #33ae21;
-}
-/* line 371, ../sass/partials/_controls.scss */
-.categories li.active a {
-  color: #fff;
-}
-/* line 376, ../sass/partials/_controls.scss */
-.categories a {
-  color: #767676;
-  font-size: 13px;
-  display: block;
-  position: relative;
-  line-height: 46px;
-  text-decoration: none;
-}
-/* line 384, ../sass/partials/_controls.scss */
-.categories a:before {
-  position: absolute;
-  right: 0;
-}
+  padding: 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003346}}
+  .categories .widget__header {
+    font-size: 16px;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003353}}
+  .categories li {
+    height: 46px;
+    line-height: 46px;
+    padding: 0 20px;
+    border-bottom: 1px solid #dedede;
+    background: #f8f8f8;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003360}}
+    .categories li:last-child {
+      border-bottom: 0;
+      -webkit-border-radius: 0 0 2px 2px;
+      -moz-border-radius: 0 0 2px 2px;
+      -ms-border-radius: 0 0 2px 2px;
+      -o-border-radius: 0 0 2px 2px;
+      border-radius: 0 0 2px 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003365}}
+    .categories li:hover a {
+      color: #33ae21; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003369}}
+    .categories li.active {
+      background: #33ae21; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003371}}
+      .categories li.active a {
+        color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003376}}
+  .categories a {
+    color: #767676;
+    font-size: 13px;
+    display: block;
+    position: relative;
+    line-height: 46px;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_controls\.scss}line{font-family:\00003384}}
+    .categories a:before {
+      position: absolute;
+      right: 0; }
 
 /**
  * Style-sheet for dtpicker
  * https://github.com/mugifly/jquery-simple-datetimepicker
  */
-/* line 6, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\000036}}
 .datepicker {
   display: inline-block;
   width: 192px !important;
@@ -991,13 +830,12 @@ textarea {
   -moz-border-radius: 3px;
   box-shadow: 0.5px 0.5px 0px #c8c8c8;
   -webkit-box-shadow: 0.5px 0.5px 3px #eeeeee;
-  -moz-box-shadow: 0.5px 0.5px 3px #eeeeee;
-}
+  -moz-box-shadow: 0.5px 0.5px 3px #eeeeee; }
 
 /*
  * datepicker_header
 */
-/* line 24, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\0000324}}
 .datepicker > .datepicker_header {
   padding-top: 2px;
   padding-bottom: 2px;
@@ -1010,40 +848,35 @@ textarea {
   font-weight: bold;
   user-select: none;
   -webkit-user-select: none;
-  -moz-user-select: none;
-}
+  -moz-user-select: none; }
 
-/* line 39, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\0000339}}
 .datepicker > .datepicker_header > a {
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   cursor: pointer;
-  color: #3b7796;
-}
+  color: #3b7796; }
 
-/* line 47, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\0000347}}
 .datepicker > .datepicker_header > a:hover {
   color: #303030;
-  background-color: #c8c8c8;
-}
+  background-color: #c8c8c8; }
 
-/* line 52, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\0000352}}
 .datepicker > .datepicker_header > a:active {
   color: #ffffff;
-  background-color: #808080;
-}
+  background-color: #808080; }
 
-/* line 57, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\0000357}}
 .datepicker > .datepicker_header > span {
   margin-left: 20px;
   margin-right: 20px;
   user-select: none;
   -webkit-user-select: none;
-  -moz-user-select: none;
-}
+  -moz-user-select: none; }
 
-/* line 65, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\0000365}}
 .datepicker > .datepicker_header > .icon-home {
   position: absolute;
   display: block;
@@ -1052,24 +885,21 @@ textarea {
   margin-left: 5px;
   width: 11pt;
   height: 11pt;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
-/* line 76, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\0000376}}
 .datepicker > .datepicker_header > .icon-home > svg > g > path {
-  fill: #3b7796;
-}
+  fill: #3b7796; }
 
-/* line 80, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\0000380}}
 .datepicker > .datepicker_header > a:hover > svg > g > path {
   fill: #303030;
-  /* Icon button hover color */
-}
+  /* Icon button hover color */ }
 
 /*
  * datepicker_inner_container 
 */
-/* line 89, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\0000389}}
 .datepicker > .datepicker_inner_container {
   margin: -2px 0px -2px 0px;
   background-color: #d2d2d2;
@@ -1079,22 +909,20 @@ textarea {
   -moz-border-radius: 3px;
   box-shadow: 0.5px 0px 3px #c8c8c8;
   -webkit-box-shadow: 0.5px 0px 3px #c8c8c8;
-  -moz-box-shadow: 0.5px 0px 3px #c8c8c8;
-}
+  -moz-box-shadow: 0.5px 0px 3px #c8c8c8; }
 
-/* line 102, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003102}}
 .datepicker > .datepicker_inner_container:after {
   content: ".";
   display: block;
   height: 0;
   clear: both;
-  visibility: hidden;
-}
+  visibility: hidden; }
 
 /*
  * datepicker_inner_container > datepicker_calendar
 */
-/* line 114, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003114}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar {
   float: left;
   width: auto;
@@ -1109,30 +937,27 @@ textarea {
   -webkit-border-top-left-radius: 3px;
   -webkit-border-bottom-left-radius: 3px;
   -moz-border-radius-topleft: 3px;
-  -moz-border-radius-bottomleft: 3px;
-}
+  -moz-border-radius-bottomleft: 3px; }
 
-/* line 134, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003134}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar > table {
-  padding: 10px;
-}
+  padding: 10px; }
 
 /*
  * datepicker_inner_container > datepicker_calendar > datepicker_table > tbody > tr > th (WDay-cell)
 */
-/* line 142, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003142}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > th {
   color: #646464;
   width: 18px;
   font-size: small;
   font-weight: normal;
-  text-align: center;
-}
+  text-align: center; }
 
 /*
  * datepicker_inner_container > datepicker_calendar > datepicker_table > tbody > tr > td (Day-cell)
 */
-/* line 154, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003154}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td {
   color: #000000;
   font-size: small;
@@ -1140,58 +965,49 @@ textarea {
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
-/* line 165, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003165}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.today {
   border-bottom: #bfbfbf solid 2px;
-  margin-bottom: -2px;
-}
+  margin-bottom: -2px; }
 
-/* line 170, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003170}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.wday_sat {
-  color: #0044aa;
-}
+  color: #0044aa; }
 
-/* line 174, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003174}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.wday_sun {
-  color: #e13b00;
-}
+  color: #e13b00; }
 
-/* line 178, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003178}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.day_another_month {
-  color: #cccccc;
-}
+  color: #cccccc; }
 
-/* line 182, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003182}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.day_in_past {
   cursor: default;
-  color: #cccccc;
-}
+  color: #cccccc; }
 
-/* line 186, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003186}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.out_of_range {
   cursor: default;
-  color: #cccccc;
-}
+  color: #cccccc; }
 
-/* line 191, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003191}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.active {
   color: #ffffff;
-  background-color: #808080;
-}
+  background-color: #808080; }
 
-/* line 196, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003196}}
 .datepicker > .datepicker_inner_container > .datepicker_calendar > .datepicker_table > tbody > tr > td.hover {
   color: #000000;
-  background-color: #c8c8c8;
-}
+  background-color: #c8c8c8; }
 
 /*
  * datepicker_inner_container > datepicker_timelist
 */
-/* line 205, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003205}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist {
   float: left;
   width: 4.2em;
@@ -1208,8 +1024,7 @@ textarea {
   -webkit-border-top-right-radius: 3px;
   -webkit-border-bottom-right-radius: 3px;
   -moz-border-radius-topright: 3px;
-  -moz-border-radius-bottomright: 3px;
-}
+  -moz-border-radius-bottomright: 3px; }
 
 /*
 .datepicker > .datepicker_inner_container > .datepicker_timelist::after {
@@ -1220,7 +1035,7 @@ textarea {
 	visibility: hidden;
 }
 */
-/* line 238, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003238}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar {
   overflow: hidden;
   width: 6px;
@@ -1230,43 +1045,36 @@ textarea {
   -webkit-border-top-right-radius: 3px;
   -webkit-border-bottom-right-radius: 3px;
   -moz-border-radius-topright: 3px;
-  -moz-border-radius-bottomright: 3px;
-}
+  -moz-border-radius-bottomright: 3px; }
 
-/* line 251, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003251}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar:horizontal {
-  height: 1px;
-}
+  height: 1px; }
 
-/* line 255, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003255}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-button {
-  display: none;
-}
+  display: none; }
 
-/* line 259, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003259}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-piece {
-  background: #eee;
-}
+  background: #eee; }
 
-/* line 263, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003263}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-piece:start {
-  background: #eee;
-}
+  background: #eee; }
 
-/* line 267, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003267}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-thumb {
   background: #aaaaaa;
   border-radius: 3px;
   -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-}
+  -moz-border-radius: 3px; }
 
-/* line 274, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003274}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist::-webkit-scrollbar-corner {
-  background: #333;
-}
+  background: #333; }
 
-/* line 278, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003278}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item {
   padding-top: 1px;
   padding-bottom: 1px;
@@ -1278,83 +1086,70 @@ textarea {
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
-/* line 293, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003293}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.time_in_past {
   cursor: default;
-  color: #cccccc;
-}
+  color: #cccccc; }
 
-/* line 298, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003298}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.out_of_range {
   cursor: default;
-  color: #cccccc;
-}
+  color: #cccccc; }
 
-/* line 302, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003302}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.active {
   color: #ffffff;
-  background-color: #808080;
-}
+  background-color: #808080; }
 
-/* line 307, ../sass/partials/_jquery.simple-dtpicker.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_jquery\.simple-dtpicker\.scss}line{font-family:\00003307}}
 .datepicker > .datepicker_inner_container > .datepicker_timelist > div.timelist_item.hover {
   color: #000000;
-  background-color: #c8c8c8;
-}
+  background-color: #c8c8c8; }
 
-/* line 1, ../sass/partials/_home-sides.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\000031}}
 .home-side {
   position: fixed;
   top: 0;
   width: 50%;
   overflow: hidden;
-  min-width: 445px;
-}
-/* line 7, ../sass/partials/_home-sides.scss */
-.home-side article {
-  width: 480px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  min-width: 445px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\000037}}
+  .home-side article {
+    width: 480px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
 
-/* line 13, ../sass/partials/_home-sides.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000313}}
 .baptizing-opened {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
-/* line 19, ../sass/partials/_home-sides.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000319}}
 .baptizing {
   display: none;
   left: 0;
   background: #33ae21;
   height: 100%;
-  z-index: 100000;
-}
-/* line 25, ../sass/partials/_home-sides.scss */
-.baptizing article {
-  padding-right: 100px;
-  padding-left: 10px;
-  float: right;
-}
+  z-index: 100000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000325}}
+  .baptizing article {
+    padding-right: 100px;
+    padding-left: 10px;
+    float: right; }
 
-/* line 32, ../sass/partials/_home-sides.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000332}}
 .registration-opened {
-  overflow: hidden;
-}
-/* line 34, ../sass/partials/_home-sides.scss */
-.registration-opened .registration, .registration-opened .auth {
-  top: 36px;
-}
-/* line 37, ../sass/partials/_home-sides.scss */
-.registration-opened #regUser {
-  display: none;
-}
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000334}}
+  .registration-opened .registration, .registration-opened .auth {
+    top: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000337}}
+  .registration-opened #regUser {
+    display: none; }
 
-/* line 41, ../sass/partials/_home-sides.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000341}}
 .registration, .auth {
   -webkit-transition: top 0.3s;
   -moz-transition: top 0.3s;
@@ -1366,125 +1161,105 @@ textarea {
   top: -100%;
   width: 100%;
   height: 100%;
-  background: #f7f7f7;
-}
-/* line 50, ../sass/partials/_home-sides.scss */
-.registration input, .auth input {
-  padding: 0 10px;
-}
-/* line 52, ../sass/partials/_home-sides.scss */
-.registration input.last, .auth input.last {
-  margin-bottom: 20px;
-}
-/* line 56, ../sass/partials/_home-sides.scss */
-.registration .widget__header, .auth .widget__header {
-  text-align: center;
-  font-size: 13px;
-  color: #000;
-  text-transform: uppercase;
-  margin-bottom: 27px;
-}
-/* line 62, ../sass/partials/_home-sides.scss */
-.registration .widget__header i, .auth .widget__header i {
-  font-size: 12px;
-  margin: 0 4px 0 0;
-}
-/* line 67, ../sass/partials/_home-sides.scss */
-.registration .btn, .auth .btn {
-  margin: 0 auto 7px;
-  width: 270px;
-  display: block;
-}
+  background: #f7f7f7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000350}}
+  .registration input, .auth input {
+    padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000352}}
+    .registration input.last, .auth input.last {
+      margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000356}}
+  .registration .widget__header, .auth .widget__header {
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 27px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000362}}
+    .registration .widget__header i, .auth .widget__header i {
+      font-size: 12px;
+      margin: 0 4px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000367}}
+  .registration .btn, .auth .btn {
+    margin: 0 auto 7px;
+    width: 270px;
+    display: block; }
 
-/* line 74, ../sass/partials/_home-sides.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000374}}
 .auth-opened {
-  overflow: hidden;
-}
-/* line 76, ../sass/partials/_home-sides.scss */
-.auth-opened .auth {
-  top: 36px;
-}
-/* line 79, ../sass/partials/_home-sides.scss */
-.auth-opened #authUser {
-  display: none;
-}
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000376}}
+  .auth-opened .auth {
+    top: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_home-sides\.scss}line{font-family:\0000379}}
+  .auth-opened #authUser {
+    display: none; }
 
-/* line 1, ../sass/partials/_slider.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_slider\.scss}line{font-family:\000031}}
 .slider-wrap {
   height: 400px;
   width: 970px;
   display: table-cell;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
-/* line 8, ../sass/partials/_slider.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_slider\.scss}line{font-family:\000038}}
 .slider {
   background: url("../images/main-slider.png") no-repeat;
   width: 832px;
   height: 298px;
   margin: 0 auto;
   text-align: center;
-  overflow: hidden;
-}
-/* line 15, ../sass/partials/_slider.scss */
-.slider .btn {
-  margin: 0 4px;
-  width: 180px;
-}
-/* line 18, ../sass/partials/_slider.scss */
-.slider .btn i {
-  position: relative;
-  top: 3px;
-  font-size: 15px;
-}
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_slider\.scss}line{font-family:\0000315}}
+  .slider .btn {
+    margin: 0 4px;
+    width: 180px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_slider\.scss}line{font-family:\0000318}}
+    .slider .btn i {
+      position: relative;
+      top: 3px;
+      font-size: 15px; }
 
-/* line 26, ../sass/partials/_slider.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_slider\.scss}line{font-family:\0000326}}
 .slider__in {
-  height: 240px;
-}
-/* line 28, ../sass/partials/_slider.scss */
-.slider__in p {
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 20px;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.61);
-}
+  height: 240px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_slider\.scss}line{font-family:\0000328}}
+  .slider__in p {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.61); }
 
-/* line 36, ../sass/partials/_slider.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_slider\.scss}line{font-family:\0000336}}
 .slider__slide, .slider__slide article {
   height: 240px;
-  width: 832px;
-}
-/* line 39, ../sass/partials/_slider.scss */
-.slider__slide article {
-  display: table-cell;
-  vertical-align: middle;
-}
+  width: 832px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_slider\.scss}line{font-family:\0000339}}
+  .slider__slide article {
+    display: table-cell;
+    vertical-align: middle; }
 
-/* line 47, ../sass/partials/_slider.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_slider\.scss}line{font-family:\0000347}}
 #purchase-slides .widget__body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  height: 231px;
-}
+  height: 231px; }
 
-/* line 1, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\000031}}
 .photo-album {
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.2);
   font-size: 0;
   line-height: 0;
   display: block;
-  margin-bottom: 10px;
-}
-/* line 8, ../sass/partials/_media.scss */
-.photo-album img {
-  width: 433px;
-  height: 244px;
-}
+  margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\000038}}
+  .photo-album img {
+    width: 433px;
+    height: 244px; }
 
-/* line 14, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000314}}
 .photo-album__title {
   height: 34px;
   line-height: 34px;
@@ -1500,15 +1275,13 @@ textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0 15px;
-}
+  padding: 0 15px; }
 
-/* line 30, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000330}}
 .photo-album__title__name {
-  max-width: 325px;
-}
+  max-width: 325px; }
 
-/* line 34, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000334}}
 .media-item {
   height: 61px;
   border: 1px solid #eee;
@@ -1525,87 +1298,72 @@ textarea {
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
-  border-radius: 2px;
-}
-/* line 46, ../sass/partials/_media.scss */
-.media-item .dtc {
-  height: 61px;
-}
-/* line 49, ../sass/partials/_media.scss */
-.media-item span {
-  display: block;
-}
+  border-radius: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000346}}
+  .media-item .dtc {
+    height: 61px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000349}}
+  .media-item span {
+    display: block; }
 
-/* line 54, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000354}}
 .media-item__in {
-  display: table-row;
-}
+  display: table-row; }
 
-/* line 58, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000358}}
 .media-item__type {
   color: #767676;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
-/* line 63, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000363}}
 .media-item__name {
-  font-size: 10px;
-}
+  font-size: 10px; }
 
-/* line 67, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000367}}
 .need-preview {
   height: 266px;
   display: block;
   padding-top: 14px;
   padding-bottom: 14px;
   position: relative;
-  overflow: hidden;
-}
-/* line 74, ../sass/partials/_media.scss */
-.need-preview .need-preview__head {
-  font-size: 13px;
-  padding-bottom: 15px;
-}
-/* line 77, ../sass/partials/_media.scss */
-.need-preview .need-preview__head a {
-  width: 310px;
-}
-/* line 81, ../sass/partials/_media.scss */
-.need-preview p {
-  font-size: 13px;
-  height: 204px;
-  overflow: hidden;
-  line-height: 19px;
-}
-/* line 87, ../sass/partials/_media.scss */
-.need-preview:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  display: block;
-  height: 65px;
-  width: 100%;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsIDI1NSwgMjU1LCAwKSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #ffffff));
-  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
-  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
-  background-image: -o-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
-  background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff);
-  z-index: 2;
-}
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000374}}
+  .need-preview .need-preview__head {
+    font-size: 13px;
+    padding-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000377}}
+    .need-preview .need-preview__head a {
+      width: 310px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000381}}
+  .need-preview p {
+    font-size: 13px;
+    height: 204px;
+    overflow: hidden;
+    line-height: 19px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\0000387}}
+  .need-preview:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    height: 65px;
+    width: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #ffffff));
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+    z-index: 2; }
 
-/* line 105, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\00003105}}
 .card-preview a {
-  font-size: 13px;
-}
-/* line 108, ../sass/partials/_media.scss */
+  font-size: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\00003108}}
 .card-preview .need-preview__head {
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px; }
 
-/* line 113, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\00003113}}
 .person-preview {
   height: 48px;
   border: 1px solid #eee;
@@ -1618,116 +1376,97 @@ textarea {
   -moz-border-radius: 1px;
   -ms-border-radius: 1px;
   -o-border-radius: 1px;
-  border-radius: 1px;
-}
-/* line 120, ../sass/partials/_media.scss */
-.person-preview a {
-  display: block;
-  font-size: 13px;
-}
-/* line 124, ../sass/partials/_media.scss */
-.person-preview time {
-  font-size: 10px;
-  color: #767676;
-}
+  border-radius: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\00003120}}
+  .person-preview a {
+    display: block;
+    font-size: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\00003124}}
+  .person-preview time {
+    font-size: 10px;
+    color: #767676; }
 
-/* line 130, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\00003130}}
 .person-preview__ava {
   display: block;
   width: 30px;
   height: 30px;
   overflow: hidden;
-  margin: 0 16px 0 0;
-}
-/* line 136, ../sass/partials/_media.scss */
-.person-preview__ava img {
-  width: 30px;
-}
+  margin: 0 16px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\00003136}}
+  .person-preview__ava img {
+    width: 30px; }
 
-/* line 141, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\00003141}}
 .card-preview__left {
   float: left;
   width: 115px;
   display: block;
-  padding-bottom: 8px;
-}
-/* line 146, ../sass/partials/_media.scss */
-.card-preview__left a {
-  display: block;
-}
-/* line 149, ../sass/partials/_media.scss */
-.card-preview__left img {
-  width: 97px;
-}
+  padding-bottom: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\00003146}}
+  .card-preview__left a {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\00003149}}
+  .card-preview__left img {
+    width: 97px; }
 
-/* line 154, ../sass/partials/_media.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_media\.scss}line{font-family:\00003154}}
 .card-preview__title {
   position: relative;
   top: -2px;
   margin-bottom: 10px;
-  display: block;
-}
+  display: block; }
 
-/* line 1, ../sass/partials/_header.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\000031}}
 .header {
   position: fixed;
   left: 0;
   top: 0;
   z-index: 100;
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 9, ../sass/partials/_header.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\000039}}
 .top-bar {
   height: 35px;
   line-height: 35px;
-  background: rgba(0, 0, 0, 0.5);
-}
-/* line 13, ../sass/partials/_header.scss */
-.top-bar .wrapper, .top-bar .main, .top-bar .footer {
-  padding: 0 10px;
-  min-width: 750px;
-}
-/* line 17, ../sass/partials/_header.scss */
-.top-bar .btn {
-  position: relative;
-  top: -3px;
-}
+  background: rgba(0, 0, 0, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000313}}
+  .top-bar .wrapper, .top-bar .main, .top-bar .footer {
+    padding: 0 10px;
+    min-width: 750px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000317}}
+  .top-bar .btn {
+    position: relative;
+    top: -3px; }
 
 @media (max-width: 900px) {
-  /* line 25, ../sass/partials/_header.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000325}}
   .top-bar .wrapper, .top-bar .main, .top-bar .footer {
-    width: 100%;
-  }
-}
-/* line 34, ../sass/partials/_header.scss */
+    width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000334}}
 .top-bar__nav li {
-  padding: 0 20px 0 0;
-}
-/* line 37, ../sass/partials/_header.scss */
+  padding: 0 20px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000337}}
 .top-bar__nav a {
   color: #fff;
   font-size: 13px;
   position: relative;
   display: block;
-  text-decoration: none;
-}
-/* line 44, ../sass/partials/_header.scss */
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000344}}
 .top-bar__nav i {
   font-size: 14px;
   position: relative;
-  top: 1px;
-}
+  top: 1px; }
 
-/* line 51, ../sass/partials/_header.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000351}}
 .top-bar__counter {
   position: absolute;
   top: -10px;
   font-size: 10px;
-  color: #33ae21;
-}
+  color: #33ae21; }
 
-/* line 58, ../sass/partials/_header.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000358}}
 .logo {
   height: 74px;
   display: inline-block;
@@ -1742,30 +1481,26 @@ textarea {
   padding: 0;
   font-family: Helvetica;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
-  transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
-}
-/* line 75, ../sass/partials/_header.scss */
-.logo:hover {
-  text-shadow: #fff 0 0 5px;
-  transition: text-shadow 1s cubic-bezier(0, 0.75, 0, 1);
-}
-/* line 78, ../sass/partials/_header.scss */
-.logo:hover img {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
-/* line 85, ../sass/partials/_header.scss */
-.logo img {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
-  display: inline-block;
-  height: 100%;
-  margin: 6px -12px;
-  position: relative;
-  top: 9px;
-}
+  transition: text-shadow 2s cubic-bezier(0, 1, 0, 1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000375}}
+  .logo:hover {
+    text-shadow: #fff 0 0 5px;
+    transition: text-shadow 1s cubic-bezier(0, 0.75, 0, 1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000378}}
+    .logo:hover img {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000385}}
+  .logo img {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    display: inline-block;
+    height: 100%;
+    margin: 6px -12px;
+    position: relative;
+    top: 9px; }
 
-/* line 95, ../sass/partials/_header.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\0000395}}
 .main-nav {
   height: 47px;
   background: rgba(0, 0, 0, 0.5);
@@ -1778,37 +1513,33 @@ textarea {
   -moz-border-radius: 1px 1px 0 0;
   -ms-border-radius: 1px 1px 0 0;
   -o-border-radius: 1px 1px 0 0;
-  border-radius: 1px 1px 0 0;
-}
-/* line 104, ../sass/partials/_header.scss */
-.main-nav li {
-  padding: 0;
-  display: inline-block;
-  vertical-align: middle;
-}
-/* line 109, ../sass/partials/_header.scss */
-.main-nav a {
-  line-height: 51px;
-  height: 49px;
-  display: block;
-  color: #fff;
-  font-size: 11px;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.61);
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 0 9px;
-  position: relative;
-  top: -1px;
-}
-/* line 122, ../sass/partials/_header.scss */
-.main-nav a:hover, .main-nav a.active {
-  -webkit-box-shadow: 1px 0 3px rgba(30, 44, 37, 0.6) inset, -1px 0 3px rgba(30, 44, 37, 0.6) inset;
-  -moz-box-shadow: 1px 0 3px rgba(30, 44, 37, 0.6) inset, -1px 0 3px rgba(30, 44, 37, 0.6) inset;
-  box-shadow: 1px 0 3px rgba(30, 44, 37, 0.6) inset, -1px 0 3px rgba(30, 44, 37, 0.6) inset;
-  background: rgba(0, 0, 0, 0.1);
-}
+  border-radius: 1px 1px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\00003104}}
+  .main-nav li {
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\00003109}}
+  .main-nav a {
+    line-height: 51px;
+    height: 49px;
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.61);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 9px;
+    position: relative;
+    top: -1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_header\.scss}line{font-family:\00003122}}
+    .main-nav a:hover, .main-nav a.active {
+      -webkit-box-shadow: 1px 0 3px rgba(30, 44, 37, 0.6) inset, -1px 0 3px rgba(30, 44, 37, 0.6) inset;
+      -moz-box-shadow: 1px 0 3px rgba(30, 44, 37, 0.6) inset, -1px 0 3px rgba(30, 44, 37, 0.6) inset;
+      box-shadow: 1px 0 3px rgba(30, 44, 37, 0.6) inset, -1px 0 3px rgba(30, 44, 37, 0.6) inset;
+      background: rgba(0, 0, 0, 0.1); }
 
-/* line 1, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\000031}}
 .widget {
   border: 1px solid #d0d0d0;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
@@ -1820,39 +1551,33 @@ textarea {
   -o-border-radius: 3px;
   border-radius: 3px;
   margin: 0 0 11px 0;
-  background: #fff;
-}
-/* line 3, ../sass/partials/_widgets.scss */
-.widget > h2 i {
-  color: #000;
-  position: relative;
-  top: 1px;
-  font-size: 16px;
-  margin: 0 10px 0 0;
-}
+  background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\000033}}
+  .widget > h2 i {
+    color: #000;
+    position: relative;
+    top: 1px;
+    font-size: 16px;
+    margin: 0 10px 0 0; }
 
-/* line 18, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000318}}
 .widget_small {
-  width: 463px;
-}
-/* line 20, ../sass/partials/_widgets.scss */
-.widget_small .widget__footer {
-  border-color: #eee;
-}
+  width: 463px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000320}}
+  .widget_small .widget__footer {
+    border-color: #eee; }
 
-/* line 26, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000326}}
 .widget_video .widget__body {
   width: 436px;
   margin: 0 auto;
-  padding: 10px 0;
-}
+  padding: 10px 0; }
 
-/* line 33, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000333}}
 .widget__body {
-  padding: 10px 14px;
-}
+  padding: 10px 14px; }
 
-/* line 37, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000337}}
 .widget__row, .widget__header {
   height: 46px;
   line-height: 46px;
@@ -1864,36 +1589,32 @@ textarea {
   background: #f7f7f7;
   border-bottom: 1px solid #e5e5e5;
   color: #767676;
-  font-size: 13px;
-}
-/* line 48, ../sass/partials/_widgets.scss */
-.widget__row.first, .first.widget__header {
-  -webkit-border-radius: 2px 2px 0 0;
-  -moz-border-radius: 2px 2px 0 0;
-  -ms-border-radius: 2px 2px 0 0;
-  -o-border-radius: 2px 2px 0 0;
-  border-radius: 2px 2px 0 0;
-}
-/* line 51, ../sass/partials/_widgets.scss */
-.widget__row.last, .last.widget__header {
-  border: 0;
-  -webkit-border-radius: 0 0 2px 2px;
-  -moz-border-radius: 0 0 2px 2px;
-  -ms-border-radius: 0 0 2px 2px;
-  -o-border-radius: 0 0 2px 2px;
-  border-radius: 0 0 2px 2px;
-}
+  font-size: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000348}}
+  .widget__row.first, .first.widget__header {
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    -ms-border-radius: 2px 2px 0 0;
+    -o-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000351}}
+  .widget__row.last, .last.widget__header {
+    border: 0;
+    -webkit-border-radius: 0 0 2px 2px;
+    -moz-border-radius: 0 0 2px 2px;
+    -ms-border-radius: 0 0 2px 2px;
+    -o-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px; }
 
-/* line 57, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000357}}
 .widget__row_big {
   height: auto;
   min-height: 46px;
   line-height: 1.2;
   padding-top: 17px;
-  padding-bottom: 17px;
-}
+  padding-bottom: 17px; }
 
-/* line 65, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000365}}
 .widget__header {
   font-size: 16px;
   background: #fff;
@@ -1902,14 +1623,12 @@ textarea {
   -moz-border-radius: 2px 2px 0 0;
   -ms-border-radius: 2px 2px 0 0;
   -o-border-radius: 2px 2px 0 0;
-  border-radius: 2px 2px 0 0;
-}
-/* line 71, ../sass/partials/_widgets.scss */
-.widget__header .icon-pencil {
-  font-size: 13px;
-}
+  border-radius: 2px 2px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000371}}
+  .widget__header .icon-pencil {
+    font-size: 13px; }
 
-/* line 76, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000376}}
 .widget__footer {
   height: 54px;
   line-height: 54px;
@@ -1921,42 +1640,34 @@ textarea {
   -ms-border-radius: 0 0 4px 4px;
   -o-border-radius: 0 0 4px 4px;
   border-radius: 0 0 4px 4px;
-  overflow: hidden;
-}
-/* line 84, ../sass/partials/_widgets.scss */
-.widget__footer .btn {
-  position: relative;
-  top: -3px;
-}
-/* line 88, ../sass/partials/_widgets.scss */
-.widget__footer a {
-  font-size: 11px;
-}
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000384}}
+  .widget__footer .btn {
+    position: relative;
+    top: -3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000388}}
+  .widget__footer a {
+    font-size: 11px; }
 
-/* line 93, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000393}}
 .purchase-link {
   text-decoration: none !important;
   position: relative;
-  top: -2px;
-}
-/* line 97, ../sass/partials/_widgets.scss */
-.purchase-link i {
-  margin: 0 5px 0 0;
-  font-size: 13px;
-  position: relative;
-  top: 2px;
-}
+  top: -2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\0000397}}
+  .purchase-link i {
+    margin: 0 5px 0 0;
+    font-size: 13px;
+    position: relative;
+    top: 2px; }
 
-/* line 105, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003105}}
 .widget__tabs {
-  height: 612px;
-}
+  height: 612px; }
 
-/* line 111, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003111}}
 .widget__tabs__nav li {
   position: relative;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJkMmUzMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzIwMjAyMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2d2e31), color-stop(100%, #202022));
   background-image: -webkit-linear-gradient(#2d2e31, #202022);
   background-image: -moz-linear-gradient(#2d2e31, #202022);
@@ -1972,330 +1683,282 @@ textarea {
   text-align: center;
   font-size: 12px;
   padding-top: 12px;
-  cursor: pointer;
-}
-/* line 123, ../sass/partials/_widgets.scss */
-.widget__tabs__nav li i {
-  display: block;
-  font-size: 12px;
-  height: 18px;
-}
-/* line 130, ../sass/partials/_widgets.scss */
-.widget__tabs__nav li:before, .widget__tabs__nav li:after {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: block;
-  height: 100%;
-  width: 1px;
-  z-index: 2;
-  background: #3d3f40;
-}
-/* line 141, ../sass/partials/_widgets.scss */
-.widget__tabs__nav li:after {
-  background: #000;
-  height: 4px;
-  width: 100%;
-}
-/* line 147, ../sass/partials/_widgets.scss */
-.widget__tabs__nav li.active {
-  background: #fff;
-  color: #519fff;
-}
-/* line 150, ../sass/partials/_widgets.scss */
-.widget__tabs__nav li.active:after {
-  background: #519fff;
-}
-/* line 153, ../sass/partials/_widgets.scss */
-.widget__tabs__nav li.active:before {
-  display: none;
-}
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003123}}
+  .widget__tabs__nav li i {
+    display: block;
+    font-size: 12px;
+    height: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003130}}
+  .widget__tabs__nav li:before, .widget__tabs__nav li:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 1px;
+    z-index: 2;
+    background: #3d3f40; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003141}}
+  .widget__tabs__nav li:after {
+    background: #000;
+    height: 4px;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003147}}
+  .widget__tabs__nav li.active {
+    background: #fff;
+    color: #519fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003150}}
+    .widget__tabs__nav li.active:after {
+      background: #519fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003153}}
+    .widget__tabs__nav li.active:before {
+      display: none; }
 
-/* line 160, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003160}}
 .widget__tabs__item {
-  display: none;
-}
-/* line 162, ../sass/partials/_widgets.scss */
-.widget__tabs__item:first-child {
-  display: block;
-}
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003162}}
+  .widget__tabs__item:first-child {
+    display: block; }
 
-/* line 168, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003168}}
 .widget__rows_zebra .widget__row:nth-child(even), .widget__rows_zebra .widget__header:nth-child(even) {
-  background: #fafafa;
-}
+  background: #fafafa; }
 
-/* line 173, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003173}}
 .schedule {
-  width: 100%;
-}
-/* line 176, ../sass/partials/_widgets.scss */
-.schedule th {
-  height: 46px;
-  vertical-align: middle;
-  text-transform: uppercase;
-  font-size: 13px;
-  text-align: center;
-}
-/* line 187, ../sass/partials/_widgets.scss */
-.schedule tr:nth-child(even) td {
-  background: #fafafa;
-}
-/* line 192, ../sass/partials/_widgets.scss */
-.schedule tr:nth-child(odd) td {
-  background: #f7f7f7;
-}
-/* line 197, ../sass/partials/_widgets.scss */
-.schedule td {
-  border-top: 1px solid #e0e0e0;
-  border-left: 1px solid #e0e0e0;
-  padding: 0 5px;
-  font-size: 13px;
-  color: #767676;
-  text-transform: uppercase;
-  text-align: center;
-  height: 48px;
-}
-/* line 201, ../sass/partials/_widgets.scss */
-.schedule td:first-child {
-  border-left: 0;
-}
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003176}}
+  .schedule th {
+    height: 46px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003187}}
+  .schedule tr:nth-child(even) td {
+    background: #fafafa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003192}}
+  .schedule tr:nth-child(odd) td {
+    background: #f7f7f7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003197}}
+  .schedule td {
+    border-top: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    padding: 0 5px;
+    font-size: 13px;
+    color: #767676;
+    text-transform: uppercase;
+    text-align: center;
+    height: 48px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003201}}
+    .schedule td:first-child {
+      border-left: 0; }
 
-/* line 213, ../sass/partials/_widgets.scss */
-.add-post form {
-  padding-bottom: 0;
-}
-/* line 217, ../sass/partials/_widgets.scss */
-.add-post .widget__header {
-  border: 0;
-}
-/* line 219, ../sass/partials/_widgets.scss */
-.add-post .widget__header .btn_green {
-  visibility: hidden;
-}
-/* line 224, ../sass/partials/_widgets.scss */
-.add-post.closed {
-  overflow: hidden;
-}
-/* line 226, ../sass/partials/_widgets.scss */
-.add-post.closed .widget__header {
-  border: 0;
-}
-/* line 228, ../sass/partials/_widgets.scss */
-.add-post.closed .widget__header .btn_green {
-  visibility: visible;
-}
-/* line 232, ../sass/partials/_widgets.scss */
-.add-post.closed .widget__rows_zebra {
-  height: 0px;
-  overflow: hidden;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003213}}
+.add-post form, .pastors-testimony form {
+  padding-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003218}}
+.add-post .widget__header .btn_green, .pastors-testimony .widget__header .btn_green {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003221}}
+.add-post .widget__header .btn_red, .pastors-testimony .widget__header .btn_red {
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003226}}
+.add-post.closed, .closed.pastors-testimony {
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003228}}
+  .add-post.closed .widget__header, .closed.pastors-testimony .widget__header {
+    border: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003230}}
+    .add-post.closed .widget__header .btn_green, .closed.pastors-testimony .widget__header .btn_green {
+      display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003233}}
+    .add-post.closed .widget__header .btn_red, .closed.pastors-testimony .widget__header .btn_red {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003237}}
+  .add-post.closed .widget__rows_zebra, .closed.pastors-testimony .widget__rows_zebra {
+    height: 0px;
+    overflow: hidden; }
 
-/* line 239, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003244}}
 .add-post__footer {
   height: 49px;
-  line-height: 49px;
-}
-/* line 243, ../sass/partials/_widgets.scss */
-.add-post__footer .btn {
-  margin: 0;
-}
-/* line 246, ../sass/partials/_widgets.scss */
-.add-post__footer i {
-  font-size: 18px;
-}
-/* line 249, ../sass/partials/_widgets.scss */
-.add-post__footer a {
-  text-decoration: none;
-  position: relative;
-  top: 2px;
-  margin: 0 15px;
-}
+  line-height: 49px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003248}}
+  .add-post__footer .btn {
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003251}}
+  .add-post__footer i {
+    font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003254}}
+  .add-post__footer a {
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+    margin: 0 15px; }
 
-/* line 257, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003262}}
 .add-post__imgs {
   line-height: 51px;
   height: 51px;
   display: inline-block;
   font-size: 0;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
-/* line 266, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003271}}
 .add-post__imgs__item {
   display: inline-block;
   vertical-align: top;
   margin-top: 8px;
   padding: 0 19px 0 0;
-  position: relative;
-}
-/* line 272, ../sass/partials/_widgets.scss */
-.add-post__imgs__item .icon-cross {
-  color: #cf2026;
-  font-size: 15px;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  top: -3px;
-  cursor: pointer;
-}
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003277}}
+  .add-post__imgs__item .icon-cross {
+    color: #cf2026;
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -3px;
+    cursor: pointer; }
 
-/* line 283, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003288}}
 .post {
   margin-bottom: 17px;
   background: #f9f9f9;
   position: relative;
   padding-top: 10px;
-  overflow: hidden;
-}
-/* line 289, ../sass/partials/_widgets.scss */
-.post:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: -1px;
-  display: block;
-  width: 100%;
-  height: 10px;
-  -webkit-border-radius: 2px 2px 0 0;
-  -moz-border-radius: 2px 2px 0 0;
-  -ms-border-radius: 2px 2px 0 0;
-  -o-border-radius: 2px 2px 0 0;
-  border-radius: 2px 2px 0 0;
-  background: #33ae21;
-}
-/* line 302, ../sass/partials/_widgets.scss */
-.post.post_quoted:before, .post.need_others:before {
-  background: #878787;
-}
-/* line 308, ../sass/partials/_widgets.scss */
-.post.editable .post__article h2 {
-  height: 37px;
-  line-height: 21px;
-  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
-  -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
-  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  margin-bottom: 15px;
-  padding: 8px 15px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-/* line 317, ../sass/partials/_widgets.scss */
-.post.editable .post__article p {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
-  -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
-  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
-  padding: 15px;
-}
-/* line 323, ../sass/partials/_widgets.scss */
-.post.editable .add-post__footer {
-  display: block;
-}
-/* line 326, ../sass/partials/_widgets.scss */
-.post.editable .post__edit-btn {
-  display: none;
-}
-/* line 330, ../sass/partials/_widgets.scss */
-.post .avatar {
-  margin: 0 10px 25px 0;
-}
-/* line 333, ../sass/partials/_widgets.scss */
-.post .add-post__footer {
-  display: none;
-}
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003294}}
+  .post:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -1px;
+    display: block;
+    width: 100%;
+    height: 10px;
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    -ms-border-radius: 2px 2px 0 0;
+    -o-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+    background: #33ae21; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003307}}
+  .post.post_quoted:before, .post.need_others:before {
+    background: #878787; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003313}}
+  .post.editable .post__article h2 {
+    height: 37px;
+    line-height: 21px;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 8px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003322}}
+  .post.editable .post__article p {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.32);
+    padding: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003328}}
+  .post.editable .add-post__footer {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003331}}
+  .post.editable .post__edit-btn {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003335}}
+  .post .avatar {
+    margin: 0 10px 25px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003338}}
+  .post .add-post__footer {
+    display: none; }
 
-/* line 338, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003343}}
 .post__in, .comments__body {
-  padding: 15px 15px 5px 15px;
-}
+  padding: 15px 15px 5px 15px; }
 
-/* line 343, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003348}}
 .post__info {
-  width: 380px;
-}
+  width: 380px; }
 
-/* line 347, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003352}}
 .post__author {
   color: #33ae21 !important;
   font-size: 16px;
   margin-bottom: 10px;
   display: block;
   height: 17px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
-/* line 356, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003361}}
 .post__date {
   color: #757575;
   font-size: 13px;
   position: relative;
   padding: 0 0 0 13px;
   height: 20px;
-  line-height: 20px;
-}
-/* line 363, ../sass/partials/_widgets.scss */
-.post__date i {
-  font-size: 18px;
-  position: absolute;
-  left: -5px;
-  top: 2px;
-}
+  line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003368}}
+  .post__date i {
+    font-size: 18px;
+    position: absolute;
+    left: -5px;
+    top: 2px; }
 
-/* line 372, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003377}}
 .post__quoted h4 {
   color: #000;
   font-size: 13px;
-  margin-bottom: 5px;
-}
-/* line 377, ../sass/partials/_widgets.scss */
+  margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003382}}
 .post__quoted .avatar {
   width: 49px;
   height: 49px;
-  margin: 0 10px 0 0;
-}
-/* line 382, ../sass/partials/_widgets.scss */
+  margin: 0 10px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003387}}
 .post__quoted .post__author {
   font-size: 13px;
-  margin: 0 0 5px 0;
-}
+  margin: 0 0 5px 0; }
 
-/* line 388, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003393}}
 .post__nav {
   border-top: 1px solid #d6d6d6;
   background: #fff;
   overflow: hidden;
-  padding: 18px;
-}
-/* line 393, ../sass/partials/_widgets.scss */
-.post__nav .btn {
-  margin-left: 8px;
-  top: 0;
-}
-/* line 398, ../sass/partials/_widgets.scss */
-.post__nav .segmented-btn .btn {
-  margin-left: 0;
-}
+  padding: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003398}}
+  .post__nav .btn {
+    margin-left: 8px;
+    top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003403}}
+  .post__nav .segmented-btn .btn {
+    margin-left: 0; }
 
-/* line 404, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003409}}
 .post__interact {
   top: 9px;
   position: relative;
-  margin-bottom: 11px;
-}
+  margin-bottom: 11px; }
 
-/* line 410, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003415}}
 .post__like__btn {
   overflow: hidden;
   color: #f9f9f9;
@@ -2305,49 +1968,40 @@ textarea {
   height: 25px;
   line-height: 23px;
   margin-bottom: 5px;
-  padding: 0 8px;
-}
+  padding: 0 8px; }
 
-/* line 423, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003428}}
 .comments form {
   padding-left: 111px;
-  padding-bottom: 0;
-}
-/* line 427, ../sass/partials/_widgets.scss */
+  padding-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003432}}
 .comments.closed {
   height: 50px;
-  overflow: hidden;
-}
-/* line 430, ../sass/partials/_widgets.scss */
-.comments.closed .comments__btn {
-  -webkit-border-radius: 0 0 2px 2px;
-  -moz-border-radius: 0 0 2px 2px;
-  -ms-border-radius: 0 0 2px 2px;
-  -o-border-radius: 0 0 2px 2px;
-  border-radius: 0 0 2px 2px;
-}
-/* line 433, ../sass/partials/_widgets.scss */
-.comments.closed .btn-active__text {
-  display: none;
-}
-/* line 436, ../sass/partials/_widgets.scss */
-.comments.closed .btn__text {
-  display: block;
-}
-/* line 441, ../sass/partials/_widgets.scss */
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003435}}
+  .comments.closed .comments__btn {
+    -webkit-border-radius: 0 0 2px 2px;
+    -moz-border-radius: 0 0 2px 2px;
+    -ms-border-radius: 0 0 2px 2px;
+    -o-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003438}}
+  .comments.closed .btn-active__text {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003441}}
+  .comments.closed .btn__text {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003446}}
 .comments .btn-active__text {
-  display: block;
-}
-/* line 444, ../sass/partials/_widgets.scss */
+  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003449}}
 .comments .btn__text {
-  display: none;
-}
-/* line 447, ../sass/partials/_widgets.scss */
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003452}}
 .comments .add-post__footer {
-  display: block;
-}
+  display: block; }
 
-/* line 452, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003457}}
 .comments__btn {
   height: 50px;
   line-height: 50px;
@@ -2360,8 +2014,6 @@ textarea {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), inset 0 1px 0 rgba(255, 255, 255, 0.28);
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzhiYmVmZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #519fff), color-stop(100%, #8bbefd));
   background-image: -webkit-linear-gradient(bottom, #519fff 0%, #8bbefd 100%);
   background-image: -moz-linear-gradient(bottom, #519fff 0%, #8bbefd 100%);
@@ -2376,189 +2028,164 @@ textarea {
   -o-border-radius: 0;
   border-radius: 0;
   clear: both;
-  top: 0;
-}
-/* line 467, ../sass/partials/_widgets.scss */
-.comments__btn:hover {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhiYmVmZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #8bbefd), color-stop(100%, #519fff));
-  background-image: -webkit-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
-  background-image: -moz-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
-  background-image: -o-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
-  background-image: linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
-}
-/* line 471, ../sass/partials/_widgets.scss */
-.comments__btn:active, .comments__btn.active {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUxOWZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #519fff), color-stop(100%, #519fff));
-  background-image: -webkit-linear-gradient(bottom, #519fff 0%, #519fff 100%);
-  background-image: -moz-linear-gradient(bottom, #519fff 0%, #519fff 100%);
-  background-image: -o-linear-gradient(bottom, #519fff 0%, #519fff 100%);
-  background-image: linear-gradient(bottom, #519fff 0%, #519fff 100%);
-}
+  top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003472}}
+  .comments__btn:hover {
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #8bbefd), color-stop(100%, #519fff));
+    background-image: -webkit-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
+    background-image: -moz-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
+    background-image: -o-linear-gradient(bottom, #8bbefd 0%, #519fff 100%);
+    background-image: linear-gradient(bottom, #8bbefd 0%, #519fff 100%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003476}}
+  .comments__btn:active, .comments__btn.active {
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #519fff), color-stop(100%, #519fff));
+    background-image: -webkit-linear-gradient(bottom, #519fff 0%, #519fff 100%);
+    background-image: -moz-linear-gradient(bottom, #519fff 0%, #519fff 100%);
+    background-image: -o-linear-gradient(bottom, #519fff 0%, #519fff 100%);
+    background-image: linear-gradient(bottom, #519fff 0%, #519fff 100%); }
 
-/* line 476, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003481}}
 .comments__info {
   padding-bottom: 10px;
-  overflow: hidden;
-}
-/* line 479, ../sass/partials/_widgets.scss */
-.comments__info time {
-  font-size: 11px;
-  color: #000;
-}
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003484}}
+  .comments__info time {
+    font-size: 11px;
+    color: #000; }
 
-/* line 485, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003490}}
 .comments__author {
   font-size: 16px;
-  text-decoration: none !important;
-}
-/* line 488, ../sass/partials/_widgets.scss */
-.comments__author span {
-  font-size: 11px;
-  color: #519fff;
-}
+  text-decoration: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003493}}
+  .comments__author span {
+    font-size: 11px;
+    color: #519fff; }
 
-/* line 494, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003499}}
 .comments__body {
   padding-bottom: 0;
-  padding-top: 25px;
-}
-/* line 498, ../sass/partials/_widgets.scss */
-.comments__body .avatar {
-  width: 75px;
-  height: 75px;
-  margin: 0 20px 0 0;
-}
-/* line 504, ../sass/partials/_widgets.scss */
-.comments__body article p {
-  font-size: 13px;
-}
+  padding-top: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003503}}
+  .comments__body .avatar {
+    width: 75px;
+    height: 75px;
+    margin: 0 20px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003509}}
+  .comments__body article p {
+    font-size: 13px; }
 
-/* line 510, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003515}}
 .need, .testimony {
-  overflow: visible;
-}
-/* line 512, ../sass/partials/_widgets.scss */
-.need .post__info, .testimony .post__info {
-  width: 180px;
-  padding: 0 15px 0 0;
-}
-/* line 515, ../sass/partials/_widgets.scss */
-.need .post__info .select, .testimony .post__info .select {
-  width: 145px;
-  margin-bottom: 0px;
-}
-/* line 520, ../sass/partials/_widgets.scss */
-.need .post__like__btn, .testimony .post__like__btn {
-  margin-bottom: 0;
-}
-/* line 524, ../sass/partials/_widgets.scss */
-.need .post__interact, .testimony .post__interact,
-.need .post__date,
-.testimony .post__date {
-  margin-bottom: 15px;
-}
-/* line 527, ../sass/partials/_widgets.scss */
-.need .post__nav, .testimony .post__nav {
-  -webkit-border-radius: 0 0 3px 3px;
-  -moz-border-radius: 0 0 3px 3px;
-  -ms-border-radius: 0 0 3px 3px;
-  -o-border-radius: 0 0 3px 3px;
-  border-radius: 0 0 3px 3px;
-}
-/* line 534, ../sass/partials/_widgets.scss */
-.need:not(.editable) .post__in .select__label:before, .testimony:not(.editable) .post__in .select__label:before, .need:not(.editable) .comments__body .select__label:before, .testimony:not(.editable) .comments__body .select__label:before {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
-  opacity: 0.7;
-}
-/* line 539, ../sass/partials/_widgets.scss */
-.need:not(.editable) .post__in .select select, .testimony:not(.editable) .post__in .select select, .need:not(.editable) .comments__body .select select, .testimony:not(.editable) .comments__body .select select {
-  display: none;
-}
+  overflow: visible; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003517}}
+  .need .post__info, .testimony .post__info {
+    width: 180px;
+    padding: 0 15px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003520}}
+    .need .post__info .select, .testimony .post__info .select {
+      width: 145px;
+      margin-bottom: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003525}}
+  .need .post__like__btn, .testimony .post__like__btn {
+    margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003529}}
+  .need .post__interact, .testimony .post__interact,
+  .need .post__date,
+  .testimony .post__date {
+    margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003532}}
+  .need .post__nav, .testimony .post__nav {
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -ms-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003539}}
+  .need:not(.editable) .post__in .select__label:before, .testimony:not(.editable) .post__in .select__label:before, .need:not(.editable) .comments__body .select__label:before, .testimony:not(.editable) .comments__body .select__label:before {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003544}}
+  .need:not(.editable) .post__in .select select, .testimony:not(.editable) .post__in .select select, .need:not(.editable) .comments__body .select select, .testimony:not(.editable) .comments__body .select select {
+    display: none; }
 
-/* line 547, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003552}}
 .group-prayer {
   clear: both;
   border-top: 1px solid #d6d6d6;
   position: relative;
-  z-index: 2;
-}
-/* line 552, ../sass/partials/_widgets.scss */
-.group-prayer .widget__header {
-  text-align: center;
-  text-transform: uppercase;
-}
-/* line 556, ../sass/partials/_widgets.scss */
-.group-prayer .widget__row, .group-prayer .widget__header {
-  overflow: visible;
-}
-/* line 559, ../sass/partials/_widgets.scss */
-.group-prayer .widget__row:last-child, .group-prayer .widget__header:last-child {
-  border-bottom: 0;
-}
-/* line 562, ../sass/partials/_widgets.scss */
-.group-prayer .widget__row .btn_green, .group-prayer .widget__header .btn_green {
-  width: 124px;
-}
-/* line 566, ../sass/partials/_widgets.scss */
-.group-prayer .select_date {
-  width: 151px !important;
-}
-/* line 569, ../sass/partials/_widgets.scss */
-.group-prayer .controls-box {
-  padding-top: 11px;
-}
-/* line 573, ../sass/partials/_widgets.scss */
-.group-prayer .label {
-  font-size: 11px;
-}
+  z-index: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003557}}
+  .group-prayer .widget__header {
+    text-align: center;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003561}}
+  .group-prayer .widget__row, .group-prayer .widget__header {
+    overflow: visible; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003564}}
+    .group-prayer .widget__row:last-child, .group-prayer .widget__header:last-child {
+      border-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003567}}
+    .group-prayer .widget__row .btn_green, .group-prayer .widget__header .btn_green {
+      width: 124px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003571}}
+  .group-prayer .select_date {
+    width: 151px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003574}}
+  .group-prayer .controls-box {
+    padding-top: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003578}}
+  .group-prayer .label {
+    font-size: 11px; }
 
-/* line 578, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003583}}
 .group-prayer__time {
-  padding: 0 15px 0 0;
-}
-/* line 580, ../sass/partials/_widgets.scss */
-.group-prayer__time .label {
-  padding-right: 3px;
-}
+  padding: 0 15px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003585}}
+  .group-prayer__time .label {
+    padding-right: 3px; }
 
-/* line 586, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003591}}
 .group-prayer__participants span {
   position: relative;
-  top: 1px;
-}
-/* line 589, ../sass/partials/_widgets.scss */
-.group-prayer__participants span span {
-  color: #33ae21;
-  top: 0;
-}
+  top: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003594}}
+  .group-prayer__participants span span {
+    color: #33ae21;
+    top: 0; }
 
-/* line 601, ../sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003606}}
 .draft .post__info {
   width: 180px;
-  padding: 0 15px 0 0;
-}
+  padding: 0 15px 0 0; }
 
-/* line 1, ../sass/partials/_content.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003616}}
+.pastors-testimony__video {
+  float: left;
+  font-size: 0;
+  line-height: 0;
+  padding: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_widgets\.scss}line{font-family:\00003623}}
+.pastors-testimony__article {
+  overflow: hidden;
+  padding: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\000031}}
 .main {
   margin-top: 40px;
   position: relative;
   z-index: 2;
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 9, ../sass/partials/_content.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\000039}}
 .main__in {
   text-align: left;
   -webkit-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2); }
 
-/* line 14, ../sass/partials/_content.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000314}}
 .content {
   background: #ececec;
   background: rgba(236, 236, 236, 0.8);
@@ -2566,56 +2193,47 @@ textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 10px;
-}
+  padding: 10px; }
 
-/* line 24, ../sass/partials/_content.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000324}}
 .content__sidebar {
   width: 227px;
   margin: 0 13px 0 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  float: left;
-}
-/* line 29, ../sass/partials/_content.scss */
-.content__sidebar .widget {
-  padding: 0 14px 10px;
-}
-/* line 32, ../sass/partials/_content.scss */
-.content__sidebar .widget .select__label,
-.content__sidebar .widget .select {
-  width: 100%;
-}
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000329}}
+  .content__sidebar .widget {
+    padding: 0 14px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000332}}
+    .content__sidebar .widget .select__label,
+    .content__sidebar .widget .select {
+      width: 100%; }
 
-/* line 38, ../sass/partials/_content.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000338}}
 .profile {
-  padding-bottom: 45px;
-}
-/* line 40, ../sass/partials/_content.scss */
-.profile .btn {
-  display: block;
-  margin-bottom: 7px;
-}
+  padding-bottom: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000340}}
+  .profile .btn {
+    display: block;
+    margin-bottom: 7px; }
 
-/* line 46, ../sass/partials/_content.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000346}}
 .profile__item {
-  margin-left: 13px;
-}
+  margin-left: 13px; }
 
-/* line 50, ../sass/partials/_content.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000350}}
 .profile__item_small {
-  width: 233px;
-}
+  width: 233px; }
 
-/* line 54, ../sass/partials/_content.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000354}}
 .profile__item__key {
   width: 217px;
   display: inline-block;
-  color: #000;
-}
+  color: #000; }
 
-/* line 60, ../sass/partials/_content.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000360}}
 .avatar {
   width: 145px;
   height: 145px;
@@ -2629,33 +2247,29 @@ textarea {
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px;
-  overflow: hidden;
-}
-/* line 70, ../sass/partials/_content.scss */
-.avatar img {
-  display: block;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
-  -o-border-radius: 1px;
-  border-radius: 1px;
-  width: 100%;
-}
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000370}}
+  .avatar img {
+    display: block;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    width: 100%; }
 
-/* line 77, ../sass/partials/_content.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000377}}
 .avatar_big {
   margin-bottom: 11px;
   width: 220px;
   height: 220px;
-  max-height: 300px;
-}
+  max-height: 300px; }
 
-/* line 85, ../sass/partials/_content.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_content\.scss}line{font-family:\0000385}}
 .table {
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 5, ../sass/partials/_footer.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/berdof\/Projects\/mine\/wlcc\/wlccMarkup\/sass\/partials\/_footer\.scss}line{font-family:\000035}}
 .slider-bg {
   position: fixed;
   width: 100%;
@@ -2665,5 +2279,4 @@ textarea {
   z-index: 1;
   left: 0;
   top: 0px;
-  overflow: hidden;
-}
+  overflow: hidden; }
