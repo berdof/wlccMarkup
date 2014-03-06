@@ -208,7 +208,7 @@ class WlccApp
   initHandsome:()->
     $('.checkbox').checkBox();
     $('.radio').radio();
-#    $('.select').dropDown({useNativeMobile: true});
+    $('select').dropDown();
     on
 
   constructor: ()->
@@ -224,6 +224,5 @@ class WlccApp
 
 $(document).ready(
   ()->
-    $.fn.WlccApp = new WlccApp
-    return
+    window.wlccApp = new WlccApp
 )

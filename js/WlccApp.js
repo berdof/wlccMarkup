@@ -281,6 +281,7 @@ WlccApp = (function() {
   WlccApp.prototype.initHandsome = function() {
     $('.checkbox').checkBox();
     $('.radio').radio();
+    $('select').dropDown();
     return true;
   };
 
@@ -303,5 +304,5 @@ WlccApp = (function() {
 })();
 
 $(document).ready(function() {
-  $.fn.WlccApp = new WlccApp;
+  return window.wlccApp = new WlccApp;
 });
