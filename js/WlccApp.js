@@ -278,6 +278,12 @@ WlccApp = (function() {
     return true;
   };
 
+  WlccApp.prototype.initHandsome = function() {
+    $('.checkbox').checkBox();
+    $('.radio').radio();
+    return true;
+  };
+
   function WlccApp() {
     var self;
 
@@ -288,6 +294,7 @@ WlccApp = (function() {
     self.initPlaceholder();
     self.initTabs();
     self.initDatePicker();
+    self.initHandsome();
     self.replaceImagesToRetina();
   }
 

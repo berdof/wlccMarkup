@@ -1,0 +1,39 @@
+.person {
+  padding: 15px;
+  overflow: hidden;
+  .btn {
+    margin-top: 58px;
+    width: 170px;
+  }
+}
+
+.person__info {
+  padding: 0 25px 15px;
+  h2 {
+    padding-bottom: 20px;
+  }
+}
+
+.person__name {
+  font-size: 16px;
+}
+
+.person__status {
+  font-size: 13px;
+}
+
+.person__info__item {
+  overflow: hidden;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.person__info__item__key {
+  float: left;
+  color: #000;
+}
+
+.person__info__item__val {
+  float: right;
+  color: #767676;
+}

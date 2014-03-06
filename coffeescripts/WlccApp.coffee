@@ -205,6 +205,12 @@ class WlccApp
 
     on
 
+  initHandsome:()->
+    $('.checkbox').checkBox();
+    $('.radio').radio();
+#    $('.select').dropDown({useNativeMobile: true});
+    on
+
   constructor: ()->
     self = this
     self.initSliders()
@@ -213,6 +219,7 @@ class WlccApp
     self.initPlaceholder()
     self.initTabs()
     self.initDatePicker()
+    self.initHandsome()
     self.replaceImagesToRetina()
 
 $(document).ready(

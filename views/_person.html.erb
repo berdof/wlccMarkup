@@ -1,0 +1,47 @@
+<section class="person widget">
+    <a class="avatar pull-left" href="my_profile.html"><img src="images/tmp/ava1.jpg" alt=""/></a>
+    <% if relationship == 'none' %>
+      <span class="btn btn_green pull-right">Добавить в друзья</span>
+    <% elsif relationship == 'friend' %>
+      <span class="btn btn_blue active pull-right">ВЫ ДРУЗЬЯ</span>
+    <% elsif relationship == 'family' %>
+      <span class="btn btn_blue  active pull-right">ВЫ родственники</span>
+    <% end %>
+    <div class="person__info center">
+        <h2><a class="person__name" href="javascript:void(0);">Александр Бердышев</a> <span class="person__status">(онлайн)</span></h2>
+
+        <div class="person__info__item">
+            <div class="person__info__item__key">
+                Служение:
+            </div>
+            <div class="person__info__item__val">
+                Интернет
+            </div>
+        </div>
+        <div class="person__info__item">
+            <div class="person__info__item__key">
+                В церкви:
+            </div>
+            <div class="person__info__item__val">
+                2 года 10 месяцеа
+            </div>
+        </div>
+        <div class="person__info__item">
+            <div class="person__info__item__key">
+                На сайте:
+            </div>
+            <div class="person__info__item__val">
+                2 года 10 месяцеа
+            </div>
+        </div>
+        <div class="person__info__item">
+            <div class="person__info__item__key">
+                Семейное положение:
+            </div>
+            <div class="person__info__item__val">
+                Не женат
+            </div>
+        </div>
+    </div>
+
+</section>
