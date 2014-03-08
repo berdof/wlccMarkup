@@ -230,7 +230,7 @@
       .btn_green {
         display: inline-block;
       }
-      .btn_red{
+      .btn_red {
         display: none;
       }
     }
@@ -255,7 +255,7 @@
     text-decoration: none;
     position: relative;
     top: 2px;
-    margin:0 15px;
+    margin: 0 15px;
   }
 }
 
@@ -395,6 +395,15 @@
   background: #fff;
   overflow: hidden;
   padding: 18px;
+  height: 30px;
+  .person__notify {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
   .btn {
     margin-left: 8px;
     top: 0;
@@ -432,7 +441,7 @@
   &.closed {
     height: 50px;
     overflow: hidden;
-    .comments__btn{
+    .comments__btn {
       @include border-radius(0 0 2px 2px);
     }
     .btn-active__text {
@@ -603,24 +612,35 @@
 }
 
 .draft {
-  .post__info{
+  .post__info {
     width: 180px;
     padding: 0 15px 0 0;
   }
 }
 
-.pastors-testimony{
+.pastors-testimony {
   @extend .add-post;
 }
 
-.pastors-testimony__video{
+.pastors-testimony__video {
   float: left;
   font-size: 0;
   line-height: 0;
   padding: 15px;
 }
 
-.pastors-testimony__article{
+.pastors-testimony__article {
   overflow: hidden;
   padding: 15px;
+}
+
+.notify {
+  .post__nav {
+    border-top: 0 !important;
+
+  }
+  .person__notify{
+    position: relative;
+    text-align: left;
+  }
 }

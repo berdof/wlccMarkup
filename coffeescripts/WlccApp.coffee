@@ -216,7 +216,7 @@ class WlccApp
     on
 
   initRangeSlider:()->
-    $("#someID").ionRangeSlider(
+    $("#ageRange").ionRangeSlider(
       min: 10,
       max: 100,
       type: 'double',

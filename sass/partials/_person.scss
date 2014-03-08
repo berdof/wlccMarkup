@@ -2,9 +2,37 @@
   padding: 15px;
   overflow: hidden;
   .btn {
-    margin-top: 58px;
     width: 170px;
+    margin-bottom: 7px;
+    top: 7px;
   }
+  .dtc {
+    width: 170px;
+    height: 145px;
+  }
+}
+
+.person__action {
+  float: right;
+  width: 170px;
+  height: 145px;
+  position: relative;
+}
+
+.person__notify {
+  font-size: 13px;
+  color: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 1.3;
+  i {
+    color: $linkColor;
+  }
+}
+
+.person__notify__type {
+  color: $linkColor;
 }
 
 .person__info {

@@ -5,6 +5,9 @@ label{
   line-height: 0;
   display: block;
   margin: 0 0 5px 0;
+  &.last{
+    margin-bottom: 0;
+  }
 }
 
 .input-label{

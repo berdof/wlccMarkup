@@ -15,6 +15,7 @@
               <% end; %>
               <div class="center">
                   <a class="post__author" href="my_profile.html">Александр Бердышев</a>
+
                   <div class="post__date">
                       <i class="icon-bookmark"></i>
                       20.13.2010
@@ -31,10 +32,13 @@
             <% unless isDraft %>
               <div class="post__quoted">
                   <h4>Цитата из записей:</h4>
+
                   <div class="center">
                       <a class="pull-left avatar" href="my_profile.html"><img src="images/tmp/ava1.jpg" alt=""/></a>
+
                       <div class="center">
                           <a class="post__author" href="my_profile.html">Александр Бердышев</a>
+
                           <div class="post__date">
                               <i class="icon-bookmark"></i>
                               20.13.2010
@@ -48,6 +52,7 @@
           <div class="clearfix">
               <div class="center">
                   <a class="post__author" href="my_profile.html">Александр Бердышев Александр Бердышев</a>
+
                   <div class="post__date">
                       <i class="icon-bookmark"></i>
                       20.13.2010
@@ -81,15 +86,18 @@
     </div>
     <article class="center post__article">
         <h2>Что это такое и для чего aвсе это нужно ?</h2>
+
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias atque consectetur consequatur delectus deserunt dignissimos eaque ex fuga harum id itaque maxime modi, neque non, nostrum nulla placeat possimus quaerat quia quidem quo recusandae reiciendis repellat rerum tempora temporibus totam unde vitae, voluptate? Assumenda consequatur consequuntur cum deleniti dicta, distinctio dolores inventore nam nesciunt nobis, non obcaecati provident, quaerat quam similique suscipit tenetur totam ullam veritatis voluptates? Doloribus eius eligendi id magnam officiis praesentium quas ratione repudiandae temporibus voluptas. Corporis dicta distinctio, dolor dolores dolorum ducimus eum exercitationem illo itaque iure natus odio tempore. A esse exercitationem in inventore!
             <br/>
             <br/>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias atque consectetur consequatur delectus deserunt dignissimos eaque ex fuga harum id itaque maxime modi, neque non, nostrum nulla placeat possimus quaerat quia quidem quo recusandae reiciendis repellat rerum tempora temporibus totam unde vitae, voluptate? Assumenda consequatur consequuntur cum deleniti dicta, distinctio dolores inventore nam nesciunt nobis, non obcaecati provident, quaerat quam similique suscipit tenetur totam ullam veritatis voluptates? Doloribus eius eligendi id magnam officiis praesentium quas ratione repudiandae temporibus voluptas. Corporis dicta distinctio, dolor dolores dolorum ducimus eum exercitationem illo itaque iure natus odio tempore. A esse exercitationem in inventore!
         </p>
+
         <div class="add-post__footer">
             <div class="pull-left">
                 <span class="btn btn_green">Сохранить</span>
+
                 <div class="add-file">
                     <i class="icon-camera"></i>
                     <input type="file"/>
@@ -112,90 +120,102 @@
     </article>
 </div>
 <% if post__type == 'need' %>
-  <section class="group-prayer">
-      <h2 class="widget__header">Совместная молитва</h2>
-      <div class="widget__row">
-          <div class="controls-box">
-              <div class="group-prayer__time pull-left">
-                  <h4 class="label pull-left"><i class="icon-clock"></i> начало:</h4>
-                  <div class="select select_date active pull-left">
-                      <div class="select__label"></div>
-                      <input type="text" value="01.03.2014 00:30">
-                  </div>
-              </div>
-              <div class="group-prayer__time pull-left">
-                  <h4 class="label pull-left"><i class="icon-clock"></i> конец:</h4>
-                  <div class="select  select_date active pull-left">
-                      <div class="select__label "></div>
-                      <input readonly="true" type="text" value="02.03.2014 00:30">
-                  </div>
-              </div>
-              <h4 class="label group-prayer__participants pull-left"><i class="icon-users"></i> <span>участники :<span>10</span></span></h4>
-              <span class="btn btn_green pull-right">Присоединиться</span>
-          </div>
-      </div>
-      <div class="widget__row">
-          <div class="controls-box">
-              <div class="group-prayer__time pull-left">
-                  <h4 class="label pull-left"><i class="icon-clock"></i> начало:</h4>
-                  <div class="select select_date pull-left">
-                      <div class="select__label"></div>
-                      <input class="select_date__input" type="text" value="">
-                  </div>
-              </div>
-              <div class="group-prayer__time pull-left">
-                  <h4 class="label pull-left"><i class="icon-clock"></i> конец:</h4>
-                  <div class="select select_date pull-left">
-                      <div class="select__label"></div>
-                      <input class="select_date__input" type="text" value="">
-                  </div>
-              </div>
-              <h4 class="label group-prayer__participants pull-left"><i class="icon-users"></i> <span>участники :<span>10</span></span></h4>
-              <span class="btn btn_green pull-right">СОЗДАТЬ</span>
-          </div>
-      </div>
-  </section>
+  <% unless defined?(notifyType) %>
+    <section class="group-prayer">
+        <h2 class="widget__header">Совместная молитва</h2>
+
+        <div class="widget__row">
+            <div class="controls-box">
+                <div class="group-prayer__time pull-left">
+                    <h4 class="label pull-left"><i class="icon-clock"></i> начало:</h4>
+
+                    <div class="select select_date active pull-left">
+                        <div class="select__label"></div>
+                        <input type="text" value="01.03.2014 00:30">
+                    </div>
+                </div>
+                <div class="group-prayer__time pull-left">
+                    <h4 class="label pull-left"><i class="icon-clock"></i> конец:</h4>
+
+                    <div class="select  select_date active pull-left">
+                        <div class="select__label "></div>
+                        <input readonly="true" type="text" value="02.03.2014 00:30">
+                    </div>
+                </div>
+                <h4 class="label group-prayer__participants pull-left"><i class="icon-users"></i> <span>участники :<span>10</span></span></h4>
+                <span class="btn btn_green pull-right">Присоединиться</span>
+            </div>
+        </div>
+        <div class="widget__row">
+            <div class="controls-box">
+                <div class="group-prayer__time pull-left">
+                    <h4 class="label pull-left"><i class="icon-clock"></i> начало:</h4>
+
+                    <div class="select select_date pull-left">
+                        <div class="select__label"></div>
+                        <input class="select_date__input" type="text" value="">
+                    </div>
+                </div>
+                <div class="group-prayer__time pull-left">
+                    <h4 class="label pull-left"><i class="icon-clock"></i> конец:</h4>
+
+                    <div class="select select_date pull-left">
+                        <div class="select__label"></div>
+                        <input class="select_date__input" type="text" value="">
+                    </div>
+                </div>
+                <h4 class="label group-prayer__participants pull-left"><i class="icon-users"></i> <span>участники :<span>10</span></span></h4>
+                <span class="btn btn_green pull-right">СОЗДАТЬ</span>
+            </div>
+        </div>
+    </section>
+  <% end %>
 <% end %>
 <div class="post__nav">
-    <div class="pull-right">
-        <% if my_need or !post__quoted or isDraft %>
-          <span class="btn btn_blue pull-left post__edit-btn">Редактировать</span>
-        <% end %>
-        <a class="btn btn_red pull-left" href="javascript:void(0);">удалить</a>
-    </div>
-    <% if !post__quoted or post__quoted == -1 %>
-      <% unless isDraft %>
-        <div class="center">
-            <% if post__type == 'post' %>
-              <div class="segmented-btn">
-                  <a class="btn btn_green" href="javascript:void(0);">в свидетельства</a>
-                  <a class="btn btn_green" href="javascript:void(0);">в нужды</a>
-                  <a class="btn btn_green" href="javascript:void(0);">на мою страницу</a>
-                  <a class="btn btn_green active" href="javascript:void(0);">в черновики</a>
-              </div>
-            <% elsif  post__type == 'need' %>
-              <div class="segmented-btn">
-                  <a class="btn btn_green" href="javascript:void(0);"> в свидетельства</a>
-                  <a class="btn btn_green" href="javascript:void(0);"> на мою страницу</a>
-                  <a class="btn btn_green" href="javascript:void(0);"> в черновики</a>
-              </div>
-            <% elsif  post__type == 'testimony' %>
-              <% if my_need %>
+    <% if defined?(notifyType) %>
+      <h4 class="person__notify"><i class="icon-clock"></i> У вас <span class="person__notify__type">совместная молитва</span> в 19.00 </h4>
+    <% else %>
+      <div class="pull-right">
+          <% if my_need or !post__quoted or isDraft %>
+            <span class="btn btn_blue pull-left post__edit-btn">Редактировать</span>
+          <% end %>
+          <a class="btn btn_red pull-left" href="javascript:void(0);">удалить</a>
+      </div>
+      <% if !post__quoted or post__quoted == -1 %>
+        <% unless isDraft %>
+          <div class="center">
+              <% if post__type == 'post' %>
                 <div class="segmented-btn">
+                    <a class="btn btn_green" href="javascript:void(0);">в свидетельства</a>
+                    <a class="btn btn_green" href="javascript:void(0);">в нужды</a>
+                    <a class="btn btn_green" href="javascript:void(0);">на мою страницу</a>
+                    <a class="btn btn_green active" href="javascript:void(0);">в черновики</a>
+                </div>
+              <% elsif  post__type == 'need' %>
+                <div class="segmented-btn">
+                    <a class="btn btn_green" href="javascript:void(0);"> в свидетельства</a>
                     <a class="btn btn_green" href="javascript:void(0);"> на мою страницу</a>
                     <a class="btn btn_green" href="javascript:void(0);"> в черновики</a>
                 </div>
-              <% else %>
-                <a class="btn btn_green m0" href="javascript:void(0);"> на мою страницу</a>
+              <% elsif  post__type == 'testimony' %>
+                <% if my_need %>
+                  <div class="segmented-btn">
+                      <a class="btn btn_green" href="javascript:void(0);"> на мою страницу</a>
+                      <a class="btn btn_green" href="javascript:void(0);"> в черновики</a>
+                  </div>
+                <% else %>
+                  <a class="btn btn_green m0" href="javascript:void(0);"> на мою страницу</a>
+                <% end %>
               <% end %>
-            <% end %>
-        </div>
+          </div>
+        <% end %>
       <% end %>
     <% end %>
 </div>
 <% if post__type == 'post' and !isDraft %>
   <div class="comments closed">
       <span class="btn comments__btn" data-toggle-class="closed|closest|.comments"><span class="btn-active__text">скрыть комментарии</span> <span class="btn__text">показать комментарии (10)</span> </span>
+
       <div class="comments__body clearfix">
           <a class="pull-left avatar" href="my_profile.html"><img src="../images/tmp/ava1.jpg" alt=""/></a>
           <article class="center">
@@ -229,6 +249,7 @@
       <div class="widget__rows_zebra">
           <form action="#" class="widget__row widget__row_big">
               <textarea></textarea>
+
               <div class="add-post__footer">
                   <input class="btn btn_green" type="submit" value="отправить">
               </div>
