@@ -1,0 +1,51 @@
+<%= render :partial => "views/base/top" %>
+<%= render :partial => "views/header", :locals => {:isLoggedIn => true} %>
+<%= render :partial => "views/mainNav" %>
+<div class="content">
+    <aside class="content__sidebar">
+        <%= render :partial => "views/categories", :locals => {:title => 'Категории',
+                                                               :cats => %w(Обращение Пробуждение Исцеление Финансовая Семейная)} %>
+    </aside>
+    <section class="center">
+        <section class="widget">
+            <header class="widget__header">
+                <div class="pull-left">
+                    <span class="label ">Тип сообщения:</span>
+                </div>
+                <div class="pull-left">
+                    <div class="select">
+                        <div class="select__label">Обычное</div>
+                        <select name="messageType" id="messageType">
+                            <option value="1">Обычное</option>
+                            <option value="1">Просьба</option>
+                        </select>
+                    </div>
+                </div>
+            </header>
+            <div class="widget__rows_zebra">
+                <form action="#" class="widget__row widget__row_big">
+                    <textarea></textarea>
+                    <footer class="add-post__footer">
+                        <div class="pull-left">
+                            <input class="btn btn_green" type="submit" value="отправить"/>
+                        </div>
+                    </footer>
+                </form>
+            </div>
+            <section class="messages">
+                <article class="messages__item">
+                    <header>
+                        <a class="avatar pull-left" href="javascript:void(0);"><img src="images/tmp/ava1.jpg" alt=""/></a>
+                        <a class="messages__author" href="javascript:void(0);">Алексей Иванов</a>
+                        <time>11 октября 20:28</time>
+                    </header>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorum eius eligendi expedita facilis laboriosam minima minus, modi neque nobis, nulla porro quis reiciendis rem repellendus repudiandae sapiente? Aliquid aperiam deleniti dolorem doloribus, facilis id illum molestiae neque, quisquam repellendus saepe temporibus, voluptas. Accusamus accusantium adipisci alias animi, asperiores blanditiis debitis distinctio dolore dolores earum eos facere hic illo in iure minus necessitatibus neque nesciunt nisi obcaecati perferendis provident, quam, qui quibusdam quisquam soluta tempore totam unde ut veritatis! Aliquid, consectetur cumque expedita hic inventore molestias, ratione, similique sint sit soluta sunt ullam veniam voluptates. Eaque harum quibusdam quo rerum?
+                    </p>
+                </article>
+            </section>
+        </section>
+    </section>
+</div>
+<%= render :partial => "views/footer" %>
+<%= render :partial => "views/base/bottom" %>
