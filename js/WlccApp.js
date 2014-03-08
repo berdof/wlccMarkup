@@ -3,6 +3,8 @@ var WlccApp;
 WlccApp = (function() {
   WlccApp.prototype.errorClass = "error";
 
+  WlccApp.prototype.curOffset = [0, 0];
+
   WlccApp.prototype.eventHandlers = {
     formSubmitClick: function() {
       return true;
@@ -34,6 +36,12 @@ WlccApp = (function() {
     },
     authUserClick: function() {
       $('body').removeClass('registration-opened').addClass('auth-opened');
+      return true;
+    },
+    windowScroll: function(e) {
+      var self;
+
+      self = e.data.self;
       return true;
     },
     postEditBtnClick: function() {
@@ -72,12 +80,16 @@ WlccApp = (function() {
     $(".post__edit-btn").on('click', {
       self: self
     }, self.eventHandlers.postEditBtnClick);
+    $(window).on('scroll load resize', {
+      self: self
+    }, self.eventHandlers.windowScroll);
     $(".regUser").on('click', {
       self: self
     }, self.eventHandlers.regUserClick);
     $(".authUser").on('click', {
       self: self
     }, self.eventHandlers.authUserClick);
+    return true;
   };
 
   WlccApp.prototype.validate = function(form) {
@@ -93,6 +105,7 @@ WlccApp = (function() {
         hasErrors++;
         input["addClass"](self.errorClass);
       }
+      return false;
     };
     validateOnEmpty = function(input) {
       var inputLength, length;
@@ -279,9 +292,25 @@ WlccApp = (function() {
   };
 
   WlccApp.prototype.initHandsome = function() {
-    $('.checkbox').checkBox();
-    $('.radio').radio();
-    $('select').dropDown();
+    $('input[type=checkbox]').checkBox();
+    $('input[type=radio]').radio();
+    return true;
+  };
+
+  WlccApp.prototype.initRangeSlider = function() {
+    $("#someID").ionRangeSlider({
+      min: 10,
+      max: 100,
+      type: 'double',
+      step: 1,
+      prettify: false,
+      onChange: function(obj) {
+        return console.log(obj);
+      },
+      onFinish: function(obj) {
+        return console.log(obj);
+      }
+    });
     return true;
   };
 
@@ -296,6 +325,7 @@ WlccApp = (function() {
     self.initTabs();
     self.initDatePicker();
     self.initHandsome();
+    self.initRangeSlider();
     self.replaceImagesToRetina();
   }
 

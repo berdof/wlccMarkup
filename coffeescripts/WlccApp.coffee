@@ -1,5 +1,6 @@
 class WlccApp
   errorClass: "error"
+  curOffset:[0,0]
   eventHandlers:
     formSubmitClick:()->
 
@@ -27,6 +28,9 @@ class WlccApp
     authUserClick:()->
       $('body').removeClass('registration-opened').addClass('auth-opened')
       on
+    windowScroll:(e)->
+      self = e.data.self
+      on
     postEditBtnClick:()->
       $(@).closest('.post').addClass('editable')
       .find('.post__article p, .post__article h2').attr('contenteditable','true')
@@ -44,12 +48,12 @@ class WlccApp
     $("[data-modal-show]").on('click', {self: self}, self.eventHandlers.showPopupClick)
     $(".post__edit-btn").on('click', {self: self}, self.eventHandlers.postEditBtnClick)
     $(".post__edit-btn").on('click', {self: self}, self.eventHandlers.postEditBtnClick)
-
+    $(window).on('scroll load resize',{self:self},self.eventHandlers.windowScroll)
     #todo refactor these
     $(".regUser").on('click', {self: self}, self.eventHandlers.regUserClick)
     $(".authUser").on('click', {self: self}, self.eventHandlers.authUserClick)
 
-    return
+    on
 
   validate: (form)->
     hasErrors = 0 # if it equals to 0 => no errors
@@ -62,7 +66,7 @@ class WlccApp
       else
         hasErrors++;
         input["addClass"](self.errorClass)
-      return
+      off
 
     validateOnEmpty = (input)->
       length = 2
@@ -206,9 +210,24 @@ class WlccApp
     on
 
   initHandsome:()->
-    $('.checkbox').checkBox();
-    $('.radio').radio();
-    $('select').dropDown();
+    $('input[type=checkbox]').checkBox();
+    $('input[type=radio]').radio();
+#    $('select').dropDown();
+    on
+
+  initRangeSlider:()->
+    $("#someID").ionRangeSlider(
+      min: 10,
+      max: 100,
+      type: 'double',
+      step: 1,
+      prettify: off,
+
+      onChange: (obj)->
+        console.log(obj)
+      onFinish: (obj)->
+        console.log(obj);
+    );
     on
 
   constructor: ()->
@@ -220,6 +239,7 @@ class WlccApp
     self.initTabs()
     self.initDatePicker()
     self.initHandsome()
+    self.initRangeSlider()
     self.replaceImagesToRetina()
 
 $(document).ready(
