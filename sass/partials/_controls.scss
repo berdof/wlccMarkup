@@ -207,15 +207,24 @@ input[type=search] {
   @include background-clip(padding-box);
   background-color: #fff;
   margin: 0 0 9px 0;
+  padding: 0 14px;
   @include box-sizing(border-box);
+  color: #767676;
+  @include transition(all 0.3s);
   &:focus {
-
+    border: 1px solid #33ae21;
+    color: #000;
   }
 
   &.error {
 
   }
+}
 
+.textbox{
+  &.textbox_search{
+    width: 100% ;
+  }
 }
 
 textarea {
@@ -232,6 +241,7 @@ textarea {
   padding: 14px;
 }
 
+
 .select {
   position: relative;
   margin-bottom: 4px;
@@ -239,7 +249,7 @@ textarea {
     width: 100%;
     display: block;
     position: absolute;
-    left: 0;
+    left: 0px;
     top: 0;
     height: 24px;
     z-index: 2;

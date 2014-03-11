@@ -3,8 +3,17 @@
 <%= render :partial => "views/mainNav" %>
 <div class="content">
     <aside class="content__sidebar">
-        <%= render :partial => "views/categories", :locals => {:title => 'Категории',
-                                                               :cats => %w(Обращение Пробуждение Исцеление Финансовая Семейная)} %>
+        <div class="widget">
+            <form action="#" class="controls-box">
+                <input class="textbox textbox_search" type="text" placeholder="Введите имя для поиска"/>
+                <ul class="list">
+                    <li class="active">Александр Бердышев </li>
+                    <% (1..251).each do |n| %>
+                      <li>Александр Бердышев</li>
+                    <% end %>
+                </ul>
+            </form>
+        </div>
     </aside>
     <section class="center">
         <section class="widget">
@@ -22,27 +31,30 @@
                     </div>
                 </div>
             </header>
-            <div class="widget__rows_zebra">
-                <form action="#" class="widget__row widget__row_big">
-                    <textarea></textarea>
-                    <footer class="add-post__footer">
-                        <div class="pull-left">
-                            <input class="btn btn_green" type="submit" value="отправить"/>
-                        </div>
-                    </footer>
-                </form>
-            </div>
+
             <section class="messages">
-                <article class="messages__item">
-                    <header>
-                        <a class="avatar pull-left" href="javascript:void(0);"><img src="images/tmp/ava1.jpg" alt=""/></a>
-                        <a class="messages__author" href="javascript:void(0);">Алексей Иванов</a>
-                        <time>11 октября 20:28</time>
-                    </header>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorum eius eligendi expedita facilis laboriosam minima minus, modi neque nobis, nulla porro quis reiciendis rem repellendus repudiandae sapiente? Aliquid aperiam deleniti dolorem doloribus, facilis id illum molestiae neque, quisquam repellendus saepe temporibus, voluptas. Accusamus accusantium adipisci alias animi, asperiores blanditiis debitis distinctio dolore dolores earum eos facere hic illo in iure minus necessitatibus neque nesciunt nisi obcaecati perferendis provident, quam, qui quibusdam quisquam soluta tempore totam unde ut veritatis! Aliquid, consectetur cumque expedita hic inventore molestias, ratione, similique sint sit soluta sunt ullam veniam voluptates. Eaque harum quibusdam quo rerum?
-                    </p>
-                </article>
+                <div class="widget__rows_zebra">
+                    <form action="#" class="widget__row widget__row_big">
+                        <textarea></textarea>
+                        <footer class="add-post__footer">
+                            <div class="pull-left">
+                                <input class="btn btn_green" type="submit" value="отправить"/>
+                            </div>
+                        </footer>
+                    </form>
+                </div>
+                <div class="messages__status">
+                    Алексей Иванов печатает вам...
+                </div>
+                <div class="messages-list">
+                    <%= render :partial => "views/message", :locals => {:type => "messages__item_complain", :typeText => 'жалоба'} %>
+                    <%= render :partial => "views/message", :locals => {:type => "messages__item_appeal", :typeText => 'просьба'} %>
+                    <%= render :partial => "views/message", :locals => {:type => "messages__item_proposal", :typeText => 'предложение'} %>
+                    <% (1..5).each do |n| %>
+                      <%= render :partial => "views/message", :locals => {:type => "", :typeText => ''} %>
+                      <%= render :partial => "views/message", :locals => {:type => "messages__item_mine", :typeText => ''} %>
+                    <% end %>
+                </div>
             </section>
         </section>
     </section>

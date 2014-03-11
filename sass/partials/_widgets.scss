@@ -71,7 +71,7 @@
   .icon-pencil {
     font-size: 13px;
   }
-  .select{
+  .select {
     display: inline-block;
     width: 190px;
     margin: 0 0 0 13px;
@@ -644,8 +644,50 @@
     border-top: 0 !important;
 
   }
-  .person__notify{
+  .person__notify {
     position: relative;
     text-align: left;
+  }
+}
+
+.list {
+  max-height: 205px;
+  overflow: auto;
+  li {
+    line-height: 25px;
+    height: 25px;
+    color: #767676;
+    font-size: 13px;
+    @include box-sizing(border-box);
+    padding: 0 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 6px;
+      top: 50%;
+      margin-top: -3px;
+      display: block;
+      width: 6px;
+      height: 6px;
+      @include border-radius(100px);
+      background: #767676;
+    }
+    &:hover {
+      color: $colorGreen;
+      &:before {
+        background: $colorGreen;
+      }
+    }
+    &.active {
+      background: $colorGreen;
+      color: #fff;
+      &:before {
+        background: #fff;
+      }
+    }
   }
 }
