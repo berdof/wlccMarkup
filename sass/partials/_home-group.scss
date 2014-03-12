@@ -1,0 +1,24 @@
+.home-group {
+  .list{
+    height: 295px;
+  }
+  .widget__body{
+    text-align: justify;
+    p{
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  }
+}
+
+.home-group__body {
+  background: #f9f9f9;
+  overflow: hidden;
+  padding: 14px;
+}
+
+.home-group__map {
+  margin-bottom: 14px;
+  overflow: hidden;
+  height: 305px;
+}

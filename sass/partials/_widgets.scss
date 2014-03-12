@@ -15,6 +15,11 @@
   background: #fff;
 }
 
+.widget_reseted {
+  padding: 0 !important;
+  text-align: justify;
+}
+
 .widget_small {
   width: 463px;
   .widget__footer {
@@ -651,8 +656,13 @@
 }
 
 .list {
-  max-height: 205px;
-  overflow: auto;
+  .label {
+    display: block;
+  }
+  ul {
+    overflow: auto;
+    max-height: 205px;
+  }
   li {
     line-height: 25px;
     height: 25px;

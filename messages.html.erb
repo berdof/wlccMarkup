@@ -3,17 +3,7 @@
 <%= render :partial => "views/mainNav" %>
 <div class="content">
     <aside class="content__sidebar">
-        <div class="widget">
-            <form action="#" class="controls-box">
-                <input class="textbox textbox_search" type="text" placeholder="Введите имя для поиска"/>
-                <ul class="list">
-                    <li class="active">Александр Бердышев </li>
-                    <% (1..251).each do |n| %>
-                      <li>Александр Бердышев</li>
-                    <% end %>
-                </ul>
-            </form>
-        </div>
+        <%= render :partial => "views/searchPeopleForm" %>
     </aside>
     <section class="center">
         <section class="widget">
