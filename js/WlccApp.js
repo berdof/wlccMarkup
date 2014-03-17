@@ -314,6 +314,32 @@ WlccApp = (function() {
     return true;
   };
 
+  WlccApp.prototype.initPhotos = function() {
+    var $photo;
+
+    $('figure.media-photo').on('click', function() {
+      window.location.href = "./media-photo-photo.html";
+      return true;
+    });
+    $photo = $(".media-photo_small");
+    $photo.fancybox({
+      afterShow: function(a) {
+        var _this;
+
+        _this = this;
+        $photo.removeClass('active').eq(_this.index).addClass('active');
+        $photo.parent().addClass('fancybox-opened');
+        return true;
+      },
+      afterClose: function(a) {
+        $photo.parent().removeClass('fancybox-opened');
+        $photo.removeClass('active');
+        return true;
+      }
+    });
+    return true;
+  };
+
   function WlccApp() {
     var self;
 
@@ -327,6 +353,7 @@ WlccApp = (function() {
     self.initHandsome();
     self.initRangeSlider();
     self.replaceImagesToRetina();
+    self.initPhotos();
   }
 
   return WlccApp;

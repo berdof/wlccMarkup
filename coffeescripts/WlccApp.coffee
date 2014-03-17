@@ -230,6 +230,25 @@ class WlccApp
     );
     on
 
+  initPhotos:()->
+    $('figure.media-photo').on('click',()->
+      window.location.href = "./media-photo-photo.html";
+      on)
+    $photo =  $(".media-photo_small")
+    $photo.fancybox(
+      afterShow:(a)->
+        _this = @
+        $photo.removeClass('active').eq(_this.index).addClass('active')
+        $photo.parent().addClass('fancybox-opened')
+        on
+      afterClose:(a)->
+        $photo.parent().removeClass('fancybox-opened')
+        $photo.removeClass('active')
+        on
+    )
+
+    on
+
   constructor: ()->
     self = this
     self.initSliders()
@@ -241,6 +260,7 @@ class WlccApp
     self.initHandsome()
     self.initRangeSlider()
     self.replaceImagesToRetina()
+    self.initPhotos()
 
 $(document).ready(
   ()->

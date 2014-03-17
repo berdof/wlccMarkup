@@ -37,6 +37,7 @@
 
 .widget__body {
   padding: 10px 14px;
+  background: #f9f9f9;
 }
 
 .widget__row {
@@ -656,6 +657,7 @@
 }
 
 .list {
+  
   .label {
     display: block;
   }
@@ -699,5 +701,11 @@
         background: #fff;
       }
     }
+  }
+}
+
+.list_small{
+  ul{
+    max-height: 100px;
   }
 }
