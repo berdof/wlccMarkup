@@ -26,7 +26,7 @@ you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
 
-.icon-arrow-right-thin, .icon-arrow-left-thin, .icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .icon-arrow-left, .icon-list, .icon-arrow-up, .icon-arrow-down, .icon-calendar, .icon-cross, .icon-search {
+.icon-location, .icon-mobile, .icon-arrow-right-thin, .icon-arrow-left-thin, .icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .icon-arrow-left, .icon-list, .icon-arrow-up, .icon-arrow-down, .icon-calendar, .icon-cross, .icon-search {
   font-family: 'wlcc';
   speak: none;
   font-style: normal;
@@ -137,11 +137,18 @@ you can use the generic selector below, but it's slower:
   content: "\e018";
 }
 
-
-
 .icon-arrow-left-thin:before {
   content: "\e019";
 }
+
 .icon-arrow-right-thin:before {
   content: "\e01a";
+}
+
+.icon-mobile:before {
+  content: "\e01b";
+}
+
+.icon-location:before {
+  content: "\e01c";
 }
