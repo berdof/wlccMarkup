@@ -2,10 +2,12 @@
     <header class="widget__header">
         <i class="icon-pencil"></i>
         Свидетельство пастора
-        <div class="pull-right">
-            <span data-toggle-class="closed|closest|.pastors-testimony" class="btn btn_green">Показать</span>
-            <span data-toggle-class="closed|closest|.pastors-testimony" class="btn btn_red">Скрыть</span>
-        </div>
+        <% if defined?(hideNav) %>
+          <div class="pull-right">
+              <span data-toggle-class="closed|closest|.pastors-testimony" class="btn btn_green">Показать</span>
+              <span data-toggle-class="closed|closest|.pastors-testimony" class="btn btn_red">Скрыть</span>
+          </div>
+        <% end %>
     </header>
     <div class="widget__rows_zebra clearfix">
         <div class="pastors-testimony__video">
@@ -13,8 +15,11 @@
         </div>
         <article class="pastors-testimony__article">
             <h2>Обращение</h2>
+
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci alias aspernatur dignissimos facere, illo neque nisi, nulla perspiciatis provident quae qui quisquam soluta ut velit veniam vero voluptas voluptates!</p>
+
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci alias aspernatur dignissimos facere, illo neque nisi, nulla perspiciatis provident quae qui quisquam soluta ut velit veniam vero voluptas voluptates!</p>
+
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci alias aspernatur dignissimos facere, illo neque nisi, nulla perspiciatis provident quae qui quisquam soluta ut velit veniam vero voluptas voluptates!</p>
         </article>
 

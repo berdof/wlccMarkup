@@ -3,7 +3,7 @@
 <%= render :partial => "views/mainNav" %>
 <div class="content">
     <%= render :partial => "views/profile_top" %>
-    <%= render :partial => "views/pastors_testimony" %>
+    <%= render :partial => "views/pastors_testimony", :locals => {:hideNav => true}  %>
     <%# render :partial => "views/addPost", :locals => {:post__quoted => true, :title => "Записи"} %>
     <%= render :partial => "views/post", :locals => {:post__type => 'post', :my_need => false, :post__quoted => true} %>
     <% (1..5).each do |n| %>

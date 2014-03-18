@@ -21,15 +21,15 @@
   @extend .clearfix;
 }
 
-.content__sidebar{
+.content__sidebar {
   width: 227px;
   margin: 0 13px 0 0;
   @include box-sizing(border-box);
   float: left;
-  .widget{
-    padding: 0 14px 10px ;
+  .widget {
+    padding: 0 14px 10px;
     .select__label,
-    .select{
+    .select {
       width: 100%;
     }
   }
@@ -81,7 +81,17 @@
   max-height: 300px;
 }
 
-
 .table {
   width: 100%;
+}
+
+.services{
+  @extend .home-group;
+  .content__sidebar{
+    .list{
+      ul{
+        max-height: 252px;
+      }
+    }
+  }
 }
