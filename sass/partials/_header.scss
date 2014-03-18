@@ -100,28 +100,16 @@
   border-bottom: 1px solid rgba(#000, .25);
   @include border-radius(1px 1px 0 0);
 
-  font-size: 0 !important;
-  text-align: justify;
-  text-justify: distribute-all-lines;
-  list-style-type: none;
-  margin: 0;
-  padding: 0 14px;
+  text-align: center;
   position: relative;
   z-index: 100;
-
-  &:after {
-    content: "";
-    display: inline-block;
-    width: 100%;
-  }
   li {
     padding: 0;
     display: inline-block;
     position: relative;
     zoom: 1;
     text-align: left;
-    vertical-align: top;
-    display: inline-block;
+    vertical-align: middle;
     //width: 31.3%; /* optional, only need for text content to wrap */
 
     &.active ,
