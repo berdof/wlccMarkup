@@ -2,7 +2,7 @@
 <%= render :partial => "views/header", :locals => {:isLoggedIn => true} %>
 <%= render :partial => "views/mainNav" %>
 <div class="content">
-    <aside class="content__sidebar">
+    <aside class="content__sidebar sticky-sidebar">
         <div class="widget">
             <div class="controls-box">
                 <h4 class="label">Город:</h4>
@@ -67,7 +67,7 @@
             </div>
         </div>
     </aside>
-    <section class="center">
+    <section class="center sticky-content">
         <%= render :partial => "views/person", :locals => {:relationship => 'none'} %>
         <%= render :partial => "views/person", :locals => {:relationship => 'friend'} %>
         <%= render :partial => "views/person", :locals => {:relationship => 'family'} %>

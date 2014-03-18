@@ -2,7 +2,7 @@
 <%= render :partial => "views/header", :locals => {:isLoggedIn => true} %>
 <%= render :partial => "views/mainNav" %>
 <div class="content">
-    <aside class="content__sidebar">
+    <aside class="content__sidebar sticky-sidebar">
         <div class="widget">
             <div class="controls-box">
                 <h4 class="label">Событие:</h4>
@@ -37,7 +37,7 @@
             </div>
         </div>
     </aside>
-    <section class="widget center">
+    <section class="widget center sticky-content">
         <table class="schedule">
             <thead>
             <tr>

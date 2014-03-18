@@ -2,41 +2,38 @@
 <%= render :partial => "views/header", :locals => {:isLoggedIn => true} %>
 <%= render :partial => "views/mainNav" %>
 <div class="content">
-        <section class="  services">
-            <div class=" ">
-                <aside class="content__sidebar">
-
-                    <div class="widget list">
-                        <form action="#" class="controls-box ">
-                            <span class="label">Все служения:</span>
-                            <ul>
-                                <li class="active">Служение</li>
-                                <% (1..13).each do |n| %>
-                                  <li>Служение 2</li>
-                                <% end %>
-                            </ul>
-                        </form>
-                    </div>
-
-                </aside>
-                <section class="center">
-
-                    <section class="widget widget_reseted">
-                        <header class="widget__header">
-                            Описание служения
-                        </header>
-                        <article class="widget__body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolores eligendi est laborum officia omnis pariatur sed suscipit veniam. Animi aut consequatur mollitia praesentium quibusdam recusandae repellendus. A incidunt temporibus unde velit vero. Consectetur, dignissimos dolorum eveniet id inventore sapiente tempore. A alias architecto asperiores debitis, deserunt earum fuga inventore iure iusto laboriosam nam nostrum omnis perspiciatis, quas recusandae sapiente sequi suscipit tempora tenetur voluptate? Ab architecto consectetur culpa, delectus deserunt dignissimos distinctio dolorem, dolores ea excepturi illum in inventore ipsum laudantium libero magni maiores modi neque omnis perferendis quae</p>
-                            <p>Если вы чувствуете что Бог призывает вас .... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem commodi consequatur est modi mollitia quia recusandae. Aspernatur autem consectetur culpa eligendi, et id itaque natus quibusdam ratione similique voluptates!</p>
-                            <a class="btn btn_green " href="javascript:void(0);">Хочу стать служителем</a>
-                        </article>
-                    </section>
-                    <% (1..10).each do |n| %>
-                      <%= render :partial => "views/person", :locals => {:relationship => 'none'} %>
-                    <% end %>
-                </section>
+    <section class="services">
+        <aside class="content__sidebar sticky-sidebar">
+            <div class="widget list">
+                <form action="#" class="controls-box ">
+                    <span class="label">Все служения:</span>
+                    <ul>
+                        <li class="active">Служение</li>
+                        <% (1..13).each do |n| %>
+                          <li>Служение 2</li>
+                        <% end %>
+                    </ul>
+                </form>
             </div>
+        </aside>
+        <section class="center sticky-content">
+
+            <section class="widget widget_reseted">
+                <header class="widget__header">
+                    Описание служения
+                </header>
+                <article class="widget__body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio dolores eligendi est laborum officia omnis pariatur sed suscipit veniam. Animi aut consequatur mollitia praesentium quibusdam recusandae repellendus. A incidunt temporibus unde velit vero. Consectetur, dignissimos dolorum eveniet id inventore sapiente tempore. A alias architecto asperiores debitis, deserunt earum fuga inventore iure iusto laboriosam nam nostrum omnis perspiciatis, quas recusandae sapiente sequi suscipit tempora tenetur voluptate? Ab architecto consectetur culpa, delectus deserunt dignissimos distinctio dolorem, dolores ea excepturi illum in inventore ipsum laudantium libero magni maiores modi neque omnis perferendis quae</p>
+
+                    <p>Если вы чувствуете что Бог призывает вас .... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem commodi consequatur est modi mollitia quia recusandae. Aspernatur autem consectetur culpa eligendi, et id itaque natus quibusdam ratione similique voluptates!</p>
+                    <a class="btn btn_green " href="javascript:void(0);">Хочу стать служителем</a>
+                </article>
+            </section>
+            <% (1..10).each do |n| %>
+              <%= render :partial => "views/person", :locals => {:relationship => 'none'} %>
+            <% end %>
         </section>
+    </section>
 </div>
 <%= render :partial => "views/footer" %>
 <%= render :partial => "views/base/bottom" %>

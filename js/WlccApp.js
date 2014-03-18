@@ -39,9 +39,16 @@ WlccApp = (function() {
       return true;
     },
     windowScroll: function(e) {
-      var self;
+      var scrollTop, self;
 
       self = e.data.self;
+      scrollTop = $(window).scrollTop();
+      console.log(scrollTop);
+      if (scrollTop > 133) {
+        $('body').addClass('scrolled');
+      } else {
+        $('body').removeClass('scrolled');
+      }
       return true;
     },
     postEditBtnClick: function() {
@@ -82,7 +89,7 @@ WlccApp = (function() {
     }, self.eventHandlers.postEditBtnClick);
     $(window).on('scroll load resize', {
       self: self
-    }, self.eventHandlers.windowScroll);
+    }, self.eventHandlers.windowScroll.throttle(100));
     $(".regUser").on('click', {
       self: self
     }, self.eventHandlers.regUserClick);

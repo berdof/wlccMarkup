@@ -1,24 +1,6 @@
 <div class="content media">
-<aside class="content__sidebar">
-    <div class="widget categories">
-        <h2 class="widget__header">Медиа</h2>
-        <ul>
-            <li
-            <% if activeIndex == 0 %> class="active"
-            <% end %>><a href="media-sermon.html">Проповеди</a></li>
-            <li
-            <% if activeIndex == 1 %> class="active"
-            <% end %>><a href="media-audio.html">Песни</a></li>
-            <li
-            <% if activeIndex == 2 %> class="active"
-            <% end %>><a href="media-photo.html">Фото</a></li>
-            <li
-            <% if activeIndex == 3 %> class="active"
-            <% end %>><a href="media-clips.html">Клипы</a></li>
-        </ul>
-    </div>
-
-    <div class="widget">
+<aside class="content__sidebar sticky-sidebar">
+    <div class="widget ">
         <%#
             <div class="controls-box">
                 <h4 class="label">Формат:</h4>
@@ -175,7 +157,7 @@
         <% end %>
     </div>
 </aside>
-<section class="center widget">
+<section class="center widget sticky-content">
 <header class="widget__header"><%= type %></header>
 
 <div class="widget__body pb0">

@@ -30,6 +30,12 @@ class WlccApp
       on
     windowScroll:(e)->
       self = e.data.self
+      scrollTop = $(window).scrollTop()
+      console.log scrollTop
+      if scrollTop > 133
+        $('body').addClass('scrolled')
+      else
+        $('body').removeClass('scrolled')
       on
     postEditBtnClick:()->
       $(@).closest('.post').addClass('editable')
@@ -48,7 +54,7 @@ class WlccApp
     $("[data-modal-show]").on('click', {self: self}, self.eventHandlers.showPopupClick)
     $(".post__edit-btn").on('click', {self: self}, self.eventHandlers.postEditBtnClick)
     $(".post__edit-btn").on('click', {self: self}, self.eventHandlers.postEditBtnClick)
-    $(window).on('scroll load resize',{self:self},self.eventHandlers.windowScroll)
+    $(window).on('scroll load resize',{self:self},self.eventHandlers.windowScroll.throttle(100))
     #todo refactor these
     $(".regUser").on('click', {self: self}, self.eventHandlers.regUserClick)
     $(".authUser").on('click', {self: self}, self.eventHandlers.authUserClick)

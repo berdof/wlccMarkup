@@ -95,20 +95,65 @@
 .main-nav {
   height: 47px;
   background: rgba(#000, .5);
-  font-size: 0;
   line-height: 0;
-  text-align: center;
   border-top: 1px solid rgba(#000, .1);
   border-bottom: 1px solid rgba(#000, .25);
   @include border-radius(1px 1px 0 0);
+
+  font-size: 0 !important;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 14px;
+  position: relative;
+  z-index: 100;
+
+  &:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
   li {
     padding: 0;
     display: inline-block;
-    vertical-align: middle;
+    position: relative;
+    zoom: 1;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    //width: 31.3%; /* optional, only need for text content to wrap */
+
+    &.active ,
+    &:hover > a {
+      @include box-shadow(1px 0 3px rgba(#1e2c25, .6) inset, -1px 0 3px rgba(#1e2c25, .6) inset);
+      background: rgba(#000, .1);
+    }
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
+    ul {
+      display: none;
+      position: absolute;
+      top: 48px;
+      width: 88px;
+      left: -16px;
+      background: rgba(#000, .6s);
+      li {
+        display: block;
+      }
+      a {
+        height: 30px;
+        line-height: 29px;
+      }
+    }
   }
   a {
+    text-align: center;
     line-height: 51px;
-    height: 49px;
+    height: 48px;
     display: block;
     color: #fff;
     font-size: 11px;
@@ -118,10 +163,6 @@
     padding: 0 9px;
     position: relative;
     top: -1px;
-    &:hover,
-    &.active {
-      @include box-shadow(1px 0 3px rgba(#1e2c25, .6) inset, -1px 0 3px rgba(#1e2c25, .6) inset);
-      background: rgba(#000, .1);
-    }
+
   }
 }
