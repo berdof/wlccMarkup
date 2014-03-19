@@ -28,6 +28,9 @@ class WlccApp
     authUserClick:()->
       $('body').removeClass('registration-opened').addClass('auth-opened')
       on
+    authRegHide:()->
+      $('body').removeClass('registration-opened auth-opened')
+      on
     windowScroll:(e)->
       self = e.data.self
       scrollTop = $(window).scrollTop()
@@ -58,6 +61,7 @@ class WlccApp
     #todo refactor these
     $(".regUser").on('click', {self: self}, self.eventHandlers.regUserClick)
     $(".authUser").on('click', {self: self}, self.eventHandlers.authUserClick)
+    $(".authRegHide").on('click', {self: self}, self.eventHandlers.authRegHide)
 
     on
 

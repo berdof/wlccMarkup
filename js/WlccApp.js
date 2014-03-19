@@ -38,6 +38,10 @@ WlccApp = (function() {
       $('body').removeClass('registration-opened').addClass('auth-opened');
       return true;
     },
+    authRegHide: function() {
+      $('body').removeClass('registration-opened auth-opened');
+      return true;
+    },
     windowScroll: function(e) {
       var scrollTop, self;
 
@@ -96,6 +100,9 @@ WlccApp = (function() {
     $(".authUser").on('click', {
       self: self
     }, self.eventHandlers.authUserClick);
+    $(".authRegHide").on('click', {
+      self: self
+    }, self.eventHandlers.authRegHide);
     return true;
   };
 

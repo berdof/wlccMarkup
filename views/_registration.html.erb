@@ -1,6 +1,6 @@
-<section class=<%=  auth %>>
+<section class=<%= auth %>>
     <header class="widget__header">
-        <% if  auth == 'auth' %>
+        <% if  auth == 'registration' %>
           <i class="icon-user-add"></i> Регистрация
         <% else %>
           <i class="icon-user"></i> Вход
@@ -9,8 +9,10 @@
     <form action="#">
         <input class="m0a" type="email" placeholder="Электронная почта"/>
         <input class="m0a" type="password" placeholder="Пароль"/>
-        <input class="m0a last" type="password" placeholder="Повторите пароль"/>
+        <% if  auth == 'registration' %>
+          <input class="m0a last" type="password" placeholder="Повторите пароль"/>
+        <% end %>
         <input class="btn btn_green m0a" value="зарегестрироваться" type="submit"/>
-        <input data-toggle-class="registration-opened|closest|body" class="btn btn_blue m0a authUser" value="отменить" type="button"/>
+        <input class="btn btn_blue m0a authRegHide" value="отменить" type="button"/>
     </form>
 </section>
