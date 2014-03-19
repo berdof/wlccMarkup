@@ -51,7 +51,7 @@
             </div>
         </div>
         <span data-toggle-class="baptizing-opened|closest|body" class="btn btn_white"><i class="icon-arrow-left"></i>Узнать о Крещении</span>
-        <span class="btn btn_green">Узнать о Покаянии <i class="icon-arrow-right"></i></span>
+        <span data-toggle-class="penance-opened|closest|body" class="btn btn_green">Узнать о Покаянии <i class="icon-arrow-right"></i></span>
     </div>
 </div>
 <%= render :partial => "views/mainNav" %>
@@ -73,8 +73,8 @@
               <tr>
                   <td>19.20</td>
                   <td>17.10.2014</td>
-                  <td>Воскресное служение</td>
-                  <td>Анатолий Трачук</td>
+                  <td>Вечер хвалы и поклонения</td>
+                  <td>Слово Жизни</td>
                   <td><a class="btn btn_green" href="javascript:void(0);">Напомнить</a></td>
               </tr>
             <% end %>
@@ -244,15 +244,5 @@
         </div>
     </div>
 </div>
-<%= render :partial => "views/footer" %>
-<div class="home-side baptizing">
-    <article>
-        <h2>ПОКАЯНИЕ</h2>
-        <h3>Что это такое и для чего все это нужно ?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque error illo inventore maxime, nesciunt non praesentium ratione rerum soluta, velit voluptatibus. Est fuga ipsam laboriosam molestias nihil sed veritatis.</p>
-        <a href="javascript:void(0);"></a>
-    </article>
-</div>
-<%= render :partial => "views/registration", :locals => {:auth => 'registration'} %>
-<%= render :partial => "views/registration", :locals => {:auth => 'auth'} %>
+<%= render :partial => "views/footer" , :locals => {:isMain => true} %>
 <%= render :partial => "views/base/bottom" %>

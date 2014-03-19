@@ -1,36 +1,141 @@
+.page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  @include transition(all 0.3s);
+}
+
+.header, .main {
+  @include transition(all 0.3s);
+}
+
 .home-side {
   position: fixed;
   top: 0;
-  width: 50%;
+  width: 100%;
   overflow: hidden;
   min-width: 445px;
-  article {
-    width: 480px;
-    @include box-sizing(border-box);
+  @include transition(all 0.3s);
+  z-index: 10;
+  height: 100%;
+}
+
+.home-side__in {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding-top: 102px;
+  @include box-sizing(border-box);;
+  h2 {
+    font-size: 20px;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+}
+
+.home-side__close {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  @include opacity(0);
+  @include transition(all 0.3s linear 0s);
+
+}
+
+.baptizing {
+  left: -100%;
+  .home-side__close {
+    right: 0;
+  }
+  .home-side__in {
+    background: rgba($colorGreen, .8);
+    padding-right: 20px;
+    padding-left: 20%;
+    float: right;
+    h2 {
+      color: #fff;
+      @include text-shadow(0 1px 0 rgba(0, 0, 0, .29));
+    }
+    h3 {
+      color: #000;
+    }
+    p {
+      color: #fff;
+      @include text-shadow(0 1px 0 rgba(0, 0, 0, .29));
+    }
   }
 }
 
 .baptizing-opened {
   overflow: hidden;
+  .baptizing {
+    left: 0;
+  }
+  .page, .header {
+    left: 50%;
+  }
+  .home-side__close {
+    @include transition(all 0.3s linear .3s);
+    @include opacity(.5);
+  }
 }
 
-//275.145
+.penance {
 
-.baptizing {
-  display: none;
-  left: 0;
-  background: $colorGreen;
-  height: 100%;
-  z-index: 100000;
-  article {
-    padding-right: 100px;
-    padding-left: 10px;
-    float: right;
+  right: -100%;
+  .home-side__close {
+    left: 0;
+  }
+  .home-side__in {
+    background: rgba(#fff, .8);
+    padding-left: 20px;
+    padding-right: 20%;
+    right: 0;
+    left: auto;
+    h2 {
+      color: $colorGreen;
+      @include text-shadow(0 1px 0 rgba(#fff, .29));
+    }
+    h3 {
+      color: #000;
+    }
+    p {
+      color: #767676;
+      @include text-shadow(0 1px 0 rgba(#fff, .29));
+    }
+  }
+}
+
+
+.penance-opened {
+  overflow: hidden;
+  .penance {
+    right: 0;
+  }
+  .page, .header {
+    left: -50%;
+  }
+  .home-side__close {
+    @include transition(all 0.3s linear .3s);
+    @include opacity(.5);
   }
 }
 
 .registration {
-  @include transition(all 0.3s);
+  @include transition(all 0.5s);
   z-index: 10;
   position: fixed;
   left: 0;
@@ -71,7 +176,7 @@
   .registration {
     top: 36px;
   }
-  .auth{
+  .auth {
     top: -100%;
   }
   .regUser {
@@ -82,9 +187,9 @@
 .auth-opened {
   overflow: hidden;
   .auth {
-  top: 36px !important;
+    top: 36px !important;
   }
-  .registration{
+  .registration {
     top: -100%;
   }
   .authUser {
