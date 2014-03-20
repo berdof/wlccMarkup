@@ -47,6 +47,12 @@ class WlccApp
     postCancelEditBtnClick:()->
 
       on
+    settingsNavClick:()->
+      $this = $(@)
+      $this.addClass('active').siblings().removeClass('active')
+      $this.closest('.settings').find('.settings__item').hide()
+        .eq($this.index()).fadeIn(200)
+      on
 
   attachEvents: ->
     self = this
@@ -62,6 +68,9 @@ class WlccApp
     $(".regUser").on('click', {self: self}, self.eventHandlers.regUserClick)
     $(".authUser").on('click', {self: self}, self.eventHandlers.authUserClick)
     $(".authRegHide").on('click', {self: self}, self.eventHandlers.authRegHide)
+
+
+    $(".settings__nav li").on('click', {self: self}, self.eventHandlers.settingsNavClick)
 
     on
 

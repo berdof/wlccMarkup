@@ -61,6 +61,14 @@ WlccApp = (function() {
     },
     postCancelEditBtnClick: function() {
       return true;
+    },
+    settingsNavClick: function() {
+      var $this;
+
+      $this = $(this);
+      $this.addClass('active').siblings().removeClass('active');
+      $this.closest('.settings').find('.settings__item').hide().eq($this.index()).fadeIn(200);
+      return true;
     }
   };
 
@@ -103,6 +111,9 @@ WlccApp = (function() {
     $(".authRegHide").on('click', {
       self: self
     }, self.eventHandlers.authRegHide);
+    $(".settings__nav li").on('click', {
+      self: self
+    }, self.eventHandlers.settingsNavClick);
     return true;
   };
 

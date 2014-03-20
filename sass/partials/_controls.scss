@@ -211,6 +211,7 @@ input[type=search] {
   @include box-sizing(border-box);
   color: #767676;
   @include transition(all 0.3s);
+  font-family: Tahoma;
   &:focus {
     border: 1px solid #33ae21;
     color: #000;
@@ -238,7 +239,14 @@ textarea {
   overflow: hidden;
   @include border-radius(2px);
   @include box-sizing(border-box);
+  font-family: Tahoma;
   padding: 14px;
+  &.textbox{
+    height: 107px;
+    @include box-shadow(none) ;
+    padding: 7px 14px;
+    font-size: 11px;
+  }
 }
 
 
