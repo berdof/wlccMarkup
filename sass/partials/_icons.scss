@@ -27,14 +27,16 @@ you can use the generic selector below, but it's slower:
 */
 
 .icon-location, .icon-mobile, .icon-arrow-right-thin, .icon-arrow-left-thin, .icon-user-add, .icon-user, .icon-users, .icon-disk, .icon-pencil, .icon-camera, .icon-heart, .icon-quoted, .icon-feather, .icon-bookmark, .icon-clock, .icon-new, .icon-microphone, .icon-coin, .icon-mail, .icon-cog, .icon-exit, .icon-arrow-right, .icon-arrow-left, .icon-list, .icon-arrow-up, .icon-arrow-down, .icon-calendar, .icon-cross, .icon-search {
-  font-family: 'wlcc';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
+  &:before{
+    font-family: 'wlcc';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+  }
+    line-height: 1;
 }
 
 .icon-user-add:before {

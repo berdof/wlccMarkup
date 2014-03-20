@@ -116,7 +116,7 @@ label{
   border: 1px solid #1e8010;
   @include border-radius(4px);
   @include background-clip(padding-box);
-  background-color: #8bbffd;
+  background-color: #33ad21;
   @include box-shadow(0 1px 3px rgba(0, 0, 0, .13), inset 0 1px 0 rgba(255, 255, 255, .28));
   @include background-image(linear-gradient(bottom, #33ad21 0%, #76d332 100%));
   position: relative;
