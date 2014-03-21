@@ -1,0 +1,156 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.top-bar {
+  height: 35px;
+  line-height: 35px;
+  background: rgba(#000, .5);
+  .wrapper {
+    padding: 0 10px;
+    min-width: 750px;
+  }
+  .btn {
+    position: relative;
+    top: -3px;
+  }
+}
+
+@media (max-width: 900px) {
+  .top-bar {
+    .wrapper {
+      width: 100%;
+    }
+  }
+}
+
+.top-bar__nav {
+  @extend .nav_hor;
+
+  li {
+    padding: 0 20px 0 0;
+  }
+  a {
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+  }
+  i {
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+  }
+}
+
+.top-bar__counter {
+  position: absolute;
+  top: -10px;
+  font-size: 10px;
+  color: $colorGreen;
+}
+
+.logo {
+  height: 74px;
+  display: inline-block;
+  background-size: auto 102px;
+  font-size: 47px;
+  line-height: 74px;
+  margin: -15px 0 21px 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-decoration: none !important;
+  padding: 0;
+  font-family: Helvetica;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+  transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+
+  //todo make glowing animation
+  &:hover {
+    text-shadow: #fff 0 0 5px;
+    transition: text-shadow 1s cubic-bezier(0, 0.75, 0, 1);
+    img {
+      @include opacity(1);
+      //width: 0;
+      //margin-left: 5px ;
+      //margin-right: 5px ;
+    }
+  }
+  img {
+    @include opacity(.8);
+    display: inline-block;
+    height: 100%;
+    margin: 6px -12px;
+    position: relative;
+    top: 9px;
+  }
+}
+
+.main-nav {
+  height: 47px;
+  background: rgba(#000, .5);
+  line-height: 0;
+  border-top: 1px solid rgba(#000, .1);
+  border-bottom: 1px solid rgba(#000, .25);
+  @include border-radius(1px 1px 0 0);
+
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  li {
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    zoom: 1;
+    text-align: left;
+    vertical-align: middle;
+    //width: 31.3%; /* optional, only need for text content to wrap */
+
+    &.active ,
+    &:hover > a {
+      @include box-shadow(1px 0 3px rgba(#1e2c25, .6) inset, -1px 0 3px rgba(#1e2c25, .6) inset);
+      background: rgba(#000, .1);
+    }
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
+    ul {
+      display: none;
+      position: absolute;
+      top: 48px;
+      width: 88px;
+      left: -16px;
+      background: rgba(#000, .6s);
+      li {
+        display: block;
+      }
+      a {
+        height: 30px;
+        line-height: 29px;
+      }
+    }
+  }
+  a {
+    text-align: center;
+    line-height: 51px;
+    height: 48px;
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .61);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 9px;
+    position: relative;
+    top: -1px;
+
+  }
+}

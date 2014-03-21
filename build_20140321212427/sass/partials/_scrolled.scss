@@ -1,0 +1,14 @@
+.scrolled{
+  .sticky-sidebar{
+    position: fixed;
+    top: 45px;
+  }
+  .sticky-content{
+    margin-left: 240px;
+  }
+}
+
+.sticky-sidebar{
+  @include transition(all 0.3s);
+  z-index: 100;
+}

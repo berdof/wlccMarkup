@@ -1,0 +1,104 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  font-family: $fontNameLegacy;
+  color: $textColor;
+  min-width: $wrapper-width;
+  background-color: $bgColor;
+}
+
+.wrapper {
+  @extend .clearfix;
+  margin: 0 auto;
+  width: $wrapper-width;
+  padding: 0 $sidePaddings;
+  @include box-sizing(border-box);
+}
+
+* {
+  outline: none;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+  }
+}
+
+.db {
+  display: block;
+}
+
+.dib {
+  display: inline-block !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.center {
+  overflow: hidden !important;
+}
+
+.tac {
+  text-align: center !important;
+}
+
+.taj {
+  text-align: justify !important;
+}
+
+.tal {
+  text-align: left !important;
+}
+
+.tar {
+  text-align: right !important;
+}
+
+.nav {
+  list-style: none;
+
+  @extend .clearfix;
+}
+
+.nav_hor {
+  @include horizontal-list;
+  @extend .nav;
+  overflow: visible;
+}
+
+.dtc {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.m0a {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.m0 {
+  margin: 0 !important;
+}
+
+.pb0{
+  padding-bottom: 0 !important;
+}
+.pt0{
+  padding-top: 0 !important;
+}

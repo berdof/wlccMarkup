@@ -1,0 +1,21 @@
+<% if ENV["RACK_ENV"] == "production" %>
+    <!--<script src="js/all.min.js" type="text/javascript"></script>-->
+    <!--place scripts for production version here-->
+<% else %>
+    <!--place scripts for dev version here-->
+<% end %>
+    <script src="js/vendors/jquery-1.10.2.min.js"></script>
+    <script src="js/vendors/jquery.simple-dtpicker.js"></script>
+    <script src="js/vendors/jquery.cycle2.min.js"></script>
+    <script src="js/vendors/jquery.cycle2.flip.min.js"></script>
+    <script src="js/vendors/jquery.maskedinput.min.js"></script>
+    <script src="js/vendors/jquery.placeholder.min.js"></script>
+    <script src="js/vendors/jquery.handsome.js"></script>
+    <script src="js/vendors/ion.rangeSlider.min.js"></script>
+    <script src="js/vendors/jquery.fancybox.pack.js"></script>
+    <script src="js/vendors/limit.js"></script>
+    <script src="js/wlccApp.js"></script>
+
+<%= livereload_js unless ENV["RACK_ENV"] == "production" %>
+</body>
+</html>

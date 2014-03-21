@@ -1,0 +1,67 @@
+<!--todo добавить кнопку показать меню при скроле-->
+<header class="header">
+    <nav class="top-bar">
+        <div class="wrapper clearfix">
+            <% if isLoggedIn==true %>
+              <ul class="top-bar__nav">
+                  <li>
+                      <a href="my_profile.html">
+                          <i class="icon-user"></i>
+                          Александр Бердышев
+                      </a>
+                  </li>
+                  <li>
+                      <a href="messages.html">
+                          <i class="icon-mail"></i>
+                          Сообщений
+                          <span class="top-bar__counter">100</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="drafts.html">
+                          <i class="icon-pencil"></i>
+                          Черновики
+                          <span class="top-bar__counter">100</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="needs.html">
+                          <i class="icon-bookmark"></i>
+                          Молитвенные закладки
+                          <span class="top-bar__counter">100</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="notifies.html">
+                          <i class="icon-clock"></i>
+                          Извещения
+                          <span class="top-bar__counter">100</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="settings.html">
+                          <i class="icon-cog"></i>
+                          Настройки
+                          <span class="top-bar__counter">100</span>
+                      </a>
+                  </li>
+                  <li class="pull-right">
+                      <a href="javascript:void(0);">
+                          <i class="icon-exit"></i>
+                          Выход
+                      </a>
+                  </li>
+              </ul>
+            <% else %>
+              <div class="pull-right">
+                  <span class="regUser btn btn_dark"><i class="icon-user-add"></i> зарегестрироваться</span>
+                  <span class="authUser btn btn_dark"><i class="icon-user"></i> войти</span>
+              </div>
+            <% end; %>
+        </div>
+    </nav>
+</header>
+<div class="page">
+<section class="main">
+    <a class="logo" href="home.html">Слово <img src="images/wofl.png" alt=""/> Жизни</a>
+    <div class="main__in">

@@ -1,0 +1,67 @@
+.person {
+  padding: 15px;
+  overflow: hidden;
+  .btn {
+    width: 170px;
+    margin-bottom: 7px;
+    top: 7px;
+  }
+  .dtc {
+    width: 170px;
+    height: 145px;
+  }
+}
+
+.person__action {
+  float: right;
+  width: 170px;
+  height: 145px;
+  position: relative;
+}
+
+.person__notify {
+  font-size: 13px;
+  color: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 1.3;
+  i {
+    color: $linkColor;
+  }
+}
+
+.person__notify__type {
+  color: $linkColor;
+}
+
+.person__info {
+  padding: 0 25px 15px;
+  h2 {
+    padding-bottom: 20px;
+  }
+}
+
+.person__name {
+  font-size: 16px;
+}
+
+.person__status {
+  font-size: 13px;
+}
+
+.person__info__item {
+  overflow: hidden;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.person__info__item__key {
+  float: left;
+  color: #000;
+}
+
+.person__info__item__val {
+  float: right;
+  color: #767676;
+}

@@ -1,0 +1,33 @@
+a{
+  color: $colorGreen;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+strong{
+  font-weight: 700;
+}
+
+h1{
+  font-size: 45px;
+  line-height: 50px;
+  padding-bottom: 10px;
+}
+
+h2{
+  padding-bottom: 15px;
+  color: #000;
+  font-size: 16px;
+}
+
+p{
+  color: #757575;
+  font-size: 13px;
+  line-height: 1.4;
+  padding-bottom: 15px;
+  &:last-child{
+    padding-bottom: 0;
+  }
+}

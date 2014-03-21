@@ -1,0 +1,6 @@
+.coffescript-cache/*
+.sass-cache/*
+.idea/*
+wlccMarkup.iml
+.coffeescript-cache/*
+fire_app_log.txt

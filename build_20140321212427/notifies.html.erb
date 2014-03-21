@@ -1,0 +1,67 @@
+<%= render :partial => "views/base/top" %>
+<%= render :partial => "views/header", :locals => {:isLoggedIn => true} %>
+<%= render :partial => "views/mainNav" %>
+<div class="content">
+    <aside class="content__sidebar sticky-sidebar">
+        <%= render :partial => "views/categories", :locals => {:title => 'Категории',
+                                                               :cats => ['Все', 'Заявки в друзья', 'Заявки в родственники', 'Молитвенные напомин.', 'Разное']} %>
+    </aside>
+    <section class="center sticky-content">
+        <section class="widget add-post closed">
+            <header class="widget__header">
+                Извещения (10)
+            </header>
+        </section>
+
+        <%= render :partial => "views/person", :locals => {:relationship => 'none', :notifyType => 'friend'} %>
+        <%= render :partial => "views/person", :locals => {:relationship => 'none', :notifyType => 'relative'} %>
+        <%= render :partial => "views/post", :locals => {:post__type => 'need', :my_need => false, :post__quoted => -1, :notifyType => 'pray'} %>
+        <section class="widget post  notify  ">
+            <div class="post__nav">
+                <h4 class="person__notify"><i class="icon-clock"></i> У вас не заполнена <span class="person__notify__type">личная информация</span>. Перейдите в раздел <a href="javascript:void(0);">Настройки</a> для этого.</h4>
+            </div>
+        </section>
+
+        <section class="widget post  notify  ">
+            <div class="post__nav">
+                <h4 class="person__notify"><i class="icon-new"></i> <a href="javascript:void(0);">Имя Фамилия</a> хочет стать участником <a href="services.html" class="person__notify__type">молодежного служения</a> </h4>
+            </div>
+            <div class="post__nav pt0">
+                <div class="person__notify ">
+                    <a class="btn btn_green" href="javascript:void(0);">Подтвердить</a>
+                    <a class="btn btn_red" href="javascript:void(0);">Отказать</a>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="widget post notify">
+            <div class="post__nav">
+                <h4 class="person__notify"><i class="icon-new"></i> <a href="javascript:void(0);">Имя Фамилия</a> хочет открыть <a href="services.html" class="person__notify__type">домашнюю группу</a> </h4>
+            </div>
+            <div class="post__nav pt0">
+                <div class="person__notify ">
+                    <a class="btn btn_green" href="javascript:void(0);">Подтвердить</a>
+                    <a class="btn btn_red" href="javascript:void(0);">Отказать</a>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="widget post notify">
+            <div class="post__nav">
+                <h4 class="person__notify"><i class="icon-new"></i> <a href="javascript:void(0);">Имя Фамилия</a> хочет добавиться в Вашу <a href="services.html" class="person__notify__type">домашнюю группу</a> </h4>
+            </div>
+            <div class="post__nav pt0">
+                <div class="person__notify ">
+                    <a class="btn btn_green" href="javascript:void(0);">Подтвердить</a>
+                    <a class="btn btn_red" href="javascript:void(0);">Отказать</a>
+
+                </div>
+            </div>
+        </section>
+
+    </section>
+</div>
+<%= render :partial => "views/footer" %>
+<%= render :partial => "views/base/bottom" %>

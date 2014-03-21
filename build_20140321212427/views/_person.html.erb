@@ -1,0 +1,68 @@
+<section class="person widget">
+    <a class="avatar pull-left" href="my_profile.html"><img src="images/tmp/ava1.jpg" alt=""/></a>
+
+    <div class="person__action">
+        <div class="dtc">
+            <% if defined?(notifyType) %>
+              <% if notifyType == 'friend' %>
+                <h4 class="person__notify"><i class="icon-clock"></i> Хочет стать вашим <span class="person__notify__type">другом</span></h4>
+                <span class="btn btn_green ">Подтвердить</span>
+                <span class="btn btn_red">отклонить</span>
+              <% elsif notifyType == 'relative' %>
+                <h4 class="person__notify"><i class="icon-clock"></i> Говорит что он Ваш <span class="person__notify__type">родственник</span></h4>
+                <span class="btn btn_green ">Подтвердить</span>
+                <span class="btn btn_red">отклонить</span>
+              <% elsif notifyType == 'pray' %>
+                <h4 class="person__notify"><i class="icon-clock"></i> Говорит что он Ваш <span class="person__notify__type">родственник</span></h4>
+                <span class="btn btn_green ">Добавить в друзья</span>
+                <span class="btn btn_red">отклонить</span>
+              <% end %>
+            <% else %>
+              <% if relationship == 'none' %>
+                <span class="btn btn_green ">Добавить в друзья</span>
+              <% elsif relationship == 'friend' %>
+                <span class="btn btn_blue active ">ВЫ ДРУЗЬЯ</span>
+              <% elsif relationship == 'family' %>
+                <span class="btn btn_blue  active ">ВЫ родственники</span>
+              <% end %>
+            <% end %>
+        </div>
+    </div>
+    <div class="person__info center">
+        <h2><a class="person__name" href="javascript:void(0);">Александр Бердышев</a> <span class="person__status">(онлайн)</span></h2>
+
+        <div class="person__info__item">
+            <div class="person__info__item__key">
+                Служение:
+            </div>
+            <div class="person__info__item__val">
+                Интернет
+            </div>
+        </div>
+        <div class="person__info__item">
+            <div class="person__info__item__key">
+                В церкви:
+            </div>
+            <div class="person__info__item__val">
+                2 года 10 месяцеа
+            </div>
+        </div>
+        <div class="person__info__item">
+            <div class="person__info__item__key">
+                На сайте:
+            </div>
+            <div class="person__info__item__val">
+                2 года 10 месяцеа
+            </div>
+        </div>
+        <div class="person__info__item">
+            <div class="person__info__item__key">
+                Семейное положение:
+            </div>
+            <div class="person__info__item__val">
+                Не женат
+            </div>
+        </div>
+    </div>
+
+</section>

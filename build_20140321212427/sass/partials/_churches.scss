@@ -1,0 +1,60 @@
+.churches {
+  width: 280px !important;
+  height: 311px;
+  overflow: auto;
+  margin: 0 10px 0 0 !important;
+}
+
+.churches__item {
+  border: 1px solid #d4d4d4;
+  @include box-shadow(0 1px 3px rgba(0, 0, 0, .08), inset 0 0 0 1px rgba(255, 255, 255, .5));
+  width: 270px;
+  font-size: 12px;
+  background: #fff;
+  margin-bottom: 7px;
+  @include box-sizing(border-box);
+  padding: 14px;
+  color: #767676;
+  line-height: 1.2;
+  cursor: pointer;
+  h3 {
+    color: $colorGreen;
+    padding-bottom: 10px;
+  }
+  span {
+    overflow: hidden;
+    padding-bottom: 10px;
+    position: relative;
+  }
+
+  &:hover {
+    background: $colorGreen;
+    color: #fff;
+    h3 {
+      color: #fff;
+    }
+  }
+  i {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    text-align: left;
+    &.icon-location {
+      font-size: 15px;
+    }
+  }
+}
+
+.churches__item__val {
+  color: #000;
+  display: block;
+  float: left;
+  width: 90px;
+  @include box-sizing(border-box);
+  padding: 0 0 0 20px;
+}
+
+.churches__map {
+  width: 625px;
+  overflow: hidden;
+}

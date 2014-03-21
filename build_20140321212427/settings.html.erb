@@ -1,0 +1,141 @@
+<%= render :partial => "views/base/top" %>
+<%= render :partial => "views/header", :locals => {:isLoggedIn => true} %>
+<%= render :partial => "views/mainNav" %>
+<section class="content center">
+    <section class="widget settings">
+        <header class="widget__header">
+            <ul class="settings__nav">
+                <li class="active">МОИ ДАННЫЕ</li>
+                <li>МОИ Настройки</li>
+            </ul>
+        </header>
+        <div class="widget__body ">
+            <form action="#" class="settings__item">
+                <div class="pull-left settings__avatar">
+                    <a class="avatar avatar_big" href="javascript:void(0);"><img src="images/tmp/ava1.jpg" alt=""></a>
+                    <a class="btn btn_blue" href="javascript:void(0);">Загрузить другое фото</a>
+                    <a class="btn btn_red" href="javascript:void(0);">удалить фото</a>
+                </div>
+                <div class="center">
+
+                    <div class="controls-box">
+                        <h4 class="label">Имя:</h4>
+                        <input type="text" placeholder="Имя"/>
+                    </div>
+                    <div class="controls-box">
+                        <h4 class="label">Фамилия:</h4>
+                        <input type="text" placeholder="Фамилия"/>
+                    </div>
+                    <div class="controls-box">
+                        <h4 class="label">Электронная почта:</h4>
+                        <input type="text" placeholder="Электронная почта"/>
+                    </div>
+                    <div class="controls-box">
+                        <h4 class="label">Пол:</h4>
+                        <label>
+                            <input type="radio" name="gender"/>
+                            <span class="input-label">Мужской</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="gender"/>
+                            <span class="input-label">Женский</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="gender"/>
+                            <span class="input-label">Любой</span>
+                        </label>
+                    </div>
+
+
+                    <div class="controls-box">
+                        <h4 class="label">Служение:</h4>
+
+                        <div class="select">
+                            <div class="select__label">Интернет1</div>
+                            <select>
+                                <option value="1">Интернет1</option>
+                                <option value="1">Интернет2</option>
+                                <option value="1">Интернет3</option>
+                                <option value="1">Интернет4</option>
+                                <option value="1">Интернет5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="controls-box">
+                        <h4 class="label">Дата Рождения:</h4>
+                        <input type="text" placeholder="Дата Рождения"/>
+                    </div>
+                    <div class="controls-box">
+                        <h4 class="label">В церкви с:</h4>
+                        <input type="text" placeholder="В церкви с"/>
+                    </div>
+                    <div class="controls-box">
+                        <h4 class="label">Любимая цитата:</h4>
+                        <textarea class="textbox" type="text" placeholder="Любимая цитата:"></textarea>
+                    </div>
+                    <div class="controls-box">
+                        <input class="btn btn_green" type="submit" value="Сохранить"/>
+                    </div>
+                </div>
+            </form>
+            <form action="#" class="settings__item">
+
+                <div class="controls-box">
+                    <h4 class="label">Могут видеть мою страницу::</h4>
+
+                    <div class="select">
+                        <div class="select__label">Все</div>
+                        <select>
+                            <option value="1">Все</option>
+                            <option value="1">Все</option>
+                            <option value="1">Все</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="controls-box">
+                    <h4 class="label">Могут видеть мою страницу::</h4>
+
+                    <div class="select">
+                        <div class="select__label">Все</div>
+                        <select>
+                            <option value="1">Все</option>
+                            <option value="1">Все</option>
+                            <option value="1">Все</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="controls-box">
+                    <h4 class="label">Показывать возраст:</h4>
+                    <label>
+                        <input type="radio" name="gender"/>
+                        <span class="input-label">Да</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="gender"/>
+                        <span class="input-label">Нет</span>
+                    </label>
+                </div>
+
+                <div class="controls-box">
+                    <h4 class="label">Показывать контактную информацию:</h4>
+                    <label>
+                        <input type="radio" name="gender"/>
+                        <span class="input-label">Да</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="gender"/>
+                        <span class="input-label">Нет</span>
+                    </label>
+                </div>
+                <div class="controls-box">
+                    <input class="btn btn_green" type="submit" value="Сохранить"/>
+                </div>
+            </form>
+        </div>
+    </section>
+</section>
+<%= render :partial => "views/footer" %>
+<%= render :partial => "views/base/bottom" %>

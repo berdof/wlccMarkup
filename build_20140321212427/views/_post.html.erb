@@ -1,0 +1,260 @@
+<% isDraft = defined?(is_draft) %>
+<section class="widget post <%= post__type %>
+  <% if isDraft %>draft
+    <% end; %>
+  <% if post__quoted == true %>post_quoted
+    <% end; %>
+  <% if my_need != true %>need_others
+    <% end; %> ">
+<div class="post__in">
+    <div class="post__info pull-left">
+        <% if post__type == 'post' %>
+          <div class="clearfix">
+              <% unless isDraft %>
+                <a class="pull-left avatar" href="javascript:void(0);"><img src="images/tmp/ava1.jpg" alt=""/></a>
+              <% end; %>
+              <div class="center">
+                  <a class="post__author" href="my_profile.html">Александр Бердышев</a>
+
+                  <div class="post__date">
+                      <i class="icon-bookmark"></i>
+                      20.13.2010
+                  </div>
+                  <div class="post__interact">
+                      <a class="btn_blue post__like__btn active" href="javascript:void(0);">
+                          <span class="pull-left">Нравится</span>
+                          <span class="pull-right"><i class="icon-heart"></i> 23</span>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <% if post__quoted %>
+            <% unless isDraft %>
+              <div class="post__quoted">
+                  <h4>Цитата из записей:</h4>
+
+                  <div class="center">
+                      <a class="pull-left avatar" href="my_profile.html"><img src="images/tmp/ava1.jpg" alt=""/></a>
+
+                      <div class="center">
+                          <a class="post__author" href="my_profile.html">Александр Бердышев</a>
+
+                          <div class="post__date">
+                              <i class="icon-bookmark"></i>
+                              20.13.2010
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            <% end %>
+          <% end %>
+        <% else %>
+          <div class="clearfix">
+              <div class="center">
+                  <a class="post__author" href="my_profile.html">Александр Бердышев Александр Бердышев</a>
+
+                  <div class="post__date">
+                      <i class="icon-bookmark"></i>
+                      20.13.2010
+                  </div>
+                  <div class="select">
+                      <div class="select__label">Пробуждение</div>
+                      <select>
+                          <option value="1">Пробуждение</option>
+                          <option value="1">Пробуждение</option>
+                          <option value="1">Пробуждение</option>
+                          <option value="1">Пробуждение</option>
+                          <option value="1">Пробуждение</option>
+                          <option value="1">Пробуждение</option>
+                      </select>
+                  </div>
+                  <div class="post__interact">
+                      <a class="btn_blue post__like__btn" href="javascript:void(0);">
+                          <% if post__type == 'testimony' %>
+                            <span class="pull-left">Нравится</span>
+                          <% else %>
+                            <span class="pull-left">Буду молится</span>
+                          <% end %>
+                          <span class="pull-right"><i class="icon-heart"></i> 23</span>
+                      </a>
+                  </div>
+              </div>
+              <!--hide unless it's at post-->
+              <!--<a class="avatar" href="javascript:void(0);"><img src="images/tmp/ava1.jpg" alt=""/></a>-->
+          </div>
+        <% end %>
+    </div>
+    <article class="center post__article">
+        <h2>Что это такое и для чего aвсе это нужно ?</h2>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias atque consectetur consequatur delectus deserunt dignissimos eaque ex fuga harum id itaque maxime modi, neque non, nostrum nulla placeat possimus quaerat quia quidem quo recusandae reiciendis repellat rerum tempora temporibus totam unde vitae, voluptate? Assumenda consequatur consequuntur cum deleniti dicta, distinctio dolores inventore nam nesciunt nobis, non obcaecati provident, quaerat quam similique suscipit tenetur totam ullam veritatis voluptates? Doloribus eius eligendi id magnam officiis praesentium quas ratione repudiandae temporibus voluptas. Corporis dicta distinctio, dolor dolores dolorum ducimus eum exercitationem illo itaque iure natus odio tempore. A esse exercitationem in inventore!
+            <br/>
+            <br/>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias atque consectetur consequatur delectus deserunt dignissimos eaque ex fuga harum id itaque maxime modi, neque non, nostrum nulla placeat possimus quaerat quia quidem quo recusandae reiciendis repellat rerum tempora temporibus totam unde vitae, voluptate? Assumenda consequatur consequuntur cum deleniti dicta, distinctio dolores inventore nam nesciunt nobis, non obcaecati provident, quaerat quam similique suscipit tenetur totam ullam veritatis voluptates? Doloribus eius eligendi id magnam officiis praesentium quas ratione repudiandae temporibus voluptas. Corporis dicta distinctio, dolor dolores dolorum ducimus eum exercitationem illo itaque iure natus odio tempore. A esse exercitationem in inventore!
+        </p>
+
+        <div class="add-post__footer">
+            <div class="pull-left">
+                <span class="btn btn_green">Сохранить</span>
+
+                <div class="add-file">
+                    <i class="icon-camera"></i>
+                    <input type="file"/>
+                </div>
+                <div class="add-post__imgs">
+                    <div class="add-post__imgs__item">
+                        <img src="images/tmp/uploaded-pic.jpg" alt=""/>
+                        <i class="icon-cross"></i>
+                    </div>
+                    <div class="add-post__imgs__item">
+                        <img src="images/tmp/uploaded-pic.jpg" alt=""/>
+                        <i class="icon-cross"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="pull-right">
+                <span data-toggle-class="editable|closest|.post" class="btn btn_blue">Отменить</span>
+            </div>
+        </div>
+    </article>
+</div>
+<% if post__type == 'need' %>
+  <% unless defined?(notifyType) %>
+    <section class="group-prayer">
+        <h2 class="widget__header">Совместная молитва</h2>
+
+        <div class="widget__row">
+            <div class="controls-box">
+                <div class="group-prayer__time pull-left">
+                    <h4 class="label pull-left"><i class="icon-clock"></i> начало:</h4>
+
+                    <div class="select select_date active pull-left">
+                        <div class="select__label"></div>
+                        <input type="text" value="01.03.2014 00:30">
+                    </div>
+                </div>
+                <div class="group-prayer__time pull-left">
+                    <h4 class="label pull-left"><i class="icon-clock"></i> конец:</h4>
+
+                    <div class="select  select_date active pull-left">
+                        <div class="select__label "></div>
+                        <input readonly="true" type="text" value="02.03.2014 00:30">
+                    </div>
+                </div>
+                <h4 class="label group-prayer__participants pull-left"><i class="icon-users"></i> <span>участники :<span>10</span></span></h4>
+                <span class="btn btn_green pull-right">Присоединиться</span>
+            </div>
+        </div>
+        <div class="widget__row">
+            <div class="controls-box">
+                <div class="group-prayer__time pull-left">
+                    <h4 class="label pull-left"><i class="icon-clock"></i> начало:</h4>
+
+                    <div class="select select_date pull-left">
+                        <div class="select__label"></div>
+                        <input class="select_date__input" type="text" value="">
+                    </div>
+                </div>
+                <div class="group-prayer__time pull-left">
+                    <h4 class="label pull-left"><i class="icon-clock"></i> конец:</h4>
+
+                    <div class="select select_date pull-left">
+                        <div class="select__label"></div>
+                        <input class="select_date__input" type="text" value="">
+                    </div>
+                </div>
+                <h4 class="label group-prayer__participants pull-left"><i class="icon-users"></i> <span>участники :<span>10</span></span></h4>
+                <span class="btn btn_green pull-right">СОЗДАТЬ</span>
+            </div>
+        </div>
+    </section>
+  <% end %>
+<% end %>
+<div class="post__nav">
+    <% if defined?(notifyType) %>
+      <h4 class="person__notify"><i class="icon-clock"></i> У вас <span class="person__notify__type">совместная молитва</span> в 19.00 </h4>
+    <% else %>
+      <div class="pull-right">
+          <% if my_need or !post__quoted or isDraft %>
+            <span class="btn btn_blue pull-left post__edit-btn">Редактировать</span>
+          <% end %>
+          <a class="btn btn_red pull-left" href="javascript:void(0);">удалить</a>
+      </div>
+      <% if !post__quoted or post__quoted == -1 %>
+        <% unless isDraft %>
+          <div class="center">
+              <% if post__type == 'post' %>
+                <div class="segmented-btn">
+                    <a class="btn btn_green" href="javascript:void(0);">в свидетельства</a>
+                    <a class="btn btn_green" href="javascript:void(0);">в нужды</a>
+                    <a class="btn btn_green" href="javascript:void(0);">на мою страницу</a>
+                    <a class="btn btn_green active" href="javascript:void(0);">в черновики</a>
+                </div>
+              <% elsif  post__type == 'need' %>
+                <div class="segmented-btn">
+                    <a class="btn btn_green" href="javascript:void(0);"> в свидетельства</a>
+                    <a class="btn btn_green" href="javascript:void(0);"> на мою страницу</a>
+                    <a class="btn btn_green" href="javascript:void(0);"> в черновики</a>
+                </div>
+              <% elsif  post__type == 'testimony' %>
+                <% if my_need %>
+                  <div class="segmented-btn">
+                      <a class="btn btn_green" href="javascript:void(0);"> на мою страницу</a>
+                      <a class="btn btn_green" href="javascript:void(0);"> в черновики</a>
+                  </div>
+                <% else %>
+                  <a class="btn btn_green m0" href="javascript:void(0);"> на мою страницу</a>
+                <% end %>
+              <% end %>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+</div>
+<% if post__type == 'post' and !isDraft %>
+  <div class="comments closed">
+      <span class="btn comments__btn" data-toggle-class="closed|closest|.comments"><span class="btn-active__text">скрыть комментарии</span> <span class="btn__text">показать комментарии (10)</span> </span>
+
+      <div class="comments__body clearfix">
+          <a class="pull-left avatar" href="my_profile.html"><img src="../images/tmp/ava1.jpg" alt=""/></a>
+          <article class="center">
+              <div class="comments__info">
+                  <a class="comments__author pull-left" href="my_profile.html">Александр Бердышев <span>(онлайн)</span></a>
+                  <time class="pull-right">10/04/2014</time>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto cum, cupiditate dolore dolores eaque esse expedita harum, in magnam modi natus quasi qui quia tenetur! A asperiores atque debitis dicta doloremque dolorum eius esse explicabo, recusandae, reprehenderit tempora unde vero, voluptatibus. Animi assumenda consequuntur cupiditate delectus, deserunt harum iure maiores obcaecati quisquam quos ratione, voluptatibus! Atque error ipsam sed veritatis? Alias aliquid asperiores assumenda consectetur cum cupiditate dolor eaque eius est expedita facere facilis fugit, inventore ipsam laboriosam libero magnam molestias nihil, porro quisquam quos sequi suscipit tempora, temporibus vero! Accusamus dolor doloribus eos exercitationem maxime odio sed voluptatibus.</p>
+          </article>
+      </div>
+      <div class="comments__body clearfix">
+          <a class="pull-left avatar" href="my_profile.html"><img src="../images/tmp/ava1.jpg" alt=""/></a>
+          <article class="center">
+              <div class="comments__info">
+                  <a class="comments__author pull-left" href="my_profile.html">Александр Бердышев <span>(онлайн)</span></a>
+                  <time class="pull-right">10/04/2014</time>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto cum, cupiditate dolore dolores eaque esse expedita harum, in magnam modi natus quasi qui quia tenetur! A asperiores atque debitis dicta doloremque dolorum eius esse explicabo, recusandae, reprehenderit tempora unde vero, voluptatibus. Animi assumenda consequuntur cupiditate delectus, deserunt harum iure maiores obcaecati quisquam quos ratione, voluptatibus! Atque error ipsam sed veritatis? Alias aliquid asperiores assumenda consectetur cum cupiditate dolor eaque eius est expedita facere facilis fugit, inventore ipsam laboriosam libero magnam molestias nihil, porro quisquam quos sequi suscipit tempora, temporibus vero! Accusamus dolor doloribus eos exercitationem maxime odio sed voluptatibus.</p>
+          </article>
+      </div>
+      <div class="comments__body clearfix">
+          <a class="pull-left avatar" href="my_profile.html"><img src="../images/tmp/ava1.jpg" alt=""/></a>
+          <article class="center">
+              <div class="comments__info">
+                  <a class="comments__author pull-left" href="my_profile.html">Александр Бердышев <span>(онлайн)</span></a>
+                  <time class="pull-right">10/04/2014</time>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto cum, cupiditate dolore dolores eaque esse expedita harum, in magnam modi natus quasi qui quia tenetur! A asperiores atque debitis dicta doloremque dolorum eius esse explicabo, recusandae, reprehenderit tempora unde vero, voluptatibus. Animi assumenda consequuntur cupiditate delectus, deserunt harum iure maiores obcaecati quisquam quos ratione, voluptatibus! Atque error ipsam sed veritatis? Alias aliquid asperiores assumenda consectetur cum cupiditate dolor eaque eius est expedita facere facilis fugit, inventore ipsam laboriosam libero magnam molestias nihil, porro quisquam quos sequi suscipit tempora, temporibus vero! Accusamus dolor doloribus eos exercitationem maxime odio sed voluptatibus.</p>
+          </article>
+      </div>
+      <div class="widget__rows_zebra">
+          <form action="#" class="widget__row widget__row_big">
+              <textarea></textarea>
+
+              <div class="add-post__footer">
+                  <input class="btn btn_green" type="submit" value="отправить">
+              </div>
+          </form>
+      </div>
+  </div>
+<% end %>
+</section>
